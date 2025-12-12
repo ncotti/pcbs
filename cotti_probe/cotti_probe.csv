@@ -1,0 +1,5 @@
+"Reference","Qty","Value","Footprint","Datasheet","DigiKey","DigiKey P/N","Mfr.","Mfr. P/N","Description"
+"J1","1","USB_A","","~","","","","","USB Type A connector"
+"U1","1","FT4232HL","Package_QFP:LQFP-64_10x10mm_P0.5mm","https://ftdichip.com/wp-content/uploads/2024/09/DS_FT4232H.pdf","","","","","Hi Speed Quad Channel USB UART/FIFO, LQFP-64"
+"Y1","1","Xtal 12MHz","cotti_probe:XTAL_12MHZ","https://ar.mouser.com/datasheet/3/184/1/ABLS.pdf","https://ar.mouser.com/ProductDetail/ABRACON/ABLS-12.000MHz-20-B4Y-T?qs=vLWxofP3U2zUxeVj3NIusQ%3D%3D","815-LS12000MHZ20B4YT","ABRACON","ABLS-12.000MHz-20-B4Y-T","Two pin crystal"
+"C1,C2","2","30pF","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://ar.mouser.com/datasheet/3/72/1/KEM_C1007_X8R_ULTRA_150C_SMD.pdf","https://ar.mouser.com/ProductDetail/KEMET/C0805C300J4HACTU?qs=W0yvOO0ixfGVPBbNKrBu2w%3D%3D","80-C0805C300J4HACTU ","KEMET","C0805C300J4HACTU","X8R 0805 5% 16V"
