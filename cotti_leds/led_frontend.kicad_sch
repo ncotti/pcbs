@@ -362,17 +362,14 @@
 			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q6"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -381,7 +378,7 @@
 				)
 			)
 			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -389,8 +386,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 1.016 -22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -398,7 +395,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/2N7002K.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -407,8 +404,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
+			(property "Description" "MOSFET, N-CH, SINGLE, 0.3A, 60V,"
+				(at 0.762 -25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -436,6 +433,42 @@
 			)
 			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
+				(at -0.254 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "4786-2N7002KCT-ND"
+				(at 0.508 -35.052 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Good-Ark Semiconductor"
+				(at -0.254 -31.496 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "2N7002K"
+				(at 0 -38.354 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -630,7 +663,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -648,7 +681,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -666,7 +699,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,17 +711,14 @@
 			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 6.35 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -696,8 +726,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "PMOS Kp=0.2A/V² |Vth|=0.8V"
+				(at 6.35 1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -705,8 +735,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+				(at 1.27 -23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -714,7 +744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001ZP&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -723,8 +753,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
+			(property "Description" "MOSFET P-CH 20V 100MA EMT3F"
+				(at 2.794 -27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -752,6 +782,42 @@
 			)
 			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001ZPTL/5042784"
+				(at 2.54 -31.496 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "RE1C001ZPTLCT-ND"
+				(at 2.032 -37.846 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Rohm Semiconductor"
+				(at 2.794 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "RE1C001ZPTL"
+				(at 0.508 -40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -946,7 +1012,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -964,7 +1030,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -982,7 +1048,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1319,8 +1385,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 88.9 0)
+		(property "Footprint" "footprints:local_SOT-416"
+			(at 147.32 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1404,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 100MA EMT3F"
-			(at 146.05 86.36 0)
+			(at 148.844 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1440,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001ZPTL/5042784"
-			(at 146.05 86.36 0)
+			(at 148.59 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1449,7 @@
 			)
 		)
 		(property "Digikey P/N" "RE1C001ZPTLCT-ND"
-			(at 146.05 86.36 0)
+			(at 148.082 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1458,7 @@
 			)
 		)
 		(property "Mfr." "Rohm Semiconductor"
-			(at 146.05 86.36 0)
+			(at 148.844 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1467,7 @@
 			)
 		)
 		(property "Mfr. P/N" "RE1C001ZPTL"
-			(at 146.05 86.36 0)
+			(at 146.558 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,7 +1533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.206 99.314 90)
 			(effects
 				(font
@@ -1476,7 +1542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -1485,7 +1551,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/8W 0805"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FG100K/1712614"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805FG100KCT-ND"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805FG100K"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -1705,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.606 63.754 90)
 			(effects
 				(font
@@ -1714,7 +1816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 148.59 63.5 0)
 			(effects
 				(font
@@ -1723,7 +1825,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 22 OHM 1% 1/8W 0805"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22R0/1712862"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805FT22R0CT-ND"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805FT22R0"
 			(at 148.59 63.5 0)
 			(effects
 				(font
@@ -1865,7 +2003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.176 63.754 90)
 			(effects
 				(font
@@ -1874,7 +2012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -1883,7 +2021,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100K OHM 1% 1/8W 0805"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FG100K/1712614"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805FG100KCT-ND"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805FG100K"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -1947,8 +2121,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 91.44 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 135.636 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2140,7 @@
 			)
 		)
 		(property "Description" "MOSFET, N-CH, SINGLE, 0.3A, 60V,"
-			(at 134.62 93.98 0)
+			(at 135.382 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2176,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
-			(at 134.62 93.98 0)
+			(at 134.366 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2185,7 @@
 			)
 		)
 		(property "Digikey P/N" "4786-2N7002KCT-ND"
-			(at 134.62 93.98 0)
+			(at 135.128 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2194,7 @@
 			)
 		)
 		(property "Mfr." "Good-Ark Semiconductor"
-			(at 134.62 93.98 0)
+			(at 134.366 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2203,7 @@
 			)
 		)
 		(property "Mfr. P/N" "2N7002K"
-			(at 134.62 93.98 0)
+			(at 134.62 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 148.59 73.66 0)
 			(effects
 				(font

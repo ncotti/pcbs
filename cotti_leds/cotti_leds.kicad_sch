@@ -5,6 +5,142 @@
 	(uuid "638c199d-825c-4225-a1f7-88374b53caa9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Cotti_misc:Jumper_shunt_open_top"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "H"
+				(at 0.762 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jmp shunt"
+				(at 0.762 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
+				(at 2.54 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 (1 x 2) Position Shunt Connector Black Open Top 0.100\" (2.54mm) Gold"
+				(at 0 20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+				(at 3.81 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "S9337-ND"
+				(at -0.254 27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Sullins Connector Solutions"
+				(at 0.508 17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "QPC02SXGN-RC"
+				(at -0.508 24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_shunt_open_top_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -5.08) (xy 3.81 -5.08) (xy 3.81 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 1.27 -2.54)
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Cotti_misc:SW_4PDT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1239,89 +1375,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Pmod:pmod_gpio_1x06_pin"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1870,7 +1923,7 @@
 	)
 	(rectangle
 		(start 19.05 58.42)
-		(end 48.26 143.51)
+		(end 48.26 152.4)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1879,18 +1932,6 @@
 			(type none)
 		)
 		(uuid 52a645b5-cc94-4207-9e8d-0acecb32c147)
-	)
-	(rectangle
-		(start 15.24 181.61)
-		(end 34.29 194.31)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9ed30742-2235-423b-b8f0-88e5db5eb009)
 	)
 	(rectangle
 		(start 19.05 21.59)
@@ -1927,16 +1968,6 @@
 			(type none)
 		)
 		(uuid f4d83808-2232-42ac-a79c-fa2e772a85db)
-	)
-	(text "Mounting Holes"
-		(exclude_from_sim no)
-		(at 26.924 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "249ce84d-acf7-45ee-90b8-5cbc36cd910e")
 	)
 	(text "Alternative LEDS (not included in PCB)"
 		(exclude_from_sim no)
@@ -3318,7 +3349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 149.86 29.21 0)
 			(effects
 				(font
@@ -3433,7 +3464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 29.21 0)
 			(effects
 				(font
@@ -3670,7 +3701,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "200R"
 			(at 54.864 29.464 90)
 			(effects
 				(font
@@ -3678,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.784 29.464 90)
 			(effects
 				(font
@@ -3687,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -3696,8 +3727,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 49.53 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 49.53 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 49.53 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 49.53 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -3902,70 +3969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2feb93b5-cd40-4809-b67e-c0286776add5")
-		(property "Reference" "H3"
-			(at 20.32 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 20.32 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "cotti_leds"
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 49.53 35.56 90)
 		(unit 1)
@@ -3982,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "200R"
 			(at 55.118 34.544 90)
 			(effects
 				(font
@@ -3990,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.784 34.544 90)
 			(effects
 				(font
@@ -3999,7 +4002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -4008,8 +4011,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 49.53 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 49.53 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 49.53 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 49.53 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,17 +4072,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 185.42 0)
+		(lib_id "Cotti_misc:Jumper_shunt_open_top")
+		(at 21.59 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
+		(in_bom yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41920595-4ef8-407d-bece-9578c0f4ed00")
-		(property "Reference" "H4"
-			(at 29.21 184.1499 0)
+		(uuid "4bfb1d97-d68c-4b60-a6dd-8626affbc61b")
+		(property "Reference" "H5"
+			(at 21.844 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,17 +4089,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 29.21 186.6899 0)
+		(property "Value" "Jmp shunt"
+			(at 26.67 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 185.42 0)
+		(property "Footprint" "Cotti_misc:Empty_footprint"
+			(at 21.59 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,8 +4108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 26.67 185.42 0)
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
+			(at 24.13 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,8 +4117,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 185.42 0)
+		(property "Description" "2 (1 x 2) Position Shunt Connector Black Open Top 0.100\" (2.54mm) Gold"
+			(at 21.59 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 25.4 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "S9337-ND"
+			(at 21.336 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Sullins Connector Solutions"
+			(at 22.098 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "QPC02SXGN-RC"
+			(at 21.082 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,9 +4163,9 @@
 			)
 		)
 		(instances
-			(project "cotti_leds"
+			(project ""
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
-					(reference "H4")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4124,7 +4199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -4133,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -4144,6 +4219,42 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 34.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH1-03-UA/9830289"
+			(at 34.29 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "2057-PH1-03-UA-ND"
+			(at 34.29 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 34.29 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH1-03-UA"
+			(at 34.29 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "200R"
 			(at 54.61 26.67 90)
 			(effects
 				(font
@@ -4194,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.784 26.924 90)
 			(effects
 				(font
@@ -4203,7 +4314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -4212,8 +4323,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 49.53 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 49.53 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 49.53 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 49.53 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 132.08 0)
 			(effects
 				(font
@@ -4273,7 +4420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 34.29 132.08 0)
 			(effects
 				(font
@@ -4284,6 +4431,42 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH1-03-UA/9830289"
+			(at 34.29 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "2057-PH1-03-UA-ND"
+			(at 34.29 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 34.29 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH1-03-UA"
+			(at 34.29 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,17 +4493,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 190.5 0)
+		(lib_id "Cotti_misc:Jumper_shunt_open_top")
+		(at 34.29 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
+		(in_bom yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85891413-7e79-484d-8afb-5e1e6791fa20")
-		(property "Reference" "H2"
-			(at 29.21 189.2299 0)
+		(uuid "794df0dd-2821-4d2e-8fad-514408d93be4")
+		(property "Reference" "H7"
+			(at 34.798 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,17 +4510,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 29.21 191.7699 0)
+		(property "Value" "Jmp shunt"
+			(at 39.37 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 190.5 0)
+		(property "Footprint" "Cotti_misc:Empty_footprint"
+			(at 34.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,8 +4529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 26.67 190.5 0)
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
+			(at 36.83 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +4538,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 190.5 0)
+		(property "Description" "2 (1 x 2) Position Shunt Connector Black Open Top 0.100\" (2.54mm) Gold"
+			(at 34.29 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 38.1 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "S9337-ND"
+			(at 34.036 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Sullins Connector Solutions"
+			(at 34.798 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "QPC02SXGN-RC"
+			(at 33.782 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,71 +4586,7 @@
 		(instances
 			(project "cotti_leds"
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cd6f4dd-2a77-435d-9ef8-174e8dbf3e89")
-		(property "Reference" "H1"
-			(at 20.32 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 20.32 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
-					(reference "H1")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -4680,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -4691,6 +4846,42 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH1-03-UA/9830289"
+			(at 34.29 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "2057-PH1-03-UA-ND"
+			(at 34.29 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 34.29 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH1-03-UA"
+			(at 34.29 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "200R"
 			(at 123.698 55.372 90)
 			(effects
 				(font
@@ -4741,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.634 56.134 90)
 			(effects
 				(font
@@ -4750,7 +4941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 119.38 57.15 0)
 			(effects
 				(font
@@ -4759,8 +4950,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 119.38 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 119.38 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 119.38 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 119.38 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "200R"
 			(at 54.864 32.004 90)
 			(effects
 				(font
@@ -4808,7 +5035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.784 32.004 90)
 			(effects
 				(font
@@ -4817,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -4826,8 +5053,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 49.53 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 49.53 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 49.53 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 49.53 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 91.44 0)
 			(effects
 				(font
@@ -4887,7 +5150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 34.29 91.44 0)
 			(effects
 				(font
@@ -4898,6 +5161,42 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH1-03-UA/9830289"
+			(at 34.29 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "2057-PH1-03-UA-ND"
+			(at 34.29 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 34.29 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH1-03-UA"
+			(at 34.29 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -5121,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "200R"
 			(at 123.698 45.212 90)
 			(effects
 				(font
@@ -5129,7 +5428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.634 45.974 90)
 			(effects
 				(font
@@ -5138,7 +5437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 119.38 46.99 0)
 			(effects
 				(font
@@ -5147,8 +5446,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 119.38 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 119.38 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 119.38 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 119.38 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "200R"
 			(at 123.698 65.532 90)
 			(effects
 				(font
@@ -5263,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.634 66.294 90)
 			(effects
 				(font
@@ -5272,7 +5607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 119.38 67.31 0)
 			(effects
 				(font
@@ -5281,8 +5616,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 119.38 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 119.38 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 119.38 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 119.38 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,6 +5677,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Cotti_misc:Jumper_shunt_open_top")
+		(at 27.94 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d5d7ecd8-61d0-468f-9813-9321a3d9fbed")
+		(property "Reference" "H6"
+			(at 28.448 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jmp shunt"
+			(at 33.02 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Cotti_misc:Empty_footprint"
+			(at 27.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
+			(at 30.48 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 (1 x 2) Position Shunt Connector Black Open Top 0.100\" (2.54mm) Gold"
+			(at 27.94 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 31.75 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "S9337-ND"
+			(at 27.686 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Sullins Connector Solutions"
+			(at 28.448 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "QPC02SXGN-RC"
+			(at 27.432 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cotti_leds"
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 119.38 36.83 90)
 		(unit 1)
@@ -5322,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "200R"
 			(at 123.698 35.052 90)
 			(effects
 				(font
@@ -5330,7 +5801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.634 35.814 90)
 			(effects
 				(font
@@ -5339,7 +5810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -5348,8 +5819,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 200 OHM 5% 1/8W 0805"
 			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT200R/1757898"
+			(at 119.38 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805JT200RCT-ND"
+			(at 119.38 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 119.38 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805JT200R"
+			(at 119.38 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,6 +5874,106 @@
 			(project ""
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cotti_misc:Jumper_shunt_open_top")
+		(at 40.64 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e074006a-29f4-4167-b024-2a4eb53ea805")
+		(property "Reference" "H8"
+			(at 41.148 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jmp shunt"
+			(at 45.72 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Cotti_misc:Empty_footprint"
+			(at 40.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
+			(at 43.18 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 (1 x 2) Position Shunt Connector Black Open Top 0.100\" (2.54mm) Gold"
+			(at 40.64 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 44.45 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "S9337-ND"
+			(at 40.386 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Sullins Connector Solutions"
+			(at 41.148 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "QPC02SXGN-RC"
+			(at 40.132 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cotti_leds"
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -5400,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 149.86 41.91 0)
 			(effects
 				(font

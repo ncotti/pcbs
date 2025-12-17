@@ -4,14 +4,14 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.286 0)
+		(at 0 15.24 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9a98133e-1a18-4eba-b257-8d25636e9c38")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -447,7 +447,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 2.286 0.762) (xy 1.524 0) (xy 2.286 -0.762)
+			(xy 0.776265 -2.159) (xy 0.014265 -1.397) (xy -0.747735 -2.159)
 		)
 		(stroke
 			(width 0.1)
