@@ -127,8 +127,8 @@
 		(uuid "12beec40-2ec6-4b09-bab6-4604c0163f17")
 	)
 	(fp_rect
-		(start -2.794 -2.667)
-		(end 12.827 5.588)
+		(start -2.594 -1.867)
+		(end 12.627 4.388)
 		(stroke
 			(width 0.05)
 			(type default)
