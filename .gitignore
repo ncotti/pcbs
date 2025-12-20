@@ -1,3 +1,5 @@
 tmp
 *.bak
 *.lck
+*-backups
+*-cache
