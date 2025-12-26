@@ -1,0 +1,2304 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "773129f0-6e26-4e6c-bd3b-68a31a1fe158")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:SN74LVC1T45DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1T45DCK"
+				(at 3.81 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+				(at -22.86 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1T45DCK_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778) (xy 1.016 -2.032) (xy -0.762 -1.016) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC1T45DCK_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 115.57 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f829734-c6f7-44c5-a082-526d24d82099")
+	)
+	(junction
+		(at 132.08 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9863e8c2-e141-404d-a8ea-ff027ac01f33")
+	)
+	(junction
+		(at 172.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b10c5867-35e4-42fc-b609-a2ddaa2f8ee7")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065142f4-7bc5-4f6b-8a4b-816dd497b934")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8ccc9a-469a-4a24-b5e2-4380a5e7131f")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c422fa3-69c0-48a4-a7e2-f394bed211ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca89ccb-ef97-49e9-b5c9-79ec62e3a8cd")
+	)
+	(wire
+		(pts
+			(xy 132.08 100.33) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720d172f-e1c0-4737-9d10-b8d16e7805a0")
+	)
+	(wire
+		(pts
+			(xy 140.97 73.66) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bc311d-9865-40b2-869d-5403865fa795")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 157.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8186bd8b-899c-4ab1-a774-f48d08e1d05a")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6c7931-cc8f-4778-97d7-bb066c610ac7")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d50c36-585f-4be7-879f-ec24e4cdfa69")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9891d139-d5ea-48ce-ab3e-efd1e7a57575")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a981eb54-2475-494b-8ef5-b59d083df328")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4f365d-e7ab-47d8-a8e2-1bd87906f040")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b116bb1f-a758-4610-9a7b-10a61d32256b")
+	)
+	(wire
+		(pts
+			(xy 172.72 100.33) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb195714-5f2b-4e1f-991a-88b8c27ff28c")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d72e34-e9e4-4d14-a3d6-e59ca999c0de")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d241b1-f7bf-4f9a-8a37-0bbd3bc6a042")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb9e0c9-2c9f-4a12-99f8-462dc17b653e")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0385206-8b99-4533-95ac-4f243de1afe7")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5589cf7-89a1-45a8-aea6-22fd9a0222dd")
+	)
+	(wire
+		(pts
+			(xy 142.24 74.93) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78acc83-2d56-4ad2-b2cf-28c4005f40a2")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84f9522-cef9-492c-89ae-ab594df2ba25")
+	)
+	(hierarchical_label "dir"
+		(shape input)
+		(at 129.54 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f7826dd-360e-47d6-b1f7-d39df53a0874")
+	)
+	(hierarchical_label "a"
+		(shape bidirectional)
+		(at 111.76 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "580d511d-cda1-4637-88c8-e6ca9e708de9")
+	)
+	(hierarchical_label "b"
+		(shape bidirectional)
+		(at 176.53 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca9a23bd-d1bc-4fd5-a4c9-78cab72f08b7")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 148.59 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7c2726-fa9b-4f20-abd8-6ce3f09fef87")
+		(property "Reference" "#PWR014"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCB"
+			(at 148.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2226c752-cdd2-4d04-b513-5eb4a53f7b8f")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2381ba5b-889c-4db6-b78e-d8358a0b4834")
+		(property "Reference" "R5"
+			(at 175.26 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k opt"
+			(at 175.26 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.736 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-13100KL/13694083"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "13-AC0805FR-13100KLCT-ND"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "AC0805FR-13100KL"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6290e6cb-7e41-4a68-a616-449114bb3637")
+		)
+		(pin "1"
+			(uuid "1c1c455c-e9ca-4f09-938b-e5684c3273b3")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa064a0-8673-45b9-8275-2443c06959b1")
+		(property "Reference" "R3"
+			(at 134.62 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 134.62 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 133.096 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-13100KL/13694083"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "13-AC0805FR-13100KLCT-ND"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "AC0805FR-13100KL"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66c360c-75be-4e9b-8cc0-78049ca1d7bc")
+		)
+		(pin "2"
+			(uuid "618830b9-e70d-428b-ab75-2c9192ea0cfa")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339cac58-a225-4e07-99db-ee6b876f6d10")
+		(property "Reference" "#PWR010"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95eef8d-57c5-4a82-b89c-60fa03d981c4")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 125.73 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6784c870-1000-46c6-a257-91183e70750a")
+		(property "Reference" "R2"
+			(at 125.73 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 125.73 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.984 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-13200RL/17013175"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "13-RC0805FR-13200RLCT-ND"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-13200RL"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05437562-9816-4b2b-ad7e-28d74d10f153")
+		)
+		(pin "1"
+			(uuid "5a4f43fe-61a1-402a-b7ed-67cbe6a75063")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72570e34-d2ed-4c18-bdbf-863783a07a86")
+		(property "Reference" "#PWR013"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e678cc2-0e75-4b0d-af79-95bb1986de12")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e622783-3da3-4a7c-95a5-e50d7656d2df")
+		(property "Reference" "#PWR015"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd7159a-bbef-4691-a100-1654ece0b0d9")
+		)
+		(instances
+			(project ""
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LVC1T45DCK")
+		(at 144.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92e10e02-82e5-4ca2-baf1-128a59bb9850")
+		(property "Reference" "U1"
+			(at 137.668 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1T45DW-7"
+			(at 157.226 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/74LVC1T45DW-7/5427266"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "31-74LVC1T45DW-7CT-ND"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Diodes Incorporated"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "74LVC1T45DW-7"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fd091ee8-f125-4955-b0c4-85800c786221")
+		)
+		(pin "1"
+			(uuid "bd591305-170b-49a2-a8bc-d72996d4e8e4")
+		)
+		(pin "2"
+			(uuid "2b7d1905-1baf-4c87-b69b-248576b6e90c")
+		)
+		(pin "6"
+			(uuid "0d60ed17-5365-414c-8402-9e0cf203f6fb")
+		)
+		(pin "4"
+			(uuid "a179c9b6-d38d-44d5-9bc0-0d2378fc711b")
+		)
+		(pin "3"
+			(uuid "9e89cd29-e94c-4017-b39f-615f66c25fa4")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a49809cb-9cc3-4272-8a66-6e7a8d7a4131")
+		(property "Reference" "R4"
+			(at 161.29 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 161.29 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 161.544 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-13200RL/17013175"
+			(at 161.29 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "13-RC0805FR-13200RLCT-ND"
+			(at 161.29 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 161.29 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-13200RL"
+			(at 161.29 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5525a367-6ade-4d64-ba33-53b9e8383473")
+		)
+		(pin "1"
+			(uuid "f45c7339-0db3-45c8-b14a-be24fb6d62e0")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 115.57 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb72687-8dc0-4800-92d0-f2a53eaad3d0")
+		(property "Reference" "R1"
+			(at 118.11 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k opt"
+			(at 118.11 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 116.586 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-13100KL/13694083"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "13-AC0805FR-13100KLCT-ND"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "AC0805FR-13100KL"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "550515bd-3625-461e-a1ad-d0d87f094afc")
+		)
+		(pin "1"
+			(uuid "0dfe6400-399f-4ecd-ab7a-52bfc637bf2e")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 140.97 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d3be0a-4fdd-46db-9252-d1f733086850")
+		(property "Reference" "#PWR012"
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853481d1-f733-4258-81ca-7f3f7cf6c65d")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d67d53-75f4-42cd-8f4c-332cc93e5176")
+		(property "Reference" "#PWR011"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 132.08 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4986f9d-cc38-41f4-b783-3712c10498a6")
+		)
+		(instances
+			(project "cotti_level_shifter"
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
