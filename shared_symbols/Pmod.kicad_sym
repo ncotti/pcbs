@@ -303,8 +303,26 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -322,7 +340,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -5.08 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "IO2/PWM"
 					(effects
@@ -340,7 +358,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -7.62 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "IO3"
 					(effects
@@ -358,7 +376,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -10.16 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "IO4"
 					(effects
@@ -376,7 +394,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -12.7 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -386,24 +404,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2383,8 +2383,26 @@
 					(type background)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "NC/INT#"
 					(effects
@@ -2402,7 +2420,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "NC/RESET#"
 					(effects
@@ -2420,7 +2438,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -7.62 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2438,7 +2456,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -10.16 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -2456,7 +2474,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -12.7 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2466,24 +2484,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3531,8 +3531,44 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "LRCLK"
 					(effects
@@ -3550,7 +3586,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "DAC_Data"
 					(effects
@@ -3568,7 +3604,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -7.62 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "ADC_Data"
 					(effects
@@ -3586,7 +3622,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -10.16 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "BCLK"
 					(effects
@@ -3596,42 +3632,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -12.7 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3732,14 +3732,14 @@
 			(pin power_in line
 				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 			)
 		)
 		(property "Footprint" "Pmod:Pmod_1x06_socket"
-			(at 0 0 0)
+			(at 0.508 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,8 +4051,26 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -4070,7 +4088,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -4088,7 +4106,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -7.62 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -4106,7 +4124,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -10.16 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -4124,7 +4142,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -12.7 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4134,24 +4152,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5091,8 +5091,26 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "CTS#/GPIO"
 					(effects
@@ -5110,7 +5128,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "TXD"
 					(effects
@@ -5128,7 +5146,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -7.62 0)
+				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "RXD"
 					(effects
@@ -5146,7 +5164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -10.16 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "RTS#/GPIO"
 					(effects
@@ -5164,7 +5182,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -12.7 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5174,24 +5192,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

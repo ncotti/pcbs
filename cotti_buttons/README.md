@@ -18,3 +18,8 @@ Add the schmiit trigger to avoid intermmidiate values, thanks to its hysteresis.
 
 https://my.eng.utah.edu/~cs5780/debouncing.pdf
 
+
+JTAG interfaces
+
+https://www2.lauterbach.com/pdf/app_arm_jtag.pdf
+
