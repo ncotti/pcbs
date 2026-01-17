@@ -10,207 +10,6 @@
 		(rev "0.0")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74AHC1G14"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "74AHC1G14"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate NOT Schmitt LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* SOT?553*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AHC1G14_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74AHC1G14_1_1"
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 5.08 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -523,7 +322,235 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual"
+		(symbol "cotti_ic:inverter_schmitt_input"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MC74VHC1GT14DBVT1G"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SC-74A-5_1.55x2.9mm_P0.95mm"
+				(at -3.556 28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mc74vhc1g14-d.pdf"
+				(at -34.798 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inverter IC 1 Channel Schmitt Trigger SC-74A Push-Pull output"
+				(at -3.048 32.766 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MC74VHC1GT14DBVT1G/10064713"
+				(at -1.778 24.892 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "onsemi"
+				(at -1.016 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "MC74VHC1GT14DBVT1G"
+				(at -1.524 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOT Schmitt LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* SOT?553*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "inverter_schmitt_input_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "inverter_schmitt_input_1_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cotti_switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -547,8 +574,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
+			(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+				(at -1.778 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -556,8 +583,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts02.pdf"
+				(at -1.524 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -565,8 +592,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
-				(at 0 0 0)
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+				(at -0.762 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS02-66-60-BK-260-SCR-D/15634288"
+				(at 2.54 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Same Sky (Formerly CUI Devices)"
+				(at 0.508 27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "TS02-66-60-BK-260-SCR-D"
+				(at 0 24.892 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1249,132 +1303,6 @@
 		(uuid "4719fdd0-9e86-466c-acf4-7ef9739be85d")
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G14")
-		(at 173.99 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c86e1be-ee02-497e-b858-1bc84d212e03")
-		(property "Reference" "U1"
-			(at 186.69 91.3698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Invert Schmitt"
-			(at 186.69 93.9098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SC-74A-5_1.55x2.9mm_P0.95mm"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mc74vhc1g14-d.pdf"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inverter IC 1 Channel Schmitt Trigger SC-74A"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MC74VHC1GT14DBVT1G/10064713"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "488-MC74VHC1GT14DBVT1GCT-ND"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "onsemi"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "MC74VHC1GT14DBVT1G"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c592cbca-1134-4fcb-82bf-eff1eba2feb1")
-		)
-		(pin "4"
-			(uuid "1d16d4a7-b883-4aea-a1f6-0265ea471359")
-		)
-		(pin "3"
-			(uuid "a75a183a-9bdb-41a3-99b8-a4504263ed55")
-		)
-		(pin "2"
-			(uuid "9ed132e7-670a-4052-a12b-2752c3a30cdc")
-		)
-		(pin "5"
-			(uuid "4e3a7db9-b44a-43bb-bd9d-2f332ac1022f")
-		)
-		(instances
-			(project "cotti_buttons"
-				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "U1")
-					(unit 1)
-				)
-				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/5fd56874-714f-4976-9abd-9de7879c2a1d"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/7882fe45-d505-43e1-b077-86683bbfd833"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 110.49 0)
 		(unit 1)
@@ -1384,7 +1312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55290623-0e0e-4290-8216-9fbe0092b323")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 113.03 116.84 0)
 			(effects
 				(font
@@ -1434,7 +1362,7 @@
 		(instances
 			(project "cotti_buttons"
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
@@ -1462,7 +1390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f33338-5a9c-4f2b-a46a-d8f33f90e8a7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -1512,7 +1440,7 @@
 		(instances
 			(project ""
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
@@ -1539,7 +1467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5be06e66-d338-46ff-8b54-9a7584dd0be4")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 135.89 78.7399 0)
 			(effects
 				(font
@@ -1629,19 +1557,19 @@
 		(instances
 			(project "cotti_buttons"
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/5fd56874-714f-4976-9abd-9de7879c2a1d"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/7882fe45-d505-43e1-b077-86683bbfd833"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1657,7 +1585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a894245-fb46-448a-89ad-aaeddf55420d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -1707,7 +1635,7 @@
 		(instances
 			(project "cotti_buttons"
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
@@ -1922,7 +1850,124 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
+		(lib_id "cotti_ic:inverter_schmitt_input")
+		(at 173.99 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd2d97c-9e85-4364-8078-d1be11d354b7")
+		(property "Reference" "U1"
+			(at 191.77 91.3698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC74VHC1GT14DBVT1G"
+			(at 191.77 93.9098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74A-5_1.55x2.9mm_P0.95mm"
+			(at 170.434 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mc74vhc1g14-d.pdf"
+			(at 139.192 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inverter IC 1 Channel Schmitt Trigger SC-74A Push-Pull output"
+			(at 170.942 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MC74VHC1GT14DBVT1G/10064713"
+			(at 172.212 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "onsemi"
+			(at 172.974 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "MC74VHC1GT14DBVT1G"
+			(at 172.466 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c4fa72a5-b09f-41ce-9e3b-1e7f8e17ecd2")
+		)
+		(pin "3"
+			(uuid "71837b1f-bfa4-4b3a-add1-35e8e9f0e253")
+		)
+		(pin "1"
+			(uuid "e7829c52-2aec-42c7-8265-ad744f31c2df")
+		)
+		(pin "4"
+			(uuid "4af79c48-d01c-48b1-9e31-859914282398")
+		)
+		(pin "2"
+			(uuid "2e70a2a6-bc19-4a73-bac4-313c8a643546")
+		)
+		(instances
+			(project ""
+				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/5fd56874-714f-4976-9abd-9de7879c2a1d"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/7882fe45-d505-43e1-b077-86683bbfd833"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_switch:SW_Push_Dual")
 		(at 121.92 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1930,7 +1975,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aad7e20a-20b7-4323-9aec-0df399998386")
+		(uuid "c2b06439-73de-4e5a-9fb0-299e3814ac54")
 		(property "Reference" "SW1"
 			(at 121.92 90.17 0)
 			(effects
@@ -1948,7 +1993,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 121.92 92.71 0)
+			(at 120.142 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,8 +2001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/ts02.pdf"
-			(at 121.92 100.33 0)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts02.pdf"
+			(at 120.396 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2011,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 121.92 100.33 0)
+			(at 121.158 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,16 +2020,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS02-66-60-BK-260-SCR-D/15634288"
-			(at 121.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2223-TS02-66-60-BK-260-SCR-D-ND"
-			(at 121.92 100.33 0)
+			(at 124.46 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2029,7 @@
 			)
 		)
 		(property "Mfr." "Same Sky (Formerly CUI Devices)"
-			(at 121.92 100.33 0)
+			(at 122.428 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2038,7 @@
 			)
 		)
 		(property "Mfr. P/N" "TS02-66-60-BK-260-SCR-D"
-			(at 121.92 100.33 0)
+			(at 121.92 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,17 +2046,17 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ac183b96-b5ed-440c-8ad6-7d1645cd264b")
-		)
 		(pin "2"
-			(uuid "1561a1dd-868f-472d-9fa6-0c27e495209e")
-		)
-		(pin "3"
-			(uuid "ac23bc3a-2d23-4509-8c5e-3ae1a10e0b96")
+			(uuid "893f38b6-c098-4eb5-b541-57b6550f8186")
 		)
 		(pin "4"
-			(uuid "56614938-5915-489e-a142-6752b5fe3773")
+			(uuid "346731d0-426d-4a3d-9f1b-c663729b6fb4")
+		)
+		(pin "3"
+			(uuid "5548d4a0-682b-4a06-ba53-eed664f79473")
+		)
+		(pin "1"
+			(uuid "6a9f00b8-2d87-4f9c-b3f9-53ec75d075e3")
 		)
 		(instances
 			(project ""
@@ -2053,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c83b449c-f31d-480e-b2aa-f0f561ca61f1")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 139.7 91.44 90)
 			(effects
 				(font
@@ -2141,19 +2177,19 @@
 		(instances
 			(project "cotti_buttons"
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/34456084-0fea-4792-bf42-1a35ca3e3257"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/408eaa88-2d34-400c-9210-e43e7ee9c2ee"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/5fd56874-714f-4976-9abd-9de7879c2a1d"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/673b428a-a10a-4837-8ece-1839a9ec4aa8/7882fe45-d505-43e1-b077-86683bbfd833"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
