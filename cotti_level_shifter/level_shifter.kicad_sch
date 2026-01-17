@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "773129f0-6e26-4e6c-bd3b-68a31a1fe158")
 	(paper "A4")
+	(title_block
+		(title "Level Shifter Module")
+		(date "2026-01-17")
+		(rev "0.0")
+		(company "Cotti")
+	)
 	(lib_symbols
 		(symbol "Device:R_US"
 			(pin_numbers
@@ -178,7 +184,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Logic_LevelTranslator:SN74LVC1T45DCK"
+		(symbol "cotti_ic:voltage_level_translator"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -190,7 +196,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74LVC1T45DCK"
+			(property "Value" "74LVC1T45DW-7"
 				(at 3.81 8.89 0)
 				(effects
 					(font
@@ -200,7 +206,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 0 -11.43 0)
+				(at -0.254 33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -208,8 +214,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
-				(at -22.86 -16.51 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf"
+				(at -5.588 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -217,8 +223,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
-				(at 0 0 0)
+			(property "Description" "Voltage Level Translator Bidirectional 1 Circuit 1 Channel SOT-363"
+				(at 0.762 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/74LVC1T45DW-7/5427266"
+				(at 6.096 42.672 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Diodes Incorporated"
+				(at -1.524 45.974 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "74LVC1T45DW-7"
+				(at -0.254 48.768 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -244,7 +277,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74LVC1T45DCK_0_1"
+			(symbol "voltage_level_translator_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -329,7 +362,7 @@
 					)
 				)
 			)
-			(symbol "SN74LVC1T45DCK_1_1"
+			(symbol "voltage_level_translator_1_1"
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -1706,149 +1739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Logic_LevelTranslator:SN74LVC1T45DCK")
-		(at 144.78 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92e10e02-82e5-4ca2-baf1-128a59bb9850")
-		(property "Reference" "U1"
-			(at 137.668 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1T45DW-7"
-			(at 157.226 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/74LVC1T45DW-7/5427266"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "31-74LVC1T45DW-7CT-ND"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Diodes Incorporated"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "74LVC1T45DW-7"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "fd091ee8-f125-4955-b0c4-85800c786221")
-		)
-		(pin "1"
-			(uuid "bd591305-170b-49a2-a8bc-d72996d4e8e4")
-		)
-		(pin "2"
-			(uuid "2b7d1905-1baf-4c87-b69b-248576b6e90c")
-		)
-		(pin "6"
-			(uuid "0d60ed17-5365-414c-8402-9e0cf203f6fb")
-		)
-		(pin "4"
-			(uuid "a179c9b6-d38d-44d5-9bc0-0d2378fc711b")
-		)
-		(pin "3"
-			(uuid "9e89cd29-e94c-4017-b39f-615f66c25fa4")
-		)
-		(instances
-			(project "cotti_level_shifter"
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
-					(reference "U1")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 161.29 86.36 90)
 		(unit 1)
@@ -2203,6 +2093,141 @@
 				)
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_ic:voltage_level_translator")
+		(at 144.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de704b12-be56-4774-97fa-a459e0860081")
+		(property "Reference" "U1"
+			(at 161.29 79.9398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1T45DW-7"
+			(at 161.29 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 144.526 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf"
+			(at 139.192 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage Level Translator Bidirectional 1 Circuit 1 Channel SOT-363"
+			(at 145.542 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/74LVC1T45DW-7/5427266"
+			(at 150.876 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Diodes Incorporated"
+			(at 143.256 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "74LVC1T45DW-7"
+			(at 144.526 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "75c34fca-87e1-4b8b-83a2-92b3e2060198")
+		)
+		(pin "5"
+			(uuid "b1942a3e-c0c0-4835-9a5c-52dcb78cfaba")
+		)
+		(pin "1"
+			(uuid "dceca025-dd06-4bc9-8ee2-e7c8d635d5fb")
+		)
+		(pin "2"
+			(uuid "ba02bac7-9e70-430e-bba7-3ea6a7b8af40")
+		)
+		(pin "6"
+			(uuid "67bd3dff-7a05-4f3a-9db7-1d11afea263c")
+		)
+		(pin "3"
+			(uuid "22bc8b5a-2d0e-47b6-832a-d0cfdf58dcd3")
+		)
+		(instances
+			(project ""
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/01aab807-bbb4-4afa-aa40-b9e9d43e83d4"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/30f197c9-0cd8-437a-a5b7-774f1b2516e0"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/4c84f02b-2522-49cd-b2e7-e24a49a97dac"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/63f08a8f-7e54-4a04-8424-a7a423b9d454"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/974f5a64-b060-4b01-8908-45bb104fb08e"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/9f67e98d-9a78-4046-8f19-e539622706a5"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/a2268e70-50b9-4576-8fc4-fe7046032005"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2/ec8e5640-8d6c-4b64-928d-01aae8347ab5"
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -494,7 +494,7 @@
 	(fp_text user "PCB Edge"
 		(at 12.7 1.27 270)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(uuid "24e6f271-c7d7-4826-babd-f14a5f58da25")
 		(effects
 			(font

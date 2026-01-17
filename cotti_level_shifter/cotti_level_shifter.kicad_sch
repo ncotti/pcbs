@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2")
 	(paper "A4")
+	(title_block
+		(title "Level Shifter Module")
+		(date "2026-01-17")
+		(rev "0.0")
+		(company "Cotti")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -144,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pmod:pmod_gpio_2x06_pin"
+		(symbol "cotti_pmod:pmod_gpio_2x06_pin"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -164,7 +170,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Pmod:Pmod_2x06_pin"
+			(property "Footprint" "cotti_footprints:Pmod_2x06_pin"
 				(at 1.016 6.35 0)
 				(effects
 					(font
@@ -193,15 +199,6 @@
 			)
 			(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
 				(at 0.254 28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "2057-PH2RA-12-UA-ND"
-				(at 0.508 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -458,7 +455,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pmod:pmod_gpio_2x06_socket"
+		(symbol "cotti_pmod:pmod_gpio_2x06_socket"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -478,7 +475,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Pmod:Pmod_2x06_socket"
+			(property "Footprint" "cotti_footprints:Pmod_2x06_socket"
 				(at 0.508 5.588 0)
 				(effects
 					(font
@@ -507,15 +504,6 @@
 			)
 			(property "Digikey" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/613012243121/16608604"
 				(at 0 13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "732-613012243121-ND"
-				(at 0.254 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -772,7 +760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x08"
+		(symbol "cotti_switch:SW_DIP_x08"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -796,8 +784,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+				(at -0.508 28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -805,8 +793,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/ds01-254.pdf"
+				(at 1.016 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -814,8 +802,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
+			(property "Description" "Dip Switch SPST 8 Position Through Hole Slide (Standard) Actuator 25mA 24VDC"
+				(at -2.794 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/DS01C-254-S-08BE/11310924"
+				(at 2.54 24.638 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Same Sky (Formerly CUI Devices)"
+				(at -0.762 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "DS01C-254-S-08BE"
+				(at -1.016 36.322 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1750,7 +1765,7 @@
 	)
 	(rectangle
 		(start 13.97 16.51)
-		(end 53.34 109.22)
+		(end 54.61 109.22)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1761,8 +1776,8 @@
 		(uuid 05921aed-e36d-4bc8-821f-c8893282353f)
 	)
 	(rectangle
-		(start 176.53 16.51)
-		(end 207.01 50.8)
+		(start 172.72 19.05)
+		(end 203.2 53.34)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1816,13 +1831,14 @@
 		)
 		(uuid "44cfa506-13fe-4db0-b1de-8c857d7dd05a")
 	)
-	(text "Direction switch (A->B == High)"
+	(text "Direction switch (A->B == High)\n                  A<-B == Low"
 		(exclude_from_sim no)
-		(at 190.754 14.986 0)
+		(at 173.482 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "6aae03a4-3d6b-44ca-a576-a7e161abdf44")
 	)
@@ -1873,13 +1889,13 @@
 		(uuid "18b56d38-442e-4bf3-a00f-5d9b8eea02e5")
 	)
 	(junction
-		(at 201.93 41.91)
+		(at 198.12 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eedfdbd-4a69-4762-bd14-a8ace0c0b2ee")
 	)
 	(junction
-		(at 201.93 31.75)
+		(at 198.12 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "206c9b4c-e9e2-46a7-806c-6fe60a2a972d")
@@ -1945,7 +1961,7 @@
 		(uuid "5fdb211a-19fe-4439-9dfa-2ac21c55d451")
 	)
 	(junction
-		(at 201.93 36.83)
+		(at 198.12 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "656bec5b-d1e1-4004-9b3a-d0ceb533eb4d")
@@ -1969,13 +1985,13 @@
 		(uuid "83a80ac7-953a-44b7-8299-2b910bde4e05")
 	)
 	(junction
-		(at 201.93 39.37)
+		(at 198.12 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b3ea5db-ee1c-453b-89b8-7bb2ede9adb3")
 	)
 	(junction
-		(at 201.93 44.45)
+		(at 198.12 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93f0d4eb-4eff-43bf-9a63-80140e553647")
@@ -1987,7 +2003,7 @@
 		(uuid "9d701c2e-acc0-4398-bb3e-ce9bab91870e")
 	)
 	(junction
-		(at 201.93 29.21)
+		(at 198.12 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0b378a0-9a66-4d45-81bc-2a9d9bfa0059")
@@ -2047,7 +2063,7 @@
 		(uuid "e0a09607-2653-4f59-9410-784d7e14ce28")
 	)
 	(junction
-		(at 201.93 34.29)
+		(at 198.12 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1cdffcb-5a30-4507-823c-6fba24b207d8")
@@ -2142,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 41.91) (xy 201.93 44.45)
+			(xy 198.12 44.45) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 201.93 36.83)
+			(xy 196.85 39.37) (xy 198.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 26.67) (xy 201.93 26.67)
+			(xy 196.85 29.21) (xy 198.12 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 26.67) (xy 201.93 29.21)
+			(xy 198.12 29.21) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 26.67) (xy 185.42 26.67)
+			(xy 175.26 29.21) (xy 181.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 201.93 34.29)
+			(xy 198.12 34.29) (xy 198.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 34.29) (xy 201.93 34.29)
+			(xy 196.85 36.83) (xy 198.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 29.21) (xy 185.42 29.21)
+			(xy 175.26 31.75) (xy 181.61 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 41.91) (xy 185.42 41.91)
+			(xy 175.26 44.45) (xy 181.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 31.75) (xy 185.42 31.75)
+			(xy 175.26 34.29) (xy 181.61 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 201.93 41.91)
+			(xy 196.85 44.45) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 34.29) (xy 201.93 36.83)
+			(xy 198.12 36.83) (xy 198.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 185.42 44.45)
+			(xy 175.26 46.99) (xy 181.61 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 201.93 31.75)
+			(xy 196.85 34.29) (xy 198.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 39.37) (xy 185.42 39.37)
+			(xy 175.26 41.91) (xy 181.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 29.21) (xy 201.93 31.75)
+			(xy 198.12 31.75) (xy 198.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 44.45) (xy 201.93 46.99)
+			(xy 198.12 46.99) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 36.83) (xy 201.93 39.37)
+			(xy 198.12 39.37) (xy 198.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 39.37) (xy 201.93 41.91)
+			(xy 198.12 41.91) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3282,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 201.93 44.45)
+			(xy 196.85 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3322,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 34.29) (xy 185.42 34.29)
+			(xy 175.26 36.83) (xy 181.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3382,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 185.42 36.83)
+			(xy 175.26 39.37) (xy 181.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 39.37) (xy 201.93 39.37)
+			(xy 196.85 41.91) (xy 198.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3462,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 29.21) (xy 201.93 29.21)
+			(xy 196.85 31.75) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3537,7 @@
 		(uuid "0758b991-ff3b-4722-bd6f-cc6dc5fab210")
 	)
 	(label "dir7"
-		(at 179.07 41.91 0)
+		(at 175.26 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3531,7 +3547,7 @@
 		(uuid "0b1f9f28-d3b1-462b-8c9b-f19a9ded4b13")
 	)
 	(label "dir5"
-		(at 179.07 36.83 0)
+		(at 175.26 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3651,7 +3667,7 @@
 		(uuid "42ab80be-da76-458a-ab0c-b59dcf98c010")
 	)
 	(label "dir3"
-		(at 179.07 31.75 0)
+		(at 175.26 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3781,7 +3797,7 @@
 		(uuid "900689fb-f7f0-4404-b1fa-3ced227b5f1d")
 	)
 	(label "dir1"
-		(at 179.07 26.67 0)
+		(at 175.26 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3841,7 +3857,7 @@
 		(uuid "b743d866-c81e-462c-a274-d71de8101fe8")
 	)
 	(label "dir6"
-		(at 179.07 39.37 0)
+		(at 175.26 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3881,7 +3897,7 @@
 		(uuid "d206e38d-038f-480a-9f7e-9ea745a7baa6")
 	)
 	(label "dir4"
-		(at 179.07 34.29 0)
+		(at 175.26 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3891,7 +3907,7 @@
 		(uuid "d50f87c4-cce4-4200-80e4-1e90d9f5bcb4")
 	)
 	(label "dir8"
-		(at 179.07 44.45 0)
+		(at 175.26 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,7 +3947,7 @@
 		(uuid "e4a3d7d5-d2b2-42b4-838d-28a0552d7289")
 	)
 	(label "dir2"
-		(at 179.07 29.21 0)
+		(at 175.26 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,6 +4068,143 @@
 			(project ""
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_switch:SW_DIP_x08")
+		(at 189.23 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15d448ef-cbce-4c36-866d-7df2298fa2e2")
+		(property "Reference" "SW1"
+			(at 189.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x08"
+			(at 189.23 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SW_DS01C-254-S-08BE"
+			(at 188.722 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/ds01-254.pdf"
+			(at 190.246 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dip Switch SPST 8 Position Through Hole Slide (Standard) Actuator 25mA 24VDC"
+			(at 186.436 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/DS01C-254-S-08BE/11310924"
+			(at 191.77 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Same Sky (Formerly CUI Devices)"
+			(at 188.468 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "DS01C-254-S-08BE"
+			(at 188.214 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "2f00d334-2278-47e0-86f5-290d19b9dc79")
+		)
+		(pin "8"
+			(uuid "0f6b9f13-9cc3-4ff7-9a55-d9cbbc220f5f")
+		)
+		(pin "3"
+			(uuid "da013389-a09a-4cbe-bb8d-ac2213f0b039")
+		)
+		(pin "6"
+			(uuid "e653877e-cdcf-484f-bd6f-5161982525f6")
+		)
+		(pin "2"
+			(uuid "e9a5cdec-d061-4a2c-86b3-1a763918b6ad")
+		)
+		(pin "1"
+			(uuid "56cc6129-a9fb-45c5-ac73-669eb76cceb7")
+		)
+		(pin "16"
+			(uuid "27afc9c2-1325-434f-bd5c-156f43f48f71")
+		)
+		(pin "15"
+			(uuid "79610615-d55f-451c-8a0b-1030275eaf89")
+		)
+		(pin "13"
+			(uuid "a6635249-7a6f-4ec4-a4fe-75561ba4f3c9")
+		)
+		(pin "7"
+			(uuid "ad5eea0e-ddc4-4a12-a452-e47f9aea8a2d")
+		)
+		(pin "12"
+			(uuid "c72afd9a-f5e2-486f-8c5e-f63213edd30f")
+		)
+		(pin "9"
+			(uuid "16559fcc-7d0f-4bcc-a7b3-4ba5addb4aa5")
+		)
+		(pin "11"
+			(uuid "2946c94f-6dec-4345-86d4-71bbbab1b7d2")
+		)
+		(pin "10"
+			(uuid "7c5e1838-8f07-4fa7-81e4-4dc087172605")
+		)
+		(pin "5"
+			(uuid "7db6fcbb-582d-4f70-8a76-5dc061164de3")
+		)
+		(pin "4"
+			(uuid "a0f78b59-04e1-49ef-9bea-05d02f4e508f")
+		)
+		(instances
+			(project ""
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 46.99 0)
+		(at 198.12 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4238,7 +4391,7 @@
 		(dnp no)
 		(uuid "286f817c-f490-43b5-ad7d-00bfd3abec38")
 		(property "Reference" "#PWR09"
-			(at 201.93 53.34 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 49.022 0)
+			(at 194.31 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 46.99 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 46.99 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 46.99 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,140 +4441,6 @@
 			(project ""
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pmod:pmod_gpio_2x06_pin")
-		(at 31.75 22.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2acde823-d480-4a37-8dd7-2d911f05db2d")
-		(property "Reference" "J1"
-			(at 26.416 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pmod GPIO 2x06 pin"
-			(at 24.13 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pmod:Pmod_2x06_pin"
-			(at 30.734 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf"
-			(at 28.194 2.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 12 position 0.100\" (2.54mm)"
-			(at 29.21 -2.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
-			(at 31.496 -5.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2057-PH2RA-12-UA-ND"
-			(at 31.242 6.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Adam Tech"
-			(at 30.988 10.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "PH2RA-12-UA"
-			(at 31.242 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "5d57d8e5-bb1e-468e-a755-c607d5eff858")
-		)
-		(pin "6"
-			(uuid "eb446c90-2445-4a90-b525-33492fb4c515")
-		)
-		(pin "9"
-			(uuid "bb638bf9-e07b-4006-ac59-62d266943e90")
-		)
-		(pin "2"
-			(uuid "a680d37d-8960-44fc-9849-fa170e778bce")
-		)
-		(pin "5"
-			(uuid "2b042436-719c-48ec-a7b1-b78568942897")
-		)
-		(pin "4"
-			(uuid "06620b29-5272-4490-9ec7-67ab2c2e9b3a")
-		)
-		(pin "8"
-			(uuid "faacab9f-cb32-44d5-9d17-e6102fcaa005")
-		)
-		(pin "1"
-			(uuid "3df4b259-f142-411d-9ce2-7d10727c64d2")
-		)
-		(pin "3"
-			(uuid "64f3c4a6-d0ea-46b3-a74b-6e68a7775884")
-		)
-		(pin "7"
-			(uuid "707806a0-8760-4eb7-9ef0-d920a1bf34f7")
-		)
-		(pin "10"
-			(uuid "3f65144e-d094-4fc9-abd5-3e9aa9ca9526")
-		)
-		(pin "11"
-			(uuid "dab4a540-c91b-418b-9e36-75711e7f590b")
-		)
-		(instances
-			(project ""
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4528,6 +4547,132 @@
 			(project "cotti_level_shifter"
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_pmod:pmod_gpio_2x06_socket")
+		(at 35.56 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4054ada9-6b39-416d-ab57-15d15892af96")
+		(property "Reference" "J2"
+			(at 41.148 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pmod GPIO 2x06 socket"
+			(at 25.654 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:Pmod_2x06_socket"
+			(at 36.068 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/613012243121.pdf"
+			(at 35.306 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12 Position Receptacle Connector 0.100\" (2.54mm) Through Hole, Right Angle Gold"
+			(at 36.322 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/613012243121/16608604"
+			(at 35.56 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Würth Elektronik"
+			(at 35.306 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "613012243121"
+			(at 36.068 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "da64e721-e193-4ed3-b28e-402d73010b94")
+		)
+		(pin "10"
+			(uuid "333ce4ea-88f1-4f60-a386-f4190307ea94")
+		)
+		(pin "9"
+			(uuid "57c1cfb4-6684-4e17-b918-4cbf93d8d488")
+		)
+		(pin "12"
+			(uuid "b69ddcfc-a786-4dcb-9972-f343ebfee94a")
+		)
+		(pin "4"
+			(uuid "e3274403-02d8-43ce-82e4-4e33a7b0a1bb")
+		)
+		(pin "1"
+			(uuid "ee828caf-a360-451e-b9a8-0201548d330d")
+		)
+		(pin "6"
+			(uuid "36c8f89d-b943-45ac-8d9f-60c8375905de")
+		)
+		(pin "11"
+			(uuid "439a6ccf-d43a-4915-91da-51cbef0d07e5")
+		)
+		(pin "2"
+			(uuid "d1908f77-7f40-4847-8727-1092db85e859")
+		)
+		(pin "3"
+			(uuid "8424fe32-2a11-43c2-923f-7fc06549be69")
+		)
+		(pin "7"
+			(uuid "1475f0d6-3ddc-4312-9d02-20fbcc560a75")
+		)
+		(pin "5"
+			(uuid "439b59bc-903d-4ea6-9027-c85649cc6ab8")
+		)
+		(instances
+			(project ""
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5335,141 +5480,6 @@
 			(project "cotti_level_shifter"
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pmod:pmod_gpio_2x06_socket")
-		(at 35.56 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8df7dc52-5c64-40c7-801d-1a36235084cb")
-		(property "Reference" "J2"
-			(at 40.132 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pmod GPIO 2x06 socket"
-			(at 25.654 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pmod:Pmod_2x06_socket"
-			(at 36.068 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/613012243121.pdf"
-			(at 35.306 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "12 Position Receptacle Connector 0.100\" (2.54mm) Through Hole, Right Angle Gold"
-			(at 36.322 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/613012243121/16608604"
-			(at 35.56 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "732-613012243121-ND"
-			(at 35.814 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Würth Elektronik"
-			(at 35.306 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "613012243121"
-			(at 36.068 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8584d88d-4d45-4b1b-9057-3bbd2ebd04d4")
-		)
-		(pin "8"
-			(uuid "d390144f-3e31-4b83-ab71-398ed9b898f5")
-		)
-		(pin "7"
-			(uuid "8f455756-c5ea-4371-b39b-1817f02bbe57")
-		)
-		(pin "10"
-			(uuid "32b99875-303b-47a2-9388-a7fad575d954")
-		)
-		(pin "1"
-			(uuid "54630275-b8a7-4194-8544-58da849e58bf")
-		)
-		(pin "11"
-			(uuid "16b37214-515e-438c-8d2e-2c29c13b9e65")
-		)
-		(pin "9"
-			(uuid "53f09af5-824b-4f47-a4ab-f658514369e7")
-		)
-		(pin "5"
-			(uuid "c586841a-9d8b-4ace-aeaa-80e9fc250acc")
-		)
-		(pin "2"
-			(uuid "0a6e11b8-c8c0-4187-9b09-b94322e5cdf3")
-		)
-		(pin "12"
-			(uuid "e430409f-6f4d-4813-9dd6-b87df013f520")
-		)
-		(pin "6"
-			(uuid "9aa89b1a-57b1-4891-8f13-eff424648bb4")
-		)
-		(pin "3"
-			(uuid "b354182c-29b2-478d-965b-f04d259ad3ba")
-		)
-		(instances
-			(project ""
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6400,6 +6410,131 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_pmod:pmod_gpio_2x06_pin")
+		(at 31.75 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfde5544-6fe9-4e06-9ff8-a3764e880162")
+		(property "Reference" "J1"
+			(at 26.416 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pmod GPIO 2x06 pin"
+			(at 25.654 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:Pmod_2x06_pin"
+			(at 30.734 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf"
+			(at 28.194 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 12 position 0.100\" (2.54mm)"
+			(at 29.21 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
+			(at 31.496 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 30.988 10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH2RA-12-UA"
+			(at 31.242 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e7b43175-9afd-40b6-a97f-b98d53fed851")
+		)
+		(pin "2"
+			(uuid "dbc6d0f2-b9ec-4a13-a1a7-25c401f57f33")
+		)
+		(pin "11"
+			(uuid "959feefd-1a5f-4e03-b5cd-f26e4bf7a9d0")
+		)
+		(pin "12"
+			(uuid "b3563e1d-383c-4d26-955c-21679b743b38")
+		)
+		(pin "7"
+			(uuid "e6eea763-25f4-445c-a856-d39c0eaf08fd")
+		)
+		(pin "10"
+			(uuid "c6cd0168-52c0-4731-aef7-6c353e307e6c")
+		)
+		(pin "1"
+			(uuid "f7ddf790-06d6-4bbc-b287-b51488e72aec")
+		)
+		(pin "4"
+			(uuid "b0d9ffe2-9bb8-4287-bdab-7f74523d65dc")
+		)
+		(pin "3"
+			(uuid "ac058867-0f10-43fe-8b63-8e9e38c18cf3")
+		)
+		(pin "9"
+			(uuid "1cb8140a-6ee4-434f-b5e9-aa0d91379f4f")
+		)
+		(pin "5"
+			(uuid "56297d03-d67d-46d2-8b2a-adb2bbe08a51")
+		)
+		(pin "6"
+			(uuid "b4767044-f008-4ce5-ad13-734ac89dac82")
+		)
+		(instances
+			(project ""
+				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 175.26 0)
 		(unit 1)
@@ -6500,152 +6635,6 @@
 			(project "cotti_level_shifter"
 				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x08")
-		(at 193.04 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4f7be7b-26c0-4426-9406-c10fff6c85ca")
-		(property "Reference" "SW1"
-			(at 193.04 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x08"
-			(at 193.04 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/ds01-254.pdf"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dip Switch SPST 8 Position Through Hole Slide (Standard) Actuator 25mA 24VDC"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/DS01C-254-S-08BE/11310924"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2223-DS01C-254-S-08BE-ND"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Same Sky (Formerly CUI Devices)"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "DS01C-254-S-08BE"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "6f06b778-9bb8-462b-b1ec-beb589fad13e")
-		)
-		(pin "16"
-			(uuid "c436cab5-da0d-43b2-8523-5260b7a5170c")
-		)
-		(pin "8"
-			(uuid "4e5aefd6-f049-4695-8300-bd9ee82c6f4d")
-		)
-		(pin "11"
-			(uuid "b0412392-e103-4e01-9bb9-95884166409d")
-		)
-		(pin "12"
-			(uuid "9a7a1053-a70c-4675-9ee4-83d561599247")
-		)
-		(pin "7"
-			(uuid "14d158f6-b9cf-4576-9088-5001d774ebe6")
-		)
-		(pin "3"
-			(uuid "10a46925-d389-42f2-927b-ef821b42f916")
-		)
-		(pin "2"
-			(uuid "ad965d6e-cd93-4cdc-8a48-b98d050892f0")
-		)
-		(pin "6"
-			(uuid "0401aa6b-7830-4847-ab99-05d61e509305")
-		)
-		(pin "1"
-			(uuid "faecd015-4136-410e-bc17-ba5dce9e50f0")
-		)
-		(pin "4"
-			(uuid "9c6b3b75-79fd-45f8-ab67-35c2358b44f6")
-		)
-		(pin "5"
-			(uuid "0cc7c6c2-7975-46ca-a716-9cb4e3c6c171")
-		)
-		(pin "15"
-			(uuid "d3c22a13-6dfd-4eaf-a40b-ffa3dcbd6316")
-		)
-		(pin "14"
-			(uuid "1db84a4d-8d0c-48ea-8a53-d32f58dfca9d")
-		)
-		(pin "9"
-			(uuid "65cc8263-b8d5-4efb-91f8-146d37c8d47e")
-		)
-		(pin "10"
-			(uuid "3df9424a-a366-46fa-9818-f405aafd4998")
-		)
-		(instances
-			(project ""
-				(path "/9157c1e3-b0d9-40ec-a93b-dbe68aa8cbb2"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
