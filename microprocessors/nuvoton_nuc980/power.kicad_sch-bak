@@ -5,6 +5,184 @@
 	(uuid "4416a99f-a79a-4797-b524-11a08d92be52")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Comparator:MCP6561U"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6561U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cmp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6561U_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6561U_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -411,6 +589,332 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_AAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_AAK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, anode on pins 1 and 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky SCHDPAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_AAK_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_AAK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -946,213 +1450,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "comparator_push_pull_5V_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 8.382 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP6541UT-E/OT"
-				(at 9.144 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-				(at -1.27 39.624 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6541-Output-Sub-Microamp-Comparators-DS20001696.pdf"
-				(at 1.524 21.082 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Comparator Standard (General Purpose) CMOS, Push-Pull, Rail-to-Rail, TTL SOT-23-5"
-				(at -0.762 28.956 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6541UT-E-OT/857498"
-				(at 2.032 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Microchip Technology"
-				(at 0.508 32.512 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "MCP6541UT-E/OT"
-				(at -1.016 36.068 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "comparator_push_pull_5V_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "comparator_push_pull_5V_1_1_1"
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_connectors:DC_Barrel_Jack_2x6.4mm"
+		(symbol "Regulator_Linear:TLV70233_SOT23-5"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 4.826 4.318 0)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ADC-002-1"
-				(at 4.826 2.032 0)
+			(property "Value" "TLV70233_SOT23-5"
+				(at 0 5.715 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "cotti_footprints:ADC-002-1"
-				(at -6.35 11.938 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1161,18 +1484,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203725/adc-002-x-data-sheet.pdf"
-				(at -5.334 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack 2mm ID 6.4mm OD"
-				(at 2.032 19.812 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1180,34 +1493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/ADC-002-1/21710741"
-				(at 0.254 23.368 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Adam Tech"
-				(at 0.254 25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "ADC-002-1"
-				(at 0.254 29.464 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ADC-002-1"
+			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1216,7 +1502,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "JACK_ADC-002-x_ADM"
+			(property "ki_keywords" "300mA LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1225,742 +1511,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "DC_Barrel_Jack_2x6.4mm_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV70233_SOT23-5_0_1"
 				(rectangle
-					(start 0 0)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 2.54 -6.35) (xy 3.81 -5.08) (xy 5.08 -6.35) (xy 7.62 -6.35) (xy 10.16 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 -1.905)
-					(mid 1.1457 -1.27)
-					(end 1.778 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 -1.905)
-					(mid 1.1457 -1.27)
-					(end 1.778 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -6.096) (xy 6.985 -5.461)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 8.763 -0.635)
-					(end 1.778 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 8.89 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -3.81) (xy 6.35 -3.81) (xy 6.35 -6.096) (xy 5.715 -5.461)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DC_Barrel_Jack_2x6.4mm_1_1"
-				(pin passive line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_ic:comparator_push_pull_5V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 8.382 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP6541UT-E/OT"
-				(at 9.144 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-				(at -1.27 39.624 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6541-Output-Sub-Microamp-Comparators-DS20001696.pdf"
-				(at 1.524 21.082 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Comparator Standard (General Purpose) CMOS, Push-Pull, Rail-to-Rail, TTL SOT-23-5"
-				(at -0.762 28.956 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6541UT-E-OT/857498"
-				(at 2.032 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Microchip Technology"
-				(at 0.508 32.512 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "MCP6541UT-E/OT"
-				(at -1.016 36.068 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "comparator_push_pull_5V_0_1"
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "comparator_push_pull_5V_1_1"
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_passives:diode_schottky_370mV_30mA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SDMG0340L-7-F"
-				(at 0.508 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-				(at -0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30248.pdf"
-				(at 1.27 13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DIODE SCHOTTKY 40V 30MA SOT323"
-				(at 0 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDMG0340L-7-F/814724"
-				(at -1.27 15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Diodes Incorporated"
-				(at -0.254 20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "SDMG0340L-7-F"
-				(at 0 22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "diode_schottky_370mV_30mA_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.635) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "diode_schottky_370mV_30mA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_passives:diode_schottky_500mV_1A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS12"
-				(at 0.254 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-				(at -0.762 16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6778/5399_SS12%20SMA.PDF"
-				(at -0.254 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode 20 V 1A Surface Mount DO-214AC (SMA)"
-				(at 0.254 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SS12/21853083"
-				(at 4.064 19.812 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Shenzhen Slkormicro Semicon Co., Ltd."
-				(at 1.27 23.876 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "SS12"
-				(at 0 26.416 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "diode_schottky_500mV_1A_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.635) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "diode_schottky_500mV_1A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_power:Buck_5.5Vin_1A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS62A01APDDCR"
-				(at 0.508 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
-				(at 2.032 29.718 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62a01a.pdf"
-				(at 0.254 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 1A"
-				(at -4.572 16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS62A01APDDCR/24708516"
-				(at -3.556 18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Texas Instruments"
-				(at -0.508 20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "TPS62A01APDDCR"
-				(at -0.508 23.368 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buck_5.5Vin_1A_0_1"
-				(rectangle
-					(start -5.08 5.08)
+					(start -5.08 4.445)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -1971,9 +1533,191 @@
 					)
 				)
 			)
-			(symbol "Buck_5.5Vin_1A_1_1"
+			(symbol "TLV70233_SOT23-5_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cotti_power:Buck 5.5V 1A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS62A01APDDCR"
+				(at 8.128 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+				(at 2.54 22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62a01a.pdf"
+				(at 0.762 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 1A"
+				(at -4.064 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS62A01APDDCR/24708516"
+				(at -3.048 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Texas Instruments"
+				(at 0 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "TPS62A01APDDCR"
+				(at 0 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buck 5.5V 1A_0_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Buck 5.5V 1A_1_1"
+				(pin power_in line
+					(at 0 0 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -1991,7 +1735,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
+					(at 0 -2.54 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -2009,7 +1753,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 7.62 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2027,7 +1771,7 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 2.54 180)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -2045,7 +1789,7 @@
 					)
 				)
 				(pin input line
-					(at 7.62 0 180)
+					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -2063,7 +1807,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 7.62 -2.54 180)
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "PG"
 						(effects
@@ -2073,552 +1817,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_power:LDO_1.2Vout_300mA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV74312PDBVR"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.016 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-				(at 1.778 22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LINEAR 1.2V 300MA SOT23-5"
-				(at 0.508 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74312PDBVR/7593920"
-				(at -0.254 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Texas Instruments"
-				(at -0.762 28.194 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "TLV74312PDBVR"
-				(at -0.254 30.988 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LDO_1.2Vout_300mA_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LDO_1.2Vout_300mA_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_power:LDO_1.8Vout_300mA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV74318PDBVR"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.016 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-				(at 1.778 22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LINEAR 1.8V 300MA SOT23-5"
-				(at 0.508 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74318PDBVR/7593922?s=N4IgTCBcDaICoBkBqB2ALAZgIwA4AKAIgEJIgC6AvkA"
-				(at -0.254 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Texas Instruments"
-				(at -0.762 28.194 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "TLV74318PDBVR"
-				(at -0.254 30.988 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LDO_1.8Vout_300mA_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LDO_1.8Vout_300mA_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cotti_power:LDO_3.3Vout_300mA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV74333PDBVR"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.016 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-				(at 1.778 22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
-				(at 0.508 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74333PDBVR/7593927?s=N4IgTCBcDaICoBkBqB2ALAZiwBQCICEkQBdAXyA"
-				(at -0.254 15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Texas Instruments"
-				(at -0.762 28.194 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "TLV74333PDBVR"
-				(at -0.254 30.988 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LDO_3.3Vout_300mA_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LDO_3.3Vout_300mA_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3581,6 +2779,257 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "project_symbols:ADC-002-1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 4.826 4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADC-002-1"
+				(at 4.826 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:JACK_ADC-002-x_ADM"
+				(at -6.35 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203725/adc-002-x-data-sheet.pdf"
+				(at -5.334 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack 2mm ID 6.4mm OD"
+				(at 2.032 19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/ADC-002-1/21710741"
+				(at 0.254 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Adam Tech"
+				(at 0.254 25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "ADC-002-1"
+				(at 0.254 29.464 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ADC-002-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "JACK_ADC-002-x_ADM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADC-002-1_0_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 2.54 -6.35) (xy 3.81 -5.08) (xy 5.08 -6.35) (xy 7.62 -6.35) (xy 10.16 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 -1.905)
+					(mid 1.1457 -1.27)
+					(end 1.778 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 -1.905)
+					(mid 1.1457 -1.27)
+					(end 1.778 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -6.096) (xy 6.985 -5.461)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.763 -0.635)
+					(end 1.778 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 8.89 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 6.35 -3.81) (xy 6.35 -6.096) (xy 5.715 -5.461)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADC-002-1_1_1"
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 165.1 95.25)
@@ -4141,7 +3590,7 @@
 		(uuid "839d91e3-529e-42d7-bd13-697bcd8d999a")
 	)
 	(junction
-		(at 171.45 121.92)
+		(at 170.18 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87acde6d-5b62-4677-a047-c1acddb8795e")
@@ -4337,6 +3786,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa5ed422-18a2-4a45-9e7d-521e4991924c")
+	)
+	(no_connect
+		(at 181.61 121.92)
+		(uuid "4801f484-0ad6-47ed-b9ac-987e52c5bf5b")
+	)
+	(no_connect
+		(at 182.88 109.22)
+		(uuid "a0c780d6-9e36-4cb1-8e9d-5d4516567fb0")
 	)
 	(wire
 		(pts
@@ -5610,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 184.15 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8290c298-de90-4ac6-9e16-e558c0da2541")
-	)
-	(wire
-		(pts
 			(xy 72.39 184.15) (xy 72.39 180.34)
 		)
 		(stroke
@@ -5790,6 +5237,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9387d931-afbf-4dbc-9fc2-e77b2736a8fe")
+	)
+	(wire
+		(pts
 			(xy 201.93 109.22) (xy 201.93 115.57)
 		)
 		(stroke
@@ -5890,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 121.92) (xy 182.88 121.92)
+			(xy 170.18 124.46) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5957,6 +5414,16 @@
 			(type default)
 		)
 		(uuid "a1819c96-5c94-42a4-a023-576f451ebd99")
+	)
+	(wire
+		(pts
+			(xy 175.26 111.76) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32913d1-4a02-4a73-b21b-f73ecc1e5a65")
 	)
 	(wire
 		(pts
@@ -6130,16 +5597,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e55c28-5037-4c09-92b1-ad3a71524ba9")
-	)
-	(wire
-		(pts
 			(xy 257.81 33.02) (xy 257.81 31.75)
 		)
 		(stroke
@@ -6210,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 124.46) (xy 171.45 121.92)
+			(xy 170.18 127) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6770,7 +6227,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 171.45 134.62)
+			(xy 170.18 134.62) (xy 170.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6931,113 +6388,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cotti_power:Buck_5.5Vin_1A")
-		(at 44.45 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036be28a-dd91-47d2-a868-d240a545127d")
-		(property "Reference" "U3"
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62A01APDDCR"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
-			(at 46.482 -0.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62a01a.pdf"
-			(at 44.704 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 1A"
-			(at 39.878 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS62A01APDDCR/24708516"
-			(at 40.894 10.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 43.942 9.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TPS62A01APDDCR"
-			(at 43.942 5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34da226e-db12-4d5c-92b3-780ddc4d111c")
-		)
-		(pin "1"
-			(uuid "1e9d6e08-bbc4-4bf8-a318-2138436e6959")
-		)
-		(pin "4"
-			(uuid "0331bff8-352a-4eba-9458-b32ce31ccaea")
-		)
-		(pin "5"
-			(uuid "5f550e8f-401d-44a2-bd18-9e2d1d3a7158")
-		)
-		(pin "6"
-			(uuid "58c3ccd4-03ab-4f37-b07f-c918fc195ec5")
-		)
-		(pin "3"
-			(uuid "b0dbc514-1370-4e53-bc43-2b034ed7336a")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7441,6 +6791,111 @@
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
+		(at 101.6 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e574d82-fa08-4832-bc70-536bd63a86a1")
+		(property "Reference" "U2"
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74333PDBVR"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 101.6 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74333PDBVR/7593927?s=N4IgTCBcDaICoBkBqB2ALAZiwBQCICEkQBdAXyA"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TLV74333PDBVR"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec1647e-882f-4f21-ae65-9b0f780cb14e")
+		)
+		(pin "3"
+			(uuid "cbcaee75-9c97-459f-af6a-b89c389a602c")
+		)
+		(pin "4"
+			(uuid "2fba6b7b-7b51-4188-b518-a59382b2ba10")
+		)
+		(pin "5"
+			(uuid "0c1f2e52-d399-4c3e-9cd9-9d269738ed06")
+		)
+		(pin "2"
+			(uuid "fe71ddb3-4ab0-420a-a1ec-f886bccc94fd")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7922,6 +7377,113 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_power:Buck 5.5V 1A")
+		(at 36.83 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163bec87-05dc-4717-a7ad-2db27974c352")
+		(property "Reference" "U5"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62A01APDDCR"
+			(at 44.45 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+			(at 39.37 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62a01a.pdf"
+			(at 37.592 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 1A"
+			(at 32.766 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS62A01APDDCR/24708516"
+			(at 33.782 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 36.83 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TPS62A01APDDCR"
+			(at 36.83 10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "76eb1e79-f007-4d38-825a-35a74cc8cc1e")
+		)
+		(pin "1"
+			(uuid "17d9fbef-944d-4cde-a271-4baaefde773d")
+		)
+		(pin "5"
+			(uuid "6da6c0d9-c997-4778-8fe7-122c007eb06c")
+		)
+		(pin "2"
+			(uuid "f8953b56-cff6-4356-a5cd-54550d01d2b6")
+		)
+		(pin "3"
+			(uuid "4851b91e-ddd0-4969-9752-cc310cbec1c0")
+		)
+		(pin "6"
+			(uuid "72eca72f-ef1e-4c6e-afde-9ab8e9998c32")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 39.37 0)
 		(unit 1)
@@ -8058,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 171.45 129.54 0)
+		(at 170.18 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8067,7 +7629,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d2be1e8-8537-418f-87ce-be868d26a2af")
 		(property "Reference" "BT1"
-			(at 175.26 126.4284 0)
+			(at 173.99 128.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +7638,7 @@
 			)
 		)
 		(property "Value" "CR2032  (3V)"
-			(at 175.26 128.9684 0)
+			(at 173.99 131.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 128.016 90)
+			(at 170.18 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +7656,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7568/BH-25C-1.pdf"
-			(at 171.45 128.016 90)
+			(at 170.18 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Battery Holder (Open) Coin, 20.0mm 1 Cell PC Pin"
-			(at 171.45 129.54 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +7674,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/BH-25C-1/13537703"
-			(at 171.45 129.54 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +7683,7 @@
 			)
 		)
 		(property "Mfr." "Adam Tech"
-			(at 171.45 129.54 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +7692,7 @@
 			)
 		)
 		(property "Mfr. P/N" "BH-25C-1"
-			(at 171.45 129.54 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,6 +7845,111 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
+		(at 101.6 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9cea41-ffbc-4fbc-a0da-e21298a36a2a")
+		(property "Reference" "U11"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74333PDBVR"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 101.6 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74333PDBVR/7593927?s=N4IgTCBcDaICoBkBqB2ALAZiwBQCICEkQBdAXyA"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TLV74333PDBVR"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cc1a883-91ee-4ede-8d84-9519d7071927")
+		)
+		(pin "3"
+			(uuid "8923f177-0799-4b3b-ba19-5fba97160c60")
+		)
+		(pin "4"
+			(uuid "17302604-bae5-4ca1-9802-18d08420fed9")
+		)
+		(pin "5"
+			(uuid "276c8ece-c311-44b3-9a16-b6d23eda4dee")
+		)
+		(pin "2"
+			(uuid "18d4724e-f243-41a0-958e-30feee17f187")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8682,6 +8349,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 113.03 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4b93aa-63c0-40f6-bed2-571c800bfa71")
+		(property "Reference" "D1"
+			(at 113.3475 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 113.3475 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77120331-96ce-4916-ab19-ea229d52f638")
+		)
+		(pin "1"
+			(uuid "ffdffcce-9a90-4146-9602-15742117db73")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 109.22 26.67 270)
 		(unit 1)
@@ -9018,109 +8753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_ic:comparator_push_pull_5V")
-		(at 46.99 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "398645ab-8c74-485c-bad6-ced078231c2b")
-		(property "Reference" "U7"
-			(at 57.404 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6541UT-E/OT"
-			(at 57.404 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 45.72 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6541-Output-Sub-Microamp-Comparators-DS20001696.pdf"
-			(at 48.514 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Comparator Standard (General Purpose) CMOS, Push-Pull, Rail-to-Rail, TTL SOT-23-5"
-			(at 46.228 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6541UT-E-OT/857498"
-			(at 49.022 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Microchip Technology"
-			(at 47.498 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "MCP6541UT-E/OT"
-			(at 45.974 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e79627df-8188-4f8d-b345-9944a865766b")
-		)
-		(pin "2"
-			(uuid "da4db8cd-48db-4819-af0e-5344d01c9cfc")
-		)
-		(pin "5"
-			(uuid "210d60dc-d02d-40c0-bba2-483ebcae933f")
-		)
-		(pin "3"
-			(uuid "dd7508d2-64c6-4576-ba8b-ca290a7efbea")
-		)
-		(pin "4"
-			(uuid "29605c3e-b6f9-4acb-8873-93da3ab4ca12")
-		)
-		(instances
-			(project "nuvoton_nuc980"
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 95.25 33.02 0)
 		(unit 1)
@@ -9391,6 +9023,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f60ab22-af47-4f7f-ad34-b3dde64c28e5")
+		(property "Reference" "U3"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74312PDBVR"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 41.91 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 1.2V 300MA SOT23-5"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74312PDBVR/7593920"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TLV74312PDBVR"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f5f8d1f-27ec-4a5f-97e2-c90e086d24a4")
+		)
+		(pin "3"
+			(uuid "83d89bc0-64e2-463a-80a3-11d2edc57c10")
+		)
+		(pin "4"
+			(uuid "e4b5d1aa-66a4-4e89-aa47-c2ceff9291fc")
+		)
+		(pin "5"
+			(uuid "2d2b665a-792b-4bb6-9e18-ebb7308d3e90")
+		)
+		(pin "2"
+			(uuid "3714afdd-79b7-46b6-95ab-0981ca6ed254")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 194.31 26.67 0)
 		(unit 1)
@@ -9520,101 +9257,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cotti_passives:diode_schottky_500mV_1A")
-		(at 113.03 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fdf0bad-c475-4517-8947-eb53309b7730")
-		(property "Reference" "D1"
-			(at 113.3475 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS12"
-			(at 113.3475 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 112.268 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6778/5399_SS12%20SMA.PDF"
-			(at 112.776 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 20 V 1A Surface Mount DO-214AC (SMA)"
-			(at 113.284 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SS12/21853083"
-			(at 117.094 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Shenzhen Slkormicro Semicon Co., Ltd."
-			(at 114.3 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "SS12"
-			(at 113.03 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb20f10e-e3ae-4a16-b66b-57d87859b088")
-		)
-		(pin "1"
-			(uuid "3bc0541e-0023-43cc-acc8-be8a16f9c32c")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9812,104 +9454,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cotti_passives:diode_schottky_370mV_30mA")
-		(at 186.69 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441f2923-d8bc-48c4-abfd-0fd65f4c8884")
-		(property "Reference" "D4"
-			(at 187.0075 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDMG0340L-7-F"
-			(at 187.0075 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 186.436 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30248.pdf"
-			(at 187.96 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE SCHOTTKY 40V 30MA SOT323"
-			(at 186.69 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDMG0340L-7-F/814724"
-			(at 185.42 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Diodes Incorporated"
-			(at 186.436 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "SDMG0340L-7-F"
-			(at 186.69 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8d1a7530-ce40-4e75-97e1-4f8cd61f65b8")
-		)
-		(pin "1"
-			(uuid "585d2cd6-186d-4256-ab7f-efe917a525dd")
-		)
-		(pin "2"
-			(uuid "e131ef0c-b221-46aa-9285-797f8400f58e")
-		)
-		(instances
-			(project "nuvoton_nuc980"
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10523,110 +10067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_power:LDO_1.8Vout_300mA")
-		(at 97.79 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ede1e81-a96d-4c6c-93aa-51feec7c584c")
-		(property "Reference" "U13"
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74318PDBVR"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 98.806 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-			(at 99.568 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 1.8V 300MA SOT23-5"
-			(at 98.298 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74318PDBVR/7593922?s=N4IgTCBcDaICoBkBqB2ALAZgIwA4AKAIgEJIgC6AvkA"
-			(at 97.536 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 97.028 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TLV74318PDBVR"
-			(at 97.536 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03509fda-701a-4e35-a7f7-b038cbed99c5")
-		)
-		(pin "5"
-			(uuid "c5257b66-cfbf-4c46-b238-2d33cb9b4c54")
-		)
-		(pin "2"
-			(uuid "ec91278b-b6c0-4045-aa45-c513ff8c6736")
-		)
-		(pin "4"
-			(uuid "b77688b6-9f91-4580-a9f0-aeff90a7d81a")
-		)
-		(pin "3"
-			(uuid "0dff584f-40e0-44f4-87ad-6abd99ac3e56")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 162.56 170.18 0)
 		(unit 1)
@@ -10893,110 +10333,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cotti_power:LDO_3.3Vout_300mA")
-		(at 101.6 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "559f2459-9f5c-4706-bf4e-2224bed69ac5")
-		(property "Reference" "U2"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74333PDBVR"
-			(at 101.6 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 102.616 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-			(at 103.378 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
-			(at 102.108 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74333PDBVR/7593927?s=N4IgTCBcDaICoBkBqB2ALAZiwBQCICEkQBdAXyA"
-			(at 101.346 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 100.838 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TLV74333PDBVR"
-			(at 101.346 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a5b72b1f-d5b6-410c-ba7f-775762023ada")
-		)
-		(pin "5"
-			(uuid "dbb457ec-3d1f-49bb-9989-0c3e8d96280e")
-		)
-		(pin "2"
-			(uuid "3971d266-3ce2-401c-bf80-64265e19fbc8")
-		)
-		(pin "1"
-			(uuid "21fb9f87-9cba-4a9c-8a75-be7eb0e37c8d")
-		)
-		(pin "3"
-			(uuid "617dabd5-148e-4357-b7d3-2e8bb41770f0")
-		)
-		(instances
-			(project "nuvoton_nuc980"
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11869,110 +11205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_power:LDO_1.2Vout_300mA")
-		(at 41.91 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "702e676f-7c1c-4b7d-bc29-00e627431f8f")
-		(property "Reference" "U11"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74312PDBVR"
-			(at 41.91 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 42.926 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-			(at 43.688 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 1.2V 300MA SOT23-5"
-			(at 42.418 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74312PDBVR/7593920"
-			(at 41.656 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 41.148 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TLV74312PDBVR"
-			(at 41.656 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "93e907c5-cc14-4462-928f-e4509e62e499")
-		)
-		(pin "1"
-			(uuid "9d8bcd04-dbde-4150-81a9-7cc7642f1b73")
-		)
-		(pin "4"
-			(uuid "f25d1ac8-6e6e-42f5-8fbc-2ba08bbd95a2")
-		)
-		(pin "2"
-			(uuid "4343f332-5617-46ca-94f0-5d58ef206c91")
-		)
-		(pin "5"
-			(uuid "fa5d7440-a0c1-4dd8-af77-5008972c7d0e")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 72.39 176.53 0)
 		(unit 1)
@@ -12180,8 +11412,108 @@
 		)
 	)
 	(symbol
+		(lib_id "project_symbols:ADC-002-1")
+		(at 85.09 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788e8257-d97b-4671-bf6e-ab2f2ad5c86f")
+		(property "Reference" "J1"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADC-002-1"
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:JACK_ADC-002-x_ADM"
+			(at 78.74 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203725/adc-002-x-data-sheet.pdf"
+			(at 79.756 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack 2mm ID 6.4mm OD"
+			(at 87.122 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/ADC-002-1/21710741"
+			(at 85.344 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 85.344 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "ADC-002-1"
+			(at 85.344 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9455fcba-ef06-4cc1-bd96-7184b5dd03fa")
+		)
+		(pin "1"
+			(uuid "83b00946-802b-4a2b-b75b-2c81c5642d31")
+		)
+		(pin "2"
+			(uuid "1f1abd2d-3aa5-4ee7-8a0a-6d1f82760385")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 171.45 134.62 0)
+		(at 170.18 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12190,7 +11522,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b70d08e-bdfd-4402-afdd-557ce816f6fb")
 		(property "Reference" "#PWR043"
-			(at 171.45 140.97 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +11531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 139.7 0)
+			(at 170.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +11539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 134.62 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +11548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 134.62 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +11557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 134.62 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,112 +12385,8 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_power:LDO_3.3Vout_300mA")
-		(at 101.6 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d6855ce-8f6b-4e56-a94d-130fdae119ce")
-		(property "Reference" "U4"
-			(at 101.6 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV74333PDBVR"
-			(at 101.6 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 102.616 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
-			(at 103.378 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
-			(at 102.108 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74333PDBVR/7593927?s=N4IgTCBcDaICoBkBqB2ALAZiwBQCICEkQBdAXyA"
-			(at 101.346 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 100.838 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TLV74333PDBVR"
-			(at 101.346 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1444c112-1e3a-4cbd-97c4-59d26421f39b")
-		)
-		(pin "5"
-			(uuid "bb0ac399-25f0-445f-ae65-f837c304da28")
-		)
-		(pin "2"
-			(uuid "0b6162cf-1d7d-4ba1-88fb-c2094e16b6bc")
-		)
-		(pin "1"
-			(uuid "557ec724-21f1-4799-8b30-74a2b7d96f9b")
-		)
-		(pin "3"
-			(uuid "39ef8997-afa3-4a12-a74a-c33bc9c24ef3")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 171.45 121.92 0)
+		(at 170.18 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13166,7 +12394,7 @@
 		(dnp no)
 		(uuid "8eba5517-6c96-4ee2-89f5-853d991dde0c")
 		(property "Reference" "TP13"
-			(at 171.45 117.094 90)
+			(at 170.18 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +12403,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.7199 116.84 90)
+			(at 171.4499 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +12413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 121.92 0)
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,7 +12422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 121.92 0)
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13203,7 +12431,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 121.92 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,104 +13400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_passives:diode_schottky_370mV_30mA")
-		(at 187.96 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5412c53-ed30-42a8-96e0-d4a760a59c63")
-		(property "Reference" "D3"
-			(at 188.2775 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDMG0340L-7-F"
-			(at 188.2775 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 187.706 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30248.pdf"
-			(at 189.23 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE SCHOTTKY 40V 30MA SOT323"
-			(at 187.96 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDMG0340L-7-F/814724"
-			(at 186.69 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Diodes Incorporated"
-			(at 187.706 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "SDMG0340L-7-F"
-			(at 187.96 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0a289fad-1c9c-4e18-96a4-3290e5dd2f42")
-		)
-		(pin "1"
-			(uuid "0586e9f9-8ec5-4e4c-9fb9-a3e53f2f263e")
-		)
-		(pin "2"
-			(uuid "854db40d-bfed-4274-ab60-5e074d6c3795")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 228.6 55.88 0)
 		(unit 1)
@@ -14401,6 +13531,111 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
+		(at 97.79 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b724bc4f-88a7-4671-a4b4-06b603f0c360")
+		(property "Reference" "U4"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74318PDBVR"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 97.79 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv743p"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 1.8V 300MA SOT23-5"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV74318PDBVR/7593922?s=N4IgTCBcDaICoBkBqB2ALAZgIwA4AKAIgEJIgC6AvkA"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TLV74318PDBVR"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adc3f0f5-39a7-4599-8fd4-545bcdf288e3")
+		)
+		(pin "3"
+			(uuid "6f9125fa-ca3f-46d2-ba8c-446894393cd4")
+		)
+		(pin "4"
+			(uuid "b5b119e0-2110-4fce-b539-fade7dd758b0")
+		)
+		(pin "5"
+			(uuid "84a1cd28-85e1-45b5-ad8b-5e71fc686b9c")
+		)
+		(pin "2"
+			(uuid "3843210e-2cfc-4b04-a36b-19724a693df5")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15220,6 +14455,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:MCP6561U")
+		(at 48.26 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cecbcb6b-36cf-44fa-8d79-96a2139c8c34")
+		(property "Reference" "U8"
+			(at 59.69 143.4398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6561U"
+			(at 59.69 145.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC COMPARATOR GEN PUR 1 SOT23-5"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/3peak/LMV331X-S5TR/24397045"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "3PEAK"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "LMV331X-S5TR"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "49cb2c9f-8849-476c-ad31-0eb271575c68")
+		)
+		(pin "2"
+			(uuid "dd6b741a-35bf-4414-8a1c-67222df6acb2")
+		)
+		(pin "3"
+			(uuid "9fb2d29e-e962-43ac-ae7d-0e19cc200ef1")
+		)
+		(pin "1"
+			(uuid "aa51c8f7-adee-4fad-899b-c3714abe3f3e")
+		)
+		(pin "4"
+			(uuid "78fc9962-d76c-44a9-b831-f1b5411b364e")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 270.51 105.41 0)
 		(unit 1)
@@ -15284,6 +14623,104 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AAK")
+		(at 186.69 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0e0c6bd-acda-4895-afe6-85592d99722e")
+		(property "Reference" "D4"
+			(at 185.801 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDMG0340L-7-F"
+			(at 185.801 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30248.pdf"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 30MA SOT323"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDMG0340L-7-F/814724"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Diodes Incorporated"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "SDMG0340L-7-F"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c602839a-0ccc-495e-aae4-499ad8882644")
+		)
+		(pin "1"
+			(uuid "4242c399-61b3-4727-a04c-1d4858f4161a")
+		)
+		(pin "2"
+			(uuid "6d5b691d-747e-4a25-8062-b1b371c636d3")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15557,53 +14994,33 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_connectors:DC_Barrel_Jack_2x6.4mm")
-		(at 85.09 71.12 0)
+		(lib_id "Comparator:MCP6561U")
+		(at 48.26 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dda88ea8-06c4-4ba6-9d05-c9fcc7b3c65b")
-		(property "Reference" "J1"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ADC-002-1"
-			(at 90.17 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "cotti_footprints:ADC-002-1"
-			(at 78.74 59.182 0)
+		(uuid "d8bb4fa1-58e0-4f6e-9924-c0ce2dd24f00")
+		(property "Reference" "U7"
+			(at 59.69 101.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203725/adc-002-x-data-sheet.pdf"
-			(at 79.756 55.372 0)
+		(property "Value" "MCP6561U"
+			(at 59.69 104.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "DC Barrel Jack 2mm ID 6.4mm OD"
-			(at 87.122 51.308 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,8 +15028,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/ADC-002-1/21710741"
-			(at 85.344 47.752 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,8 +15037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Adam Tech"
-			(at 85.344 45.212 0)
+		(property "Description" "IC COMPARATOR GEN PUR 1 SOT23-5"
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15629,8 +15046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "ADC-002-1"
-			(at 85.344 41.656 0)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/3peak/LMV331X-S5TR/24397045"
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,19 +15055,43 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e11d02bc-18ce-451b-b0bd-abbea7d0e62c")
+		(property "Mfr." "3PEAK"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "LMV331X-S5TR"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b216452a-df43-403a-a729-28f067e1cfeb")
 		)
 		(pin "2"
-			(uuid "8225d638-bb7d-41cd-8407-65d0ea647131")
+			(uuid "95496fb2-70c4-45f5-9e28-6b9d1557c8ee")
 		)
 		(pin "3"
-			(uuid "f9fb7ae7-1169-4fc0-ba52-d45443899f3c")
+			(uuid "fa41f911-c393-4aee-b50f-d31eae838407")
+		)
+		(pin "1"
+			(uuid "9ba7f638-b708-4173-a197-068d5a779054")
+		)
+		(pin "4"
+			(uuid "f90af039-4185-4931-9669-9f51e06904a8")
 		)
 		(instances
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "J1")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -16606,6 +16047,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_AAK")
+		(at 187.96 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a658b1-f83a-4b61-acf0-c6fc943397bc")
+		(property "Reference" "D3"
+			(at 187.071 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDMG0340L-7-F"
+			(at 187.071 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30248.pdf"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 30MA SOT323"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/SDMG0340L-7-F/814724"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Diodes Incorporated"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "SDMG0340L-7-F"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b36a5664-3dca-4ab6-bb92-a275b1fdec95")
+		)
+		(pin "1"
+			(uuid "a1d90195-d536-446c-abc1-5d4453db3a02")
+		)
+		(pin "2"
+			(uuid "bbad6a86-fecc-4655-84c9-14502214cad5")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 29.21 97.79 0)
 		(unit 1)
@@ -16730,110 +16269,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "comparator_push_pull_5V_1")
-		(lib_id "cotti_ic:comparator_push_pull_5V")
-		(at 46.99 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa0c2dca-ae89-42c4-bb9e-cb552a1f1753")
-		(property "Reference" "U5"
-			(at 57.404 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6541UT-E/OT"
-			(at 57.404 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 45.72 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6541-Output-Sub-Microamp-Comparators-DS20001696.pdf"
-			(at 48.514 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Comparator Standard (General Purpose) CMOS, Push-Pull, Rail-to-Rail, TTL SOT-23-5"
-			(at 46.228 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6541UT-E-OT/857498"
-			(at 49.022 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Microchip Technology"
-			(at 47.498 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "MCP6541UT-E/OT"
-			(at 45.974 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "989f8373-c5ef-4ca3-b130-005ca49a8d19")
-		)
-		(pin "2"
-			(uuid "96e6600e-af73-4afe-86e0-d5aa88a996d2")
-		)
-		(pin "5"
-			(uuid "4ef0fb55-c9f9-482d-808c-8aeb0a5f9028")
-		)
-		(pin "3"
-			(uuid "475bf201-f62d-4463-935c-65bcd00ad436")
-		)
-		(pin "4"
-			(uuid "b837746f-65e8-4767-9df9-936a4db29464")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/39ed1306-6884-4f4c-a803-218e64c1af21"
-					(reference "U5")
 					(unit 1)
 				)
 			)

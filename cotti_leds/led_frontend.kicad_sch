@@ -5,189 +5,6 @@
 	(uuid "5929635b-6290-47d9-a94d-8bec5ea918fa")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -361,42 +178,35 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "cotti_leds:LED_Red_SMD"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q6"
-				(at 6.35 1.2701 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 6.35 -1.2699 0)
+			(property "Value" "Red Vf=2V If=10mA"
+				(at 0.508 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/2N7002K.pdf"
-				(at 0 -12.7 0)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -404,8 +214,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET, N-CH, SINGLE, 0.3A, 60V,"
-				(at 0.762 -25.908 0)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3694/B1911USD-20D000114U1930.pdf"
+				(at 2.54 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -413,8 +223,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
+			(property "Description" "Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+				(at 0.508 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -422,8 +232,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/harvatek-corporation/B1911USD-20D000114U1930/15519991"
+				(at 1.524 20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -431,8 +241,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
+			(property "Mfr." "Harvatek Corporation"
+				(at 0.254 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -440,8 +250,8 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
-				(at -0.254 -29.21 0)
+			(property "Mfr. P/N" "B1911USD-20D000114U1930"
+				(at 1.016 23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -449,34 +259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey P/N" "4786-2N7002KCT-ND"
-				(at 0.508 -35.052 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Good-Ark Semiconductor"
-				(at -0.254 -31.496 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "2N7002K"
-				(at 0 -38.354 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -485,7 +268,209 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Red_SMD_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Red_SMD_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cotti_transistors:2N7002K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002K"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0.508 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/2N7002K.pdf"
+				(at 3.556 20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NMOS Kp=2.13A/V²; Vth=1.5V; Imax=0.3A; Vmax=60V"
+				(at 1.016 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
+				(at 1.524 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Good-Ark Semiconductor"
+				(at -0.508 26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "2N7002K"
+				(at 0 28.448 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002K_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -629,7 +614,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -652,7 +637,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "2N7002K_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -710,15 +695,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
+		(symbol "cotti_transistors:RE1C001ZPTL"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
-				(at 6.35 -1.2701 0)
+			(property "Reference" "Q"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -726,8 +714,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS Kp=0.2A/V² |Vth|=0.8V"
-				(at 6.35 1.2699 0)
+			(property "Value" "RE1C001ZPTL"
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -736,7 +724,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-				(at 1.27 -23.114 0)
+				(at -0.254 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -745,7 +733,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001ZP&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-				(at 0 -12.7 0)
+				(at 2.286 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -753,35 +741,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET P-CH 20V 100MA EMT3F"
-				(at 2.794 -27.686 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
+			(property "Description" "PMOS Kp=0.2A/V²; |Vth|=0.8V; Imax=100mA; Vmax=20V"
+				(at -0.254 20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -790,16 +751,7 @@
 				)
 			)
 			(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001ZPTL/5042784"
-				(at 2.54 -31.496 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "RE1C001ZPTLCT-ND"
-				(at 2.032 -37.846 0)
+				(at -0.254 23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -808,7 +760,7 @@
 				)
 			)
 			(property "Mfr." "Rohm Semiconductor"
-				(at 2.794 -34.29 0)
+				(at -0.762 30.988 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -817,7 +769,7 @@
 				)
 			)
 			(property "Mfr. P/N" "RE1C001ZPTL"
-				(at 0.508 -40.64 0)
+				(at -0.254 34.036 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -825,7 +777,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "ki_keywords" "PMOS P-MOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -834,19 +786,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "RE1C001ZPTL_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -861,7 +801,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.254 -1.905) (xy 0.254 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -873,7 +813,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -885,19 +849,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -920,7 +872,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -932,7 +884,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -966,7 +918,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -978,7 +930,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -990,7 +942,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1001,7 +953,7 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
+			(symbol "RE1C001ZPTL_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1023,14 +975,14 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,14 +993,14 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1175,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 57.15) (xy 148.59 59.69)
+			(xy 152.4 57.15) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 148.59 69.85)
+			(xy 152.4 67.31) (xy 152.4 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 140.97 86.36)
+			(xy 137.16 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 148.59 81.28)
+			(xy 152.4 77.47) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 148.59 105.41)
+			(xy 152.4 91.44) (xy 152.4 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1337,7 +1289,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 148.59 57.15 90)
+		(at 152.4 57.15 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1358,17 +1310,17 @@
 		(uuid "9247635b-d3c2-4311-9b45-b55d074403d6")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 146.05 86.36 0)
-		(mirror x)
+		(lib_id "cotti_transistors:2N7002K")
+		(at 134.62 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "16d2c493-faf9-4bd3-bb30-aa433e7ef699")
+		(fields_autoplaced yes)
+		(uuid "00ce81b1-b30c-4d42-8f96-3df43c19c042")
 		(property "Reference" "Q1"
-			(at 152.4 85.0899 0)
+			(at 140.97 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,8 +1328,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS Kp=0.2A/V² |Vth|=0.8V"
-			(at 152.4 87.6299 0)
+		(property "Value" "2N7002K"
+			(at 140.97 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,8 +1337,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:local_SOT-416"
-			(at 147.32 63.246 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 135.128 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,8 +1346,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001ZP&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 146.05 73.66 0)
+		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/2N7002K.pdf"
+			(at 138.176 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,8 +1355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET P-CH 20V 100MA EMT3F"
-			(at 148.844 58.674 0)
+		(property "Description" "NMOS Kp=2.13A/V²; Vth=1.5V; Imax=0.3A; Vmax=60V"
+			(at 135.636 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,8 +1364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 146.05 69.215 0)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
+			(at 136.144 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,8 +1373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 146.05 67.31 0)
+		(property "Mfr." "Good-Ark Semiconductor"
+			(at 134.112 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,8 +1382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 146.05 71.12 0)
+		(property "Mfr. P/N" "2N7002K"
+			(at 134.62 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,8 +1391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001ZPTL/5042784"
-			(at 148.59 54.864 0)
+		(property "Digiket P/N" ""
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,8 +1400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RE1C001ZPTLCT-ND"
-			(at 148.082 48.514 0)
+		(property "Sim.Device" ""
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,8 +1409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 148.844 52.07 0)
+		(property "Sim.Pins" ""
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,8 +1418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "RE1C001ZPTL"
-			(at 146.558 45.72 0)
+		(property "Sim.Type" ""
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,16 +1428,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "65b94a05-1757-46e8-922f-b0f1b90fc321")
-		)
-		(pin "1"
-			(uuid "3d84b734-fa53-4ec4-b351-dd13cbf9ce44")
+			(uuid "8b45caca-83b0-4204-9754-1d563f044006")
 		)
 		(pin "3"
-			(uuid "fbeba66f-2815-4708-820e-a4c2326e444d")
+			(uuid "3e15d16a-b835-4f7f-980b-c8c1f2d588bc")
+		)
+		(pin "1"
+			(uuid "fabdf332-2134-4669-9b4b-ec61daa68281")
 		)
 		(instances
-			(project "cotti_leds"
+			(project ""
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
 					(reference "Q5")
 					(unit 1)
@@ -1515,7 +1467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d5530d-81ca-472e-a1d4-babcb0d7ae19")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 125.73 97.7899 0)
 			(effects
 				(font
@@ -1569,15 +1521,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0805FG100KCT-ND"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr." "Stackpole Electronics Inc"
 			(at 123.19 99.06 0)
 			(effects
@@ -1596,6 +1539,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digiket P/N" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9b511da-6d18-47f4-87b7-fa3ed080b71f")
 		)
@@ -1605,19 +1584,19 @@
 		(instances
 			(project "cotti_leds"
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
 					(reference "R11")
 					(unit 1)
 				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
+					(reference "R5")
+					(unit 1)
+				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
-					(reference "R20")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1633,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "288ebcb6-3491-4e21-a54b-ee9382181d1c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -1687,11 +1666,11 @@
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
@@ -1702,8 +1681,153 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_leds:LED_Red_SMD")
+		(at 152.4 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5a121c-b042-41ec-a188-b694a6eabf63")
+		(property "Reference" "D1"
+			(at 156.21 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red Vf=2V If=10mA"
+			(at 156.21 76.5174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 139.446 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3694/B1911USD-20D000114U1930.pdf"
+			(at 135.382 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 143.256 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/harvatek-corporation/B1911USD-20D000114U1930/15519991"
+			(at 132.334 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Harvatek Corporation"
+			(at 126.492 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "B1911USD-20D000114U1930"
+			(at 129.286 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digiket P/N" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6098344-3f14-464c-825d-3c492b37ae17")
+		)
+		(pin "2"
+			(uuid "be19ac97-5ee8-4e6a-8aea-dbde7251a790")
+		)
+		(instances
+			(project "cotti_leds"
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 148.59 105.41 0)
+		(at 152.4 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1711,8 +1835,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ba0b55-d75f-4c80-904f-10b0861fd00e")
-		(property "Reference" "#PWR03"
-			(at 148.59 111.76 0)
+		(property "Reference" "#PWR07"
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 110.49 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 105.41 0)
+			(at 152.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 105.41 0)
+			(at 152.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 105.41 0)
+			(at 152.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,11 +1889,11 @@
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
@@ -1781,7 +1905,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 148.59 63.5 0)
+		(at 152.4 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1789,8 +1913,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56be1d96-6d88-4522-a51b-5893e1ab92e8")
-		(property "Reference" "R9"
-			(at 151.13 62.2299 0)
+		(property "Reference" "R7"
+			(at 154.94 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1923,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 151.13 64.7699 0)
+			(at 154.94 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1932,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 149.606 63.754 90)
+			(at 153.416 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 148.59 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1950,7 @@
 			)
 		)
 		(property "Description" "RES 22 OHM 1% 1/8W 0805"
-			(at 148.59 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,16 +1959,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT22R0/1712862"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RMCF0805FT22R0CT-ND"
-			(at 148.59 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1968,7 @@
 			)
 		)
 		(property "Mfr." "Stackpole Electronics Inc"
-			(at 148.59 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1977,43 @@
 			)
 		)
 		(property "Mfr. P/N" "RMCF0805FT22R0"
-			(at 148.59 63.5 0)
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digiket P/N" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,19 +2030,19 @@
 		(instances
 			(project "cotti_leds"
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1907,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd2450a-09b2-4147-8ba2-d10a4ae9461f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 123.19 111.76 0)
 			(effects
 				(font
@@ -1961,15 +2112,163 @@
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001ZPTL")
+		(at 149.86 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734891e5-f32a-42e8-aa38-ea15cbb9313a")
+		(property "Reference" "Q2"
+			(at 156.21 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001ZPTL"
+			(at 156.21 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 149.606 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001ZP&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 152.146 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMOS Kp=0.2A/V²; |Vth|=0.8V; Imax=100mA; Vmax=20V"
+			(at 149.606 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001ZPTL/5042784"
+			(at 149.606 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 149.098 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001ZPTL"
+			(at 149.606 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digiket P/N" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a87a3bc7-9f70-4f75-bfa6-949e9693fccc")
+		)
+		(pin "1"
+			(uuid "ffa747b3-9047-40ff-8d46-aee756a87c3c")
+		)
+		(pin "3"
+			(uuid "5f0ad249-0fd8-4266-b938-455f5464a803")
+		)
+		(instances
+			(project ""
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -1985,7 +2284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83455b20-6547-4e87-b113-fd50d558987a")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 139.7 62.2299 0)
 			(effects
 				(font
@@ -2039,15 +2338,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0805FG100KCT-ND"
-			(at 137.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr." "Stackpole Electronics Inc"
 			(at 137.16 63.5 0)
 			(effects
@@ -2066,6 +2356,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digiket P/N" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40eab2bf-aec0-40e6-a336-5bcea10a3c18")
 		)
@@ -2075,293 +2401,19 @@
 		(instances
 			(project "cotti_leds"
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 134.62 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "975741fc-ba98-4800-9855-cac7ee1e77ac")
-		(property "Reference" "Q2"
-			(at 140.97 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 140.97 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 135.636 116.332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://goodarksemi.com/docs/datasheets/mosfets/2N7002K.pdf"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET, N-CH, SINGLE, 0.3A, 60V,"
-			(at 135.382 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 134.62 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 134.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 134.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/good-ark-semiconductor/2N7002K/18667796"
-			(at 134.366 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "4786-2N7002KCT-ND"
-			(at 135.128 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Good-Ark Semiconductor"
-			(at 134.366 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "2N7002K"
-			(at 134.62 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "125e511b-22cd-45bb-bbdf-0e22d8648545")
-		)
-		(pin "2"
-			(uuid "314cdf00-21ac-45ac-80e3-192ea924ef6c")
-		)
-		(pin "3"
-			(uuid "17fc2c27-3413-4bcc-890c-22efe8d20ceb")
-		)
-		(instances
-			(project "cotti_leds"
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 148.59 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0556f44-f38a-47e3-a430-f67a053b6ab5")
-		(property "Reference" "D1"
-			(at 152.4 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Green Vf=2V If=0-20mA"
-			(at 152.4 76.5174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3777/B1911PG--20D000514U1930.pdf"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green 562nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/harvatek-corporation/B1911PG-20D000514U1930/15519992"
-			(at 148.59 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "3147-B1911PG--20D000514U1930CT-ND"
-			(at 148.59 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Harvatek Corporation"
-			(at 148.59 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "B1911PG--20D000514U1930"
-			(at 148.59 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de7ab389-9fbf-4a2c-9755-e1e24d913801")
-		)
-		(pin "1"
-			(uuid "44ee0fed-5318-4bc2-8863-62bd432ad789")
-		)
-		(instances
-			(project "cotti_leds"
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/078be607-47ce-4a61-935c-dade383339ee"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/1c50f6b4-4618-4825-8245-ffe92fafa1cf"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/5c3fe969-eaae-470c-a8fa-3c66a63aca97"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/638c199d-825c-4225-a1f7-88374b53caa9/cb977b1a-885d-4901-9b9b-2967c4ee5dd8"
-					(reference "D4")
+					(reference "R15")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,113 @@
+(footprint "cotti_logo_filled H=4mm T=0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6bfdb838-e9b3-458e-9168-9f9c81e39281")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "cotti_logo_filled H=4mm T=0.4mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fec5f67-35c3-4b61-8284-4290181483e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70cd8903-736a-43de-a773-d20e6015af51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66129754-6e1d-4599-ba62-d17f7bfd7a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 8.141081 4) (xy 6.639971 1.4) (xy 7.101851 1.4) (xy 8.602962 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2d5669b4-0a5e-4b2d-a6d9-89b0f485a5ce")
+	)
+	(fp_poly
+		(pts
+			(xy 2.5396 4) (xy 2.30866 3.6) (xy 1.77054 3.6) (xy 0.4 1.226154) (xy 0.4 0.4) (xy 1.23094 0.4) (xy 1 0)
+			(xy 0 0) (xy 0 1.333333) (xy 1.5396 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "486d3002-cd9f-4ea5-9206-6f59482032ef")
+	)
+	(fp_poly
+		(pts
+			(xy 3.309401 4) (xy 1.7698 1.333333) (xy 1.7698 0) (xy 2.7698 0) (xy 4.309401 2.666667) (xy 4.309401 4)
+			(xy 3.909401 3.6) (xy 3.909401 2.773846) (xy 2.53886 0.4) (xy 2.1698 0.4) (xy 2.1698 1.226154) (xy 3.540341 3.6)
+			(xy 3.909401 3.6) (xy 4.309401 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8de29459-ca01-4f50-a400-b4cac81b6326")
+	)
+	(fp_poly
+		(pts
+			(xy 6.017321 4) (xy 3.93886 0.4) (xy 3.40074 0.4) (xy 3.1698 0) (xy 5.83168 0) (xy 5.25433 -1) (xy 5.71621 -1)
+			(xy 6.524501 0.4) (xy 5.46262 0.4) (xy 7.541081 4) (xy 7.079201 4) (xy 5.00074 0.4) (xy 4.40074 0.4)
+			(xy 6.479201 4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3bb0ff38-2045-4b49-b3b0-62716973f52b")
+	)
+	(embedded_fonts no)
+)

@@ -468,7 +468,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual"
+		(symbol "cotti_switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -492,8 +492,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
+			(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+				(at -1.778 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -501,8 +501,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts02.pdf"
+				(at -1.524 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -510,8 +510,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
-				(at 0 0 0)
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+				(at -0.762 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS02-66-60-BK-260-SCR-D/15634288"
+				(at 2.54 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Same Sky (Formerly CUI Devices)"
+				(at 0.508 27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "TS02-66-60-BK-260-SCR-D"
+				(at 0 24.892 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36397,80 +36424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 48.26 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1dab5a-a8e0-493a-85ec-d81b4ad04afa")
-		(property "Reference" "SW3"
-			(at 48.26 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Dual"
-			(at 48.26 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 48.26 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07094da7-f54a-499b-aeb2-10bdde80beeb")
-		)
-		(pin "4"
-			(uuid "2c711561-4769-4aa4-8db2-d717be12fd22")
-		)
-		(pin "2"
-			(uuid "a6531b37-5c54-48ca-961f-61f565d5b515")
-		)
-		(pin "3"
-			(uuid "f9bb6b74-25ea-4324-935d-a218dc9bf2d9")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 45.72 69.85 0)
 		(mirror y)
@@ -36531,6 +36484,107 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_switch:SW_Push_Dual")
+		(at 48.26 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7bf84d5-9c01-4c3f-823c-8460a0148bab")
+		(property "Reference" "SW3"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Dual"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 46.482 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts02.pdf"
+			(at 46.736 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+			(at 47.498 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS02-66-60-BK-260-SCR-D/15634288"
+			(at 50.8 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Same Sky (Formerly CUI Devices)"
+			(at 48.768 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TS02-66-60-BK-260-SCR-D"
+			(at 48.26 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "aae87334-06aa-41b7-8280-27fdc5914a42")
+		)
+		(pin "3"
+			(uuid "425cd227-1728-4f9f-8a1d-f200d0522e59")
+		)
+		(pin "1"
+			(uuid "264316f6-3cce-4eb7-ac20-135bcca920cb")
+		)
+		(pin "2"
+			(uuid "7869bb5a-0426-4d6d-bfb2-ab5914d44a75")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77"
+					(reference "SW3")
 					(unit 1)
 				)
 			)

@@ -317,7 +317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:CDSOT236-0504C"
+		(symbol "cotti_usb:TVS_5V"
 			(pin_names
 				(offset 0)
 			)
@@ -333,7 +333,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "CDSOT236-0504C"
+			(property "Value" "TESD5V0V4UCX6 RFG"
 				(at 2.54 11.43 0)
 				(effects
 					(font
@@ -343,7 +343,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 17.78 -11.43 0)
+				(at -1.524 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -351,8 +351,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cdsot236-0504c.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/TESD5V0V4UCX6_B2003.pdf"
+				(at -1.016 29.464 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -360,8 +360,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low capacitance ESD diode / steering Diode Array, SOT23-6"
-				(at 0 0 0)
+			(property "Description" "15V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"
+				(at 5.08 37.084 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TESD5V0V4UCX6-RFG/7623393"
+				(at 3.81 33.528 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Taiwan Semiconductor Corporation"
+				(at 0.508 40.132 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "TESD5V0V4UCX6 RFG"
+				(at 0 44.196 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -387,7 +414,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CDSOT236-0504C_0_0"
+			(symbol "TVS_5V_0_0"
 				(rectangle
 					(start -5.715 6.477)
 					(end 5.715 -6.604)
@@ -424,7 +451,7 @@
 					)
 				)
 			)
-			(symbol "CDSOT236-0504C_0_1"
+			(symbol "TVS_5V_0_1"
 				(polyline
 					(pts
 						(xy -7.747 2.54) (xy -3.175 2.54)
@@ -823,18 +850,18 @@
 					)
 				)
 			)
-			(symbol "CDSOT236-0504C_1_1"
+			(symbol "TVS_5V_1_1"
 				(pin passive line
 					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "IO1"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -845,14 +872,14 @@
 				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 5.08)
-					(name "IO2"
+					(name "IO1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -899,6 +926,24 @@
 				(pin passive line
 					(at 12.7 2.54 180)
 					(length 5.08)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
 					(name "IO3"
 						(effects
 							(font
@@ -914,20 +959,571 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cotti_usb:USB_C_16+8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.016 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C (16 + 8)"
+				(at 8.382 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "cotti_footprints:SAMESKY_UJ20-C-H-G-SMT-5-P16-TR"
+				(at 1.016 21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-5-p16-tr.pdf"
+				(at 3.302 18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+				(at 2.032 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-5-P16-TR/24818593"
+				(at 9.398 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Same Sky (Formerly CUI Devices)"
+				(at 0.762 25.654 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "UJ20-C-H-G-SMT-5-P16-TR"
+				(at 2.032 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_16+8_0_0"
 				(pin passive line
-					(at 12.7 -2.54 180)
+					(at 17.78 -46.99 90)
 					(length 5.08)
-					(name "IO4"
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "6"
+					(number "A1_B12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -25.4 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -33.02 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -35.56 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB_C_16+8_0_1"
+				(rectangle
+					(start 0 0)
+					(end 20.32 -41.91)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -21.59) (xy 1.27 -13.97)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -21.59)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.54 -13.97)
+					(mid 3.175 -13.3377)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -13.97)
+					(mid 3.175 -13.3377)
+					(end 3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.27 -13.97)
+					(mid 3.175 -12.0733)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -21.59)
+					(mid 3.175 -23.4867)
+					(end 1.27 -21.59)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -21.59)
+					(mid 3.175 -22.2223)
+					(end 2.54 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -21.59)
+					(mid 3.175 -22.2223)
+					(end 2.54 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -13.97) (xy 5.08 -21.59)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -16.637)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -13.462) (xy 10.16 -10.922) (xy 11.43 -13.462) (xy 8.89 -13.462)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -19.812) (xy 12.7 -17.272) (xy 12.7 -16.002)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -21.082) (xy 7.62 -18.542) (xy 7.62 -17.272)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -23.622) (xy 10.16 -13.462)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -23.622)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 12.065 -16.002)
+					(end 13.335 -14.732)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_16+8_1_0"
+				(pin passive line
+					(at 2.54 -46.99 90)
+					(length 5.08)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -46.99 90)
+					(length 5.08)
+					(name "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -46.99 90)
+					(length 5.08)
+					(name "SHIELD3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -46.99 90)
+					(length 5.08)
+					(name "SHIELD4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -46.99 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12_B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1255,575 +1851,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "project_symbols:USB_C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.016 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USB_C (16 + 8)"
-				(at 8.382 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "project_footprints:SAMESKY_UJ20-C-H-G-SMT-5-P16-TR"
-				(at 1.016 21.844 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-5-p16-tr.pdf"
-				(at 3.302 18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
-				(at 2.032 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-5-P16-TR/24818593"
-				(at 9.398 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." "Same Sky (Formerly CUI Devices)"
-				(at 0.762 25.654 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. P/N" "UJ20-C-H-G-SMT-5-P16-TR"
-				(at 2.032 10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_C_0_0"
-				(pin passive line
-					(at 17.78 -46.99 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A1_B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A4_B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -12.7 180)
-					(length 5.08)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -17.78 180)
-					(length 5.08)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -20.32 180)
-					(length 5.08)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -33.02 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -35.56 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "USB_C_0_1"
-				(rectangle
-					(start 0 0)
-					(end 20.32 -41.91)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -21.59) (xy 1.27 -13.97)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -21.59)
-					(end 3.81 -13.97)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 2.54 -13.97)
-					(mid 3.175 -13.3377)
-					(end 3.81 -13.97)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -13.97)
-					(mid 3.175 -13.3377)
-					(end 3.81 -13.97)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.27 -13.97)
-					(mid 3.175 -12.0733)
-					(end 5.08 -13.97)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -21.59)
-					(mid 3.175 -23.4867)
-					(end 1.27 -21.59)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 -21.59)
-					(mid 3.175 -22.2223)
-					(end 2.54 -21.59)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 -21.59)
-					(mid 3.175 -22.2223)
-					(end 2.54 -21.59)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -13.97) (xy 5.08 -21.59)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -16.637)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -13.462) (xy 10.16 -10.922) (xy 11.43 -13.462) (xy 8.89 -13.462)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -19.812) (xy 12.7 -17.272) (xy 12.7 -16.002)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -21.082) (xy 7.62 -18.542) (xy 7.62 -17.272)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -23.622) (xy 10.16 -13.462)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 -23.622)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 12.065 -16.002)
-					(end 13.335 -14.732)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_1_0"
-				(pin passive line
-					(at 2.54 -46.99 90)
-					(length 5.08)
-					(name "SHIELD1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -46.99 90)
-					(length 5.08)
-					(name "SHIELD2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -46.99 90)
-					(length 5.08)
-					(name "SHIELD3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -46.99 90)
-					(length 5.08)
-					(name "SHIELD4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -46.99 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A12_B1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B4_A9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2554,6 +2581,143 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_usb:USB_C_16+8")
+		(at 83.82 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c0f174-d90d-4a49-9d57-1dfa65203301")
+		(property "Reference" "J2"
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C (16 + 8)"
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SAMESKY_UJ20-C-H-G-SMT-5-P16-TR"
+			(at 84.836 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-5-p16-tr.pdf"
+			(at 87.122 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+			(at 85.852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-5-P16-TR/24818593"
+			(at 93.218 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Same Sky (Formerly CUI Devices)"
+			(at 84.582 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "UJ20-C-H-G-SMT-5-P16-TR"
+			(at 85.852 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B8"
+			(uuid "7878c152-6db5-4120-8566-4138321a2313")
+		)
+		(pin "B6"
+			(uuid "915952c0-fdc8-4f41-82b4-fb72baeaf3b1")
+		)
+		(pin "SH1"
+			(uuid "135164d3-3228-40b9-8a85-304da2c0441b")
+		)
+		(pin "B7"
+			(uuid "9219cbb5-bf0d-4241-8939-30d0eb528846")
+		)
+		(pin "A6"
+			(uuid "accc0e7d-3683-4d2e-8057-c419c9f8adcf")
+		)
+		(pin "B4_A9"
+			(uuid "1179caa4-aac7-471d-8e3c-f71920747208")
+		)
+		(pin "A12_B1"
+			(uuid "3a312018-9369-4870-a016-fbad4f475955")
+		)
+		(pin "A8"
+			(uuid "9383e00c-edb6-40aa-84e9-9ec709fd9651")
+		)
+		(pin "A7"
+			(uuid "a61209a9-37c7-432c-a56d-0974540f8ffb")
+		)
+		(pin "SH2"
+			(uuid "77596c29-5372-43a0-8086-25e717bcd8c9")
+		)
+		(pin "SH3"
+			(uuid "7407c1d1-b413-476d-ab7f-95c9644b4a79")
+		)
+		(pin "SH4"
+			(uuid "ceecf822-7e2c-4772-ae29-c457ffd4619f")
+		)
+		(pin "A4_B9"
+			(uuid "1a397557-e031-47a5-bdc1-ce972f26f453")
+		)
+		(pin "A1_B12"
+			(uuid "99ea929a-cc8d-4442-91a0-b13e585666ed")
+		)
+		(pin "A5"
+			(uuid "2600c93b-3f36-47c9-8097-2c02775108ef")
+		)
+		(pin "B5"
+			(uuid "e34c3ddb-1fe7-46e6-9127-f326ef7a80e0")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 87.63 0)
 		(unit 1)
@@ -2884,7 +3048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:CDSOT236-0504C")
+		(lib_id "cotti_usb:TVS_5V")
 		(at 182.88 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2892,8 +3056,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "771dffb7-d924-4765-b197-4780749a65d0")
-		(property "Reference" "U12"
+		(uuid "7b3bed99-8afb-4492-997c-1498fd1554e5")
+		(property "Reference" "U10"
 			(at 185.9981 66.04 0)
 			(effects
 				(font
@@ -2912,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 200.66 92.71 0)
+			(at 181.356 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/TESD5V0V4UCX6_B2003.pdf"
-			(at 182.88 81.28 0)
+			(at 181.864 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3094,7 @@
 			)
 		)
 		(property "Description" "15V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"
-			(at 182.88 81.28 0)
+			(at 187.96 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3103,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TESD5V0V4UCX6-RFG/7623393"
-			(at 182.88 81.28 0)
+			(at 186.69 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3112,7 @@
 			)
 		)
 		(property "Mfr." "Taiwan Semiconductor Corporation"
-			(at 182.88 81.28 0)
+			(at 183.388 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3121,7 @@
 			)
 		)
 		(property "Mfr. P/N" "TESD5V0V4UCX6 RFG"
-			(at 182.88 81.28 0)
+			(at 182.88 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,28 +3129,28 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "49c75405-fb75-4a9d-a4b1-b416ef1c196f")
-		)
-		(pin "1"
-			(uuid "98cd24b6-d2e0-43ae-aed0-887be1316359")
-		)
 		(pin "3"
-			(uuid "dc5122ef-3076-41df-9d85-ee8b46f1588d")
-		)
-		(pin "5"
-			(uuid "cc3532cc-1855-4ca3-9c79-d02155b7daf2")
-		)
-		(pin "6"
-			(uuid "f1cd4dfa-7b28-48ab-8537-35a18e05eda5")
+			(uuid "e02e06bd-4903-40ae-b8aa-659187f35f3a")
 		)
 		(pin "2"
-			(uuid "f3e63b56-ec63-40af-95c9-5039a4329bc5")
+			(uuid "611368d1-594c-45c5-a022-20305db741f2")
+		)
+		(pin "4"
+			(uuid "f7664145-9b42-4c1c-8b6e-85a1116db734")
+		)
+		(pin "5"
+			(uuid "39355cce-cd02-43f2-b607-cf96505dba17")
+		)
+		(pin "6"
+			(uuid "a73ae5db-136d-447e-9ee5-c49e34ff55d7")
+		)
+		(pin "1"
+			(uuid "b727bb14-db5d-4ca3-804c-6eb54b706995")
 		)
 		(instances
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
-					(reference "U12")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3323,143 +3487,6 @@
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
 					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "project_symbols:USB_C")
-		(at 83.82 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fee049a1-67b9-4eb0-aead-7235892dd973")
-		(property "Reference" "J2"
-			(at 93.98 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C (16 + 8)"
-			(at 93.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SAMESKY_UJ20-C-H-G-SMT-5-P16-TR"
-			(at 84.836 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-5-p16-tr.pdf"
-			(at 87.122 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
-			(at 85.852 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-5-P16-TR/24818593"
-			(at 93.218 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Same Sky (Formerly CUI Devices)"
-			(at 84.582 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "UJ20-C-H-G-SMT-5-P16-TR"
-			(at 85.852 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A7"
-			(uuid "ad4adb6a-9a29-4e1a-b290-88cabda00617")
-		)
-		(pin "B5"
-			(uuid "b36119fb-17bc-498f-88aa-d90f644d14d4")
-		)
-		(pin "A6"
-			(uuid "575d61c4-4150-4291-a17e-8c1f3a596cd4")
-		)
-		(pin "B6"
-			(uuid "17663af1-18e8-488a-8b3c-9e06d27dcff2")
-		)
-		(pin "A1_B12"
-			(uuid "6ccb1e8c-4f6d-417d-8e5f-08476250c888")
-		)
-		(pin "A4_B9"
-			(uuid "cd0cd695-4187-4d62-801d-ce8c79bd183c")
-		)
-		(pin "B7"
-			(uuid "e5672f48-dfd5-44a1-bb3c-901fc3b025f1")
-		)
-		(pin "SH1"
-			(uuid "5e7dc14a-137d-48eb-8eec-fd81c5d7821a")
-		)
-		(pin "A12_B1"
-			(uuid "d57da02a-344a-47d0-9814-c4e7b63811b6")
-		)
-		(pin "B8"
-			(uuid "57399a72-dac6-469c-bc4b-bb9b973fddc4")
-		)
-		(pin "SH2"
-			(uuid "570443ab-cfb0-45f5-8821-ea6b3acfc49a")
-		)
-		(pin "SH3"
-			(uuid "0f0f9e89-0009-4aef-870e-0e775ea358f0")
-		)
-		(pin "SH4"
-			(uuid "c6b6ec1f-97af-46fc-8c2a-16f00ba89aa5")
-		)
-		(pin "B4_A9"
-			(uuid "eb12a75b-1323-4b0e-ab23-16664e87bd50")
-		)
-		(pin "A8"
-			(uuid "e21f02ab-85ff-4c5f-b143-d22c47d28461")
-		)
-		(pin "A5"
-			(uuid "690a6ab6-09d3-4778-a104-08ea3ffc6377")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
-					(reference "J2")
 					(unit 1)
 				)
 			)
