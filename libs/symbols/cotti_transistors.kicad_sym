@@ -346,7 +346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+		(property "Footprint" "cotti_footprints:SOT-416"
 			(at -0.254 37.084 0)
 			(effects
 				(font
