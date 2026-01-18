@@ -1260,6 +1260,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1342,131 +1467,6 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -2177,6 +2177,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 85.09 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0599d1d3-9d78-4e6d-ac23-eb577ecf8f63")
+		(property "Reference" "#PWR07"
+			(at 85.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.788 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 85.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a55699-28f9-4bda-9569-7b5ab37d5985")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 135.89 0)
 		(unit 1)
@@ -2442,14 +2511,14 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "power:+3V3")
 		(at 63.5 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "508ff923-f5a9-46f2-9e12-091f87610343")
+		(uuid "65d2f008-7dbc-4fd2-8e37-317f41b90da1")
 		(property "Reference" "#PWR03"
 			(at 63.5 114.3 0)
 			(effects
@@ -2459,8 +2528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 66.548 108.712 0)
+		(property "Value" "+3V3"
+			(at 67.056 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 63.5 110.49 0)
 			(effects
 				(font
@@ -2495,7 +2564,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "51d91206-ccbd-4686-b581-2b502996979f")
+			(uuid "8dad5bdf-3f41-46dd-b674-dafa5c19285e")
 		)
 		(instances
 			(project "cotti_7seg"
@@ -3014,75 +3083,6 @@
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 102.87 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "947f0584-4583-470c-88e1-7daa07348d1a")
-		(property "Reference" "#PWR04"
-			(at 102.87 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 99.822 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2cef9fc-6dfa-4c0a-8fea-ce2e4a372064")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3703,17 +3703,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 85.09 143.51 0)
+		(lib_id "power:+3V3")
+		(at 102.87 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef4a3444-e164-4b18-a783-b2e8a1b34c39")
-		(property "Reference" "#PWR07"
-			(at 85.09 147.32 0)
+		(uuid "dee3f773-4e79-4253-9404-e81a6a3f5a6c")
+		(property "Reference" "#PWR01"
+			(at 102.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,8 +3720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 85.09 138.43 0)
+		(property "Value" "+3V3"
+			(at 99.568 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 143.51 0)
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 143.51 0)
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,8 +3746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 85.09 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,16 +3756,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e061137-ff95-4ad0-8bad-316eb638d9ad")
+			(uuid "e8e3680e-5b4a-4624-9bdc-f2fcdbad616f")
 		)
 		(instances
-			(project ""
+			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca"
-					(reference "#PWR021")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

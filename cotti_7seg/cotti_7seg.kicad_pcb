@@ -13503,7 +13503,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VCC"
+	(gr_text "3.3V"
 		(at 109.22 68.072 0)
 		(layer "F.SilkS")
 		(uuid "a0d93e6f-448e-438a-8cd3-640a027fc3e5")
