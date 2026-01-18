@@ -1,0 +1,291 @@
+(footprint "BGA6C100X50P2X3_HDC2010YPAR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Temperature and humidity sensor")
+	(property "Reference" "REF**"
+		(at 0.282 -2.1564 0)
+		(layer "F.SilkS")
+		(uuid "be7929d6-4133-4e51-8d4c-c090a343c7a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BGA6C100X50P2X3_HDC2010YPAR"
+		(at 9.2228 2.1564 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a35455-c8e6-4f1d-9580-07e3618fabf8")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fhdc2010"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a50533fd-b670-443b-a92b-4e7e57560fed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Temperature and humidity sensor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cb429b5-535c-4c2a-ba12-84f91b3aac43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.99 -0.99)
+		(end -0.495 -0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19fba5f9-a8e4-40b4-9fff-96b84bd99d62")
+	)
+	(fp_line
+		(start -0.99 -0.495)
+		(end -0.99 -0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74dbe124-9228-4ce5-9698-825e6d1bc2dc")
+	)
+	(fp_line
+		(start -0.99 0.99)
+		(end -0.99 0.495)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48d4b804-3e34-409e-adb2-b070c0d434ff")
+	)
+	(fp_line
+		(start -0.495 0.99)
+		(end -0.99 0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecd2d12e-cc2b-47b6-b979-845580f4adf3")
+	)
+	(fp_line
+		(start 0.495 -0.99)
+		(end 0.99 -0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65c065f1-3bc5-4990-b807-0b68513020e8")
+	)
+	(fp_line
+		(start 0.99 -0.99)
+		(end 0.99 -0.495)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe55b39f-2066-4e54-a611-96b60a5edd2a")
+	)
+	(fp_line
+		(start 0.99 0.495)
+		(end 0.99 0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9de1b30a-df06-44c1-b549-501630ee24e9")
+	)
+	(fp_line
+		(start 0.99 0.99)
+		(end 0.495 0.99)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d986287-52c8-4eee-a5d8-d03131f18a04")
+	)
+	(fp_circle
+		(center -1.4 -0.5)
+		(end -1.3 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b22999b5-282b-41b1-936d-094d0264f0b8")
+	)
+	(fp_line
+		(start -1.73 -1.73)
+		(end 1.73 -1.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "933d1f7c-3d84-43cd-815e-cb892e249b9d")
+	)
+	(fp_line
+		(start -1.73 1.73)
+		(end -1.73 -1.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "552198f0-bb20-4146-ac2a-ef9c9c195f54")
+	)
+	(fp_line
+		(start 1.73 -1.73)
+		(end 1.73 1.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "979b9a42-c5c5-494a-9d19-cef3484667a5")
+	)
+	(fp_line
+		(start 1.73 1.73)
+		(end -1.73 1.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f875e75c-f2d9-4536-8790-4592ca18aa21")
+	)
+	(fp_line
+		(start -0.73 -0.73)
+		(end 0.73 -0.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b073f75-9c49-4335-ba83-02969c6f80c6")
+	)
+	(fp_line
+		(start -0.73 0.73)
+		(end -0.73 -0.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcb53bdf-f74a-4ec5-b242-256a0c38f062")
+	)
+	(fp_line
+		(start 0.73 -0.73)
+		(end 0.73 0.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64c664cf-b1dd-4bd6-8788-1928c0db3f4c")
+	)
+	(fp_line
+		(start 0.73 0.73)
+		(end -0.73 0.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe1c0eee-a69e-44d8-9f36-67e2da51802a")
+	)
+	(fp_circle
+		(center -1.4 -0.5)
+		(end -1.3 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8c4cb36c-475d-4a61-ae77-01c2414eee3c")
+	)
+	(pad "A1" smd circle
+		(at -0.5 -0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bc6d21d2-2ce3-4f0f-8291-4eb8ba166408")
+	)
+	(pad "A2" smd circle
+		(at 0.5 -0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ab37fac6-7ea2-4c95-89db-759fb8b5fc06")
+	)
+	(pad "B1" smd circle
+		(at -0.5 0)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d45403c9-ce1d-447a-b2e2-d6381424a1fa")
+	)
+	(pad "B2" smd circle
+		(at 0.5 0)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "98da0e77-2530-49a3-a526-710dbec9b618")
+	)
+	(pad "C1" smd circle
+		(at -0.5 0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "25264482-fab1-47c3-9b59-94135817a193")
+	)
+	(pad "C2" smd circle
+		(at 0.5 0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8135ef95-b345-4260-a483-719e29dfcf5c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/HDC2010YPAR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
