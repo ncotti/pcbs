@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "PMOD 2x06 Socket")
 	(property "Reference" "REF**"
 		(at 1.143 15.24 0)
 		(unlocked yes)
@@ -41,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PMOD 2x06 Socket"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

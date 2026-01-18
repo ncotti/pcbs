@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "8 DIP switch")
 	(property "Reference" "REF**"
 		(at -8.89 -6.35 0)
 		(layer "F.SilkS")
@@ -38,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "8 DIP switch"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "PMOD 1x06 PIN")
 	(property "Reference" "REF**"
 		(at 0 15.24 0)
 		(unlocked yes)
@@ -41,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PMOD 1x06 PIN"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -267,7 +267,7 @@
 		(uuid "f491a46b-b141-42b5-95c5-ea30e85f6c53")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3d_models/STP_WE_WL-T7DS_0+%28rev1%29.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/7SEG_WE.stp"
 		(offset
 			(xyz 0 0 -4)
 		)

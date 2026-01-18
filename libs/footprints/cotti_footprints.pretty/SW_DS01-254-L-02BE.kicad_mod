@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "2 DIP switch")
 	(property "Reference" "REF**"
 		(at 0.715 -6.889 0)
 		(layer "F.SilkS")
@@ -17,6 +18,7 @@
 	(property "Value" "SW_DS01-254-L-02BE"
 		(at 12.272 7.111 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "8a80605e-529b-40f2-8ba4-01aee2d732cb")
 		(effects
 			(font
@@ -37,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "2 DIP Switch"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

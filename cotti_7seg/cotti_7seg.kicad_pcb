@@ -4230,7 +4230,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "95676b4b-88cd-493e-8678-3a2400210c94")
+			(uuid "c9c9ec96-c3a2-40ad-9965-5e0083524185")
 		)
 		(fp_line
 			(start -5.1 6.6)
@@ -4240,7 +4240,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e0a58ccc-bedc-49a7-8965-338fcf2f52a7")
+			(uuid "7a828da3-5880-46f1-a2e7-98d394034fd0")
 		)
 		(fp_line
 			(start 5.1 -6.6)
@@ -4250,7 +4250,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c2261c5f-e990-43ac-8fd4-4fa0143f3927")
+			(uuid "7dbbf516-2896-489d-9e6e-e38c589ec816")
 		)
 		(fp_line
 			(start 5.1 6.6)
@@ -4260,7 +4260,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c168d4dc-a9b4-42e1-a6f7-bae3f490df2d")
+			(uuid "57dfb0f2-ffc4-4d28-b3bf-b1d2e88d98d4")
 		)
 		(fp_circle
 			(center -6 -6)
@@ -4271,7 +4271,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "c9efe56c-d522-425b-b2b1-27c908555b97")
+			(uuid "a7932326-37fd-4f8f-a729-5589f9d23b2e")
 		)
 		(fp_circle
 			(center 1.9 5.1)
@@ -4282,7 +4282,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "c798f09e-976d-4189-9239-6d1607139c71")
+			(uuid "a3e3bf80-e58b-4fe3-9634-cdd466c4af7d")
 		)
 		(fp_poly
 			(pts
@@ -4294,7 +4294,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "82eed269-d132-4cbe-b4e3-87d94eb329d6")
+			(uuid "786d2109-6bcf-40d8-bd43-2ef932281f81")
 		)
 		(fp_line
 			(start -5 -6.5)
@@ -4304,7 +4304,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3ac10aa8-40e6-4db2-8658-56b7b36ab538")
+			(uuid "8e80556e-0589-4285-b6b6-506efba15464")
 		)
 		(fp_line
 			(start -5 6.5)
@@ -4314,7 +4314,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98f1162a-214f-4535-a8cb-545a771f4473")
+			(uuid "d070c9ba-e79c-4a19-82b7-4ee469f951ad")
 		)
 		(fp_line
 			(start 5 -6.5)
@@ -4324,7 +4324,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b887046a-de42-46f3-9e2f-2da14f996097")
+			(uuid "cf9e4460-38ab-421b-9941-a4cefc983bfc")
 		)
 		(fp_line
 			(start 5 6.5)
@@ -4334,7 +4334,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c2d39053-c351-4fbf-8196-b44b190d56ea")
+			(uuid "7f7fe03e-59e7-413f-97f8-99490362a9ae")
 		)
 		(fp_circle
 			(center 1.9 5.1)
@@ -4345,7 +4345,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "91dd8317-5b3d-4cab-9ecc-a9039f134d53")
+			(uuid "6c117ddc-1777-46eb-957b-aedc1faac1bb")
 		)
 		(pad "1" thru_hole circle
 			(at -3.76 -5.08)
@@ -4468,7 +4468,7 @@
 			(uuid "643aa23e-964b-41ef-9ab4-168f6f2a0e42")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3d_models/STP_WE_WL-T7DS_0+%28rev1%29.stp"
+		(model "${KICAD_USER_3DMODEL_DIR}/7SEG_WE.stp"
 			(offset
 				(xyz 0 0 -4)
 			)
@@ -7147,7 +7147,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2a320187-e380-4ed7-9880-e5612b60134e")
+			(uuid "198ee76b-3ae7-41e4-aac9-756c6034acd8")
 		)
 		(fp_line
 			(start -5.1 6.6)
@@ -7157,7 +7157,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fd78753d-1c92-461e-99b8-fcd647a8825b")
+			(uuid "f9d379aa-fa8a-4eac-92c6-79434d381a17")
 		)
 		(fp_line
 			(start 5.1 -6.6)
@@ -7167,7 +7167,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6cf8eea8-7535-405a-90ea-854e7489e9b7")
+			(uuid "bd0f4917-dbcd-4a5c-b57b-a7f7bf091ca8")
 		)
 		(fp_line
 			(start 5.1 6.6)
@@ -7177,7 +7177,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4c358cc1-e182-4d42-86cf-462ddc720468")
+			(uuid "778a16c7-6cf5-4c60-aed5-fd620efbf1fc")
 		)
 		(fp_circle
 			(center -6 -6)
@@ -7188,7 +7188,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "78394141-7921-4a9c-9d7c-c3d4bac89467")
+			(uuid "1870e944-8159-4ca2-9b31-1c124db7340c")
 		)
 		(fp_circle
 			(center 1.9 5.1)
@@ -7199,7 +7199,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "934a79d0-023b-4d10-9016-d164daf536b7")
+			(uuid "8613a1a7-ff85-4c45-bd5d-16e248a85204")
 		)
 		(fp_poly
 			(pts
@@ -7211,7 +7211,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c0a1103b-cfcf-4c41-877f-1a85a90f1e28")
+			(uuid "9baf4102-eaf8-4317-84a3-5a4608eeab48")
 		)
 		(fp_line
 			(start -5 -6.5)
@@ -7221,7 +7221,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e548abd4-1c6d-4806-a8aa-c29c427abab0")
+			(uuid "b1f16373-d78a-4db5-97c5-ac4251d9277a")
 		)
 		(fp_line
 			(start -5 6.5)
@@ -7231,7 +7231,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ea9706d6-55a4-4c8a-bcc2-5ebce4b77f8f")
+			(uuid "d6dad3d5-417b-4ed3-bf19-3582d8a2b303")
 		)
 		(fp_line
 			(start 5 -6.5)
@@ -7241,7 +7241,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ef47cad9-60cf-4d48-8b76-0696762b3a1b")
+			(uuid "25169940-44fe-427d-b260-2936aea6509e")
 		)
 		(fp_line
 			(start 5 6.5)
@@ -7251,7 +7251,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "af0ea7f8-3098-4782-bbc8-c312854fde8c")
+			(uuid "d606facd-ccc4-41c4-85f8-c6d65439e8fd")
 		)
 		(fp_circle
 			(center 1.9 5.1)
@@ -7262,7 +7262,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cfa0cd57-67e4-4c4b-bc94-296669bc1547")
+			(uuid "81af8d66-4ca2-4a35-967b-823cc413ccca")
 		)
 		(pad "1" thru_hole circle
 			(at -3.76 -5.08)
@@ -7385,7 +7385,7 @@
 			(uuid "5e0ca8c8-dfc2-4873-b05b-331146cc18c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3d_models/STP_WE_WL-T7DS_0+%28rev1%29.stp"
+		(model "${KICAD_USER_3DMODEL_DIR}/7SEG_WE.stp"
 			(offset
 				(xyz 0 0 -4)
 			)
