@@ -4,8 +4,14 @@
 	(generator_version "9.0")
 	(uuid "42eda39a-4196-4c41-8573-f265cc714cd9")
 	(paper "A4")
+	(title_block
+		(title "7Seg Module")
+		(date "2026-01-18")
+		(rev "0.0")
+		(company "Cotti")
+	)
 	(lib_symbols
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "cotti_transistors:RE1C001UNTCL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
+			(property "Value" "RE1C001UNTCL"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -33,8 +39,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "cotti_footprints:SOT-416"
+				(at 0.508 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,8 +48,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+				(at 3.556 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +57,43 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+				(at 1.016 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+				(at 1.524 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr." "Rohm Semiconductor"
+				(at -0.508 26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. P/N" "RE1C001UNTCL"
+				(at 0 28.448 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,43 +102,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
+			(symbol "RE1C001UNTCL_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -240,7 +246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -263,7 +269,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "RE1C001UNTCL_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -274,7 +280,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -292,7 +298,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -310,7 +316,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -953,7 +959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b2b3a3-4cfb-4e65-9b11-337f82f4f05d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -1003,428 +1009,11 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 205.74 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07f17422-cb33-4bd3-8768-13bf85233da0")
-		(property "Reference" "Q4"
-			(at 212.09 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 210.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 205.74 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 205.74 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 205.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2a893b6e-99e9-4bba-9a69-b8bdb8888975")
-		)
-		(pin "1"
-			(uuid "216296ce-9fe0-47fc-a70f-8b23eaebf728")
-		)
-		(pin "2"
-			(uuid "618dd82f-6080-420b-bf73-f533b158bd84")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 156.21 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09d5bc13-a9fe-4df6-ba11-da233f32e006")
-		(property "Reference" "Q7"
-			(at 162.56 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 161.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 156.21 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 156.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f18f2f92-be67-48e3-be5a-aa07170c41a3")
-		)
-		(pin "1"
-			(uuid "bc0108bd-3950-4faf-97c7-7203e5802fc2")
-		)
-		(pin "2"
-			(uuid "debe68a1-52cc-41be-98c6-ef58ea9df121")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 60.96 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "236772be-08e2-44c2-b97a-74210ee4758a")
-		(property "Reference" "Q1"
-			(at 67.31 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 67.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 66.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 60.96 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "23cc097c-2eba-46fb-9c5c-3404bc20075e")
-		)
-		(pin "1"
-			(uuid "28b06f0d-a132-44d4-9f03-29c6385b9c8e")
-		)
-		(pin "2"
-			(uuid "7a6af03b-83c1-45dd-8a7b-2e21c252eba4")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q9")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1440,7 +1029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4fcb95-7131-4722-9a0c-54fcd4d21775")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -1490,11 +1079,11 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1510,7 +1099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35649d35-27de-4a74-a3ff-84dfb47362ee")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 107.95 54.61 0)
 			(effects
 				(font
@@ -1560,11 +1149,142 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR021")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 60.96 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375f99c7-6289-47b8-b82f-8f067f4d9268")
+		(property "Reference" "Q1"
+			(at 67.31 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 67.31 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 61.468 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 64.516 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 61.976 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 62.484 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 60.452 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 60.96 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d76dab1-a431-42d5-b4b4-2f69040c5728")
+		)
+		(pin "3"
+			(uuid "9e528121-849d-43c9-804f-460590c13c38")
+		)
+		(pin "2"
+			(uuid "16135e50-ba00-4106-87f1-576e5be0a0db")
+		)
+		(instances
+			(project ""
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -1580,7 +1300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9be8592a-9a8d-4aff-a2f5-ada8e4f9d1bf")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -1630,11 +1350,11 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1650,7 +1370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8247bc-e2b6-45a1-8d41-e9bbcb87af58")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 158.75 83.82 0)
 			(effects
 				(font
@@ -1700,25 +1420,288 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 156.21 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1da951d-6240-4c5f-bf61-95f8a26c8c4a")
+		(property "Reference" "Q6"
+			(at 162.56 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 162.56 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 156.718 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 159.766 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 157.226 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 157.734 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 155.702 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 156.21 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2b93a29-7310-4bee-a0e3-4d55ddd454f4")
+		)
+		(pin "3"
+			(uuid "f202a276-a212-45e0-b54b-e6288103e624")
+		)
+		(pin "2"
+			(uuid "86e43060-3bc7-49b0-9391-9eaafbd65c0d")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 205.74 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8383ab9-d006-46de-8dfa-c81d2db7b676")
+		(property "Reference" "Q4"
+			(at 212.09 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 212.09 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 206.248 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 209.296 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 206.756 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 207.264 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 205.232 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 205.74 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be94071f-8962-4ea7-bef4-6429552dce07")
+		)
+		(pin "3"
+			(uuid "46b9e4f7-7386-41c9-aa09-a8bda937c1e6")
+		)
+		(pin "2"
+			(uuid "78e220db-47fd-4796-a9af-9dfac4aa3b8b")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
 		(at 105.41 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afcfd5a4-0e32-4c72-87a4-024fe619019c")
+		(fields_autoplaced yes)
+		(uuid "c19c1f44-9d2d-42f6-be99-9d1bfb02074a")
 		(property "Reference" "Q2"
 			(at 111.76 57.1499 0)
 			(effects
@@ -1728,8 +1711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 111.76 59.69 0)
+		(property "Value" "RE1C001UNTCL"
+			(at 111.76 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,8 +1720,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 110.49 55.88 0)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 105.918 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,8 +1729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 105.41 71.12 0)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 108.966 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,8 +1738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 105.41 58.42 0)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 106.426 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,44 +1747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 105.41 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 105.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 105.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 105.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 105.41 58.42 0)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 106.934 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,6 +1757,24 @@
 			)
 		)
 		(property "Mfr." "Rohm Semiconductor"
+			(at 104.902 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 105.41 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -1818,7 +1783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
+		(property "Sim.Pins" ""
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -1827,14 +1792,23 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "6c1dc5ff-6cfc-4340-b734-a0849805eec5")
+		(property "Sim.Type" ""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "c7dd7f88-901b-4205-8ba3-58c58292ebcd")
+			(uuid "1ea4aee7-66e9-4272-9feb-ebed8fdf5741")
+		)
+		(pin "3"
+			(uuid "35d1600f-7280-45de-b57e-fe1ea6fbbaf4")
 		)
 		(pin "2"
-			(uuid "52a6fd83-1424-4039-8b48-8fec84b84912")
+			(uuid "16440f31-45a6-4769-b383-ff783f456e1b")
 		)
 		(instances
 			(project "cotti_7seg"
@@ -1843,285 +1817,7 @@
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 156.21 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4b71b22-91eb-4310-948f-6d4322e5f381")
-		(property "Reference" "Q3"
-			(at 162.56 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 162.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 156.21 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 156.21 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 156.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ede6841d-f369-44b0-9158-c25c4b9efda3")
-		)
-		(pin "1"
-			(uuid "67e0081c-2790-42d6-b029-09e6fecfd985")
-		)
-		(pin "2"
-			(uuid "28e15723-d102-40c2-997b-6469fabcffff")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 109.22 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c83cd96e-7e21-4c56-9ba1-ed59f7ad7190")
-		(property "Reference" "Q6"
-			(at 115.57 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 114.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 109.22 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 109.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 109.22 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 109.22 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 109.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 109.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 109.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 109.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 109.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "37f091aa-60b4-4f88-be4f-3a9d0a6b631f")
-		)
-		(pin "1"
-			(uuid "28ea4364-5d54-4e0d-8fb2-21286a3cd05f")
-		)
-		(pin "2"
-			(uuid "2a40616c-1baf-4498-9920-9a9a427c59be")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q12")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -2137,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc20ef74-5b20-4d11-b484-43436e599aec")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -2187,27 +1883,28 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 205.74 87.63 0)
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 109.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e59691c2-8c05-490b-b334-3a107c187274")
-		(property "Reference" "Q8"
-			(at 212.09 86.3599 0)
+		(fields_autoplaced yes)
+		(uuid "d71bdf48-1edc-465d-bdc5-37de2fa9bd45")
+		(property "Reference" "Q5"
+			(at 115.57 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,8 +1912,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 212.09 88.9 0)
+		(property "Value" "RE1C001UNTCL"
+			(at 115.57 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,8 +1921,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 210.82 85.09 0)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 109.728 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,8 +1930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 205.74 100.33 0)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 112.776 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,8 +1939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 205.74 87.63 0)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 110.236 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,44 +1948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 205.74 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 205.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 205.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 205.74 87.63 0)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 110.744 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +1958,7 @@
 			)
 		)
 		(property "Mfr." "Rohm Semiconductor"
-			(at 205.74 87.63 0)
+			(at 108.712 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,8 +1966,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 205.74 87.63 0)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 109.22 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,14 +1975,172 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "58d8e088-1fa9-43cb-9661-b02021c9da00")
+		(property "Sim.Device" ""
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d944fb92-c855-4d1c-8334-7ddbb9d0cf9d")
+			(uuid "3fffac8a-0e73-4a46-9edd-71cfb21857b3")
+		)
+		(pin "3"
+			(uuid "410180b6-4d37-4ab8-9899-5afab31ddec3")
 		)
 		(pin "2"
-			(uuid "da17324b-95f4-43da-936d-717ed6b6ed7c")
+			(uuid "25309b09-600d-464d-901a-f5ca89f7b97d")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 62.23 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ac5905-3aba-41a3-948c-a1d2c28dbe7a")
+		(property "Reference" "Q8"
+			(at 68.58 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 68.58 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 62.738 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 65.786 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 63.246 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 63.754 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 61.722 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 62.23 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6068c183-500d-4e00-9f43-91c821eac843")
+		)
+		(pin "3"
+			(uuid "abbf46ad-e6e4-4322-a0e7-5453cfb06be5")
+		)
+		(pin "2"
+			(uuid "45f44a6d-ca6e-4232-a28d-96e646e4a288")
 		)
 		(instances
 			(project "cotti_7seg"
@@ -2337,6 +2156,137 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 205.74 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7345462-6e77-4669-9244-4395ac7150d2")
+		(property "Reference" "Q7"
+			(at 212.09 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 212.09 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 206.248 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 209.296 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 206.756 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 207.264 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 205.232 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 205.74 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a9652d-5410-4eed-a3e8-198668a26557")
+		)
+		(pin "3"
+			(uuid "00f7e733-8824-4915-869d-41548689986b")
+		)
+		(pin "2"
+			(uuid "29c0a16e-bcaf-4ba1-9115-1144a2abe1d1")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 208.28 80.01 0)
 		(unit 1)
@@ -2346,7 +2296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eefef636-2ae6-492f-ab6e-830bf9be165d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 208.28 83.82 0)
 			(effects
 				(font
@@ -2396,150 +2346,11 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 62.23 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f09a93e0-5464-44df-bcaf-768f96ad77c7")
-		(property "Reference" "Q5"
-			(at 68.58 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS Vth=0,7 Kp=1,5"
-			(at 68.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:DIO_RB558WMF_ROM-L"
-			(at 67.31 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 62.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 62.23 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 62.23 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C002UNTCL/5042785"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RE1C002UNTCLCT-ND"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Rohm Semiconductor"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "RE1C002UNTCL"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7c48ac5b-f7d5-44b3-b376-7034e53c8822")
-		)
-		(pin "1"
-			(uuid "95970180-b948-4df0-8461-1d0b258112ac")
-		)
-		(pin "2"
-			(uuid "e734bd59-aa71-4fd4-9320-31502f38fe99")
-		)
-		(instances
-			(project "cotti_7seg"
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "Q10")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f01ca2-4e4f-4f52-ae73-ddba240ac1c9")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -2605,11 +2416,142 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
-					(reference "#PWR023")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_transistors:RE1C001UNTCL")
+		(at 156.21 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe071dfc-4462-430b-a8e7-dc9d6ef23122")
+		(property "Reference" "Q3"
+			(at 162.56 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001UNTCL"
+			(at 162.56 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cotti_footprints:SOT-416"
+			(at 156.718 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=RE1C001UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+			(at 159.766 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS Kp=0.33A/V²; Vth=0.65V; Imax=100mA; Vmax=20V"
+			(at 157.226 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/rohm-semiconductor/RE1C001UNTCL/4004557"
+			(at 157.734 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Rohm Semiconductor"
+			(at 155.702 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RE1C001UNTCL"
+			(at 156.21 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cdccc2c-a1d3-4fd9-9f13-5abf704fb284")
+		)
+		(pin "3"
+			(uuid "295dcf4f-2eb5-4fbf-b7ed-f77eae86b72c")
+		)
+		(pin "2"
+			(uuid "c63683d1-0c08-4f19-b441-e08498ced0b5")
+		)
+		(instances
+			(project "cotti_7seg"
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/6ce3f7a0-4b0e-4a68-9ba9-63db32dfe246/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e/cc1c05ba-032c-4cbd-9700-289e09a36dca/e438dbef-69f0-4dcc-b9fa-60c2fba29e60"
+					(reference "Q11")
 					(unit 1)
 				)
 			)

@@ -4,8 +4,14 @@
 	(generator_version "9.0")
 	(uuid "1bd78d7c-1eda-4d9f-99db-393243928d6e")
 	(paper "A4")
+	(title_block
+		(title "7Seg Module")
+		(date "2026-01-18")
+		(rev "0.0")
+		(company "Cotti")
+	)
 	(lib_symbols
-		(symbol "Pmod:pmod_gpio_2x06_pin"
+		(symbol "cotti_pmod:pmod_gpio_2x06_pin"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Pmod:Pmod_2x06_pin"
+			(property "Footprint" "cotti_footprints:Pmod_2x06_pin"
 				(at 1.016 6.35 0)
 				(effects
 					(font
@@ -54,15 +60,6 @@
 			)
 			(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
 				(at 0.254 28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "2057-PH2RA-12-UA-ND"
-				(at 0.508 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1075,7 +1072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2319f52d-327f-4b68-920a-1e04bb238eb8")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 122.555 111.76 0)
 			(effects
 				(font
@@ -1126,7 +1123,7 @@
 		(instances
 			(project ""
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1142,7 +1139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd94085-4271-4c25-97e7-1b6ebed42a40")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 122.555 86.36 0)
 			(effects
 				(font
@@ -1193,7 +1190,7 @@
 		(instances
 			(project "cotti_7seg"
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1265,140 +1262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pmod:pmod_gpio_2x06_pin")
-		(at 114.3 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a76b054-cee3-4806-a235-5e3fbb766f2f")
-		(property "Reference" "J1"
-			(at 109.22 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pmod GPIO 2x06 pin"
-			(at 109.982 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pmod:Pmod_2x06_pin"
-			(at 113.284 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf"
-			(at 110.744 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 12 position 0.100\" (2.54mm)"
-			(at 111.76 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
-			(at 114.046 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2057-PH2RA-12-UA-ND"
-			(at 113.792 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Adam Tech"
-			(at 113.538 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "PH2RA-12-UA"
-			(at 113.792 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e324f21d-d1e5-4a11-9b5b-4f26c7effc82")
-		)
-		(pin "3"
-			(uuid "bc5d70b7-c0d7-4d3e-b953-748aabe12dd5")
-		)
-		(pin "9"
-			(uuid "cee97178-35cf-4b6b-97ed-02468f7e6cd6")
-		)
-		(pin "8"
-			(uuid "018199d3-e415-4413-9c65-fc456f190d04")
-		)
-		(pin "10"
-			(uuid "5ed00d37-ee4e-478e-9a6b-76d9b7f21c50")
-		)
-		(pin "4"
-			(uuid "891e707e-eb67-407c-a12e-5db72a2985eb")
-		)
-		(pin "5"
-			(uuid "6cee0961-8b73-4a64-8134-2578ac5938aa")
-		)
-		(pin "6"
-			(uuid "269fd2cf-9642-4153-8954-78efcb720128")
-		)
-		(pin "7"
-			(uuid "256ec9c3-a1fd-4096-b9e9-161ad3e175ec")
-		)
-		(pin "1"
-			(uuid "fe51b2b1-a350-419e-a68e-84b918d4fa7a")
-		)
-		(pin "12"
-			(uuid "f93bb9a6-ae49-4a4a-a4ca-26ed51c0d66b")
-		)
-		(pin "11"
-			(uuid "f479e31c-a36d-4e40-9538-360278983a3d")
-		)
-		(instances
-			(project ""
-				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 115.57 0)
 		(unit 1)
@@ -1458,6 +1321,158 @@
 			(project ""
 				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_pmod:pmod_gpio_2x06_pin")
+		(at 114.3 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f912a2d3-9948-495c-b2c9-590c8585852e")
+		(property "Reference" "J1"
+			(at 108.712 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pmod GPIO 2x06 pin"
+			(at 107.442 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:Pmod_2x06_pin"
+			(at 113.284 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf"
+			(at 110.744 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 12 position 0.100\" (2.54mm)"
+			(at 111.76 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/PH2RA-12-UA/9830569"
+			(at 114.046 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 113.538 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "PH2RA-12-UA"
+			(at 113.792 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fa20d72f-87f6-415e-ba9c-16cade0c5a3d")
+		)
+		(pin "10"
+			(uuid "90b7d29b-8612-402d-8251-edf637961dc6")
+		)
+		(pin "8"
+			(uuid "55cf87a5-c87a-4f0e-acd3-707270fe5390")
+		)
+		(pin "3"
+			(uuid "d6522f0e-ed6c-4d66-a2dd-71e662a2d3ca")
+		)
+		(pin "4"
+			(uuid "e63f9a7f-9b77-4c0b-8573-613e8072542a")
+		)
+		(pin "11"
+			(uuid "05b03710-7eef-4fc3-9e53-39005ea1beca")
+		)
+		(pin "12"
+			(uuid "545af46b-98b7-4a63-87f2-aeea403d7975")
+		)
+		(pin "2"
+			(uuid "e404a79e-cab1-4eef-8d53-2561ce862228")
+		)
+		(pin "7"
+			(uuid "086fe998-9ac0-4599-9775-e41c1fedc373")
+		)
+		(pin "6"
+			(uuid "1a21fd3a-ad7e-4f5f-ac9f-47a8ccf8006c")
+		)
+		(pin "9"
+			(uuid "354564fc-accd-4b0c-bd42-cfff5f0f1cf6")
+		)
+		(pin "1"
+			(uuid "72ade634-fe05-4753-b3c4-d8a29793c04b")
+		)
+		(instances
+			(project ""
+				(path "/1bd78d7c-1eda-4d9f-99db-393243928d6e"
+					(reference "J1")
 					(unit 1)
 				)
 			)

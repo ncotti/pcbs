@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "7seg red common cathode")
 	(property "Reference" "REF**"
 		(at -0.3 -7.935 0)
 		(layer "F.SilkS")
@@ -25,7 +26,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/157119S12701.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -37,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "7seg red common cathode"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
