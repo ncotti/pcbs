@@ -903,7 +903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 562nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Green 562nm LED Indication - Discrete 3V 0603 (1608 Metric)"
 			(at 0.508 9.144 0)
 			(effects
 				(font
