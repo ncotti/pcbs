@@ -11,4 +11,4 @@ https://digilent.com/reference/_media/jtag_hs2:jtag-hs2_rm.pdf
 
 https://github.com/Neofoxx/JTAG-SWD-adapter
 
-![alt text](image-1.png)
+![alt text](image-2.png)
