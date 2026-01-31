@@ -241,7 +241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VFBGA63_9X11_MAC"
+		(property "Footprint" "cotti_footprints:VFBGA63_9X11_MAC-M"
 			(at 22.352 75.692 0)
 			(effects
 				(font

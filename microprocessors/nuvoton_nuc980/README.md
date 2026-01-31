@@ -98,3 +98,6 @@ $$ 0.616 <= R <= 0.89 $$
 https://www.youtube.com/watch?v=H4nrotIVuUM
 
 https://abracon.com/uploads/resources/Ferrite-Beads-White-Paper.pdf
+
+
+![alt text](image-3.png)

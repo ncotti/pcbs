@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Footprint" "VFBGA63_9X11_MAC"
+			(property "Footprint" "cotti_footprints:VFBGA63_9X11_MAC-M"
 				(at 22.352 75.692 0)
 				(effects
 					(font
@@ -2696,7 +2696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 87.376 28.194 90)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -2715,6 +2715,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310KL/13694107"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1310KL"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -2832,7 +2868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 107.696 30.734 90)
 			(effects
 				(font
@@ -2841,7 +2877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 106.68 30.48 0)
 			(effects
 				(font
@@ -2851,6 +2887,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310KL/13694107"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1310KL"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 106.68 30.48 0)
 			(effects
 				(font
@@ -2940,286 +3012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_mem:MX30LF1G28AD-XKI")
-		(at 146.05 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d2d806a-e39f-48b1-9aa2-299175c5baf1")
-		(property "Reference" "U8"
-			(at 166.37 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MX30LF1G28AD-XKI"
-			(at 166.37 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "VFBGA63_9X11_MAC"
-			(at 165.354 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8863/MX30LF2G28AD,%203V,%202Gb,%20v1.3.pdf"
-			(at 164.846 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FLASH - NAND 1GBIT PARALLEL 63VFBGA 128M x 8"
-			(at 166.878 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/macronix/MX30LF1G28AD-XKI/13420750"
-			(at 166.624 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Macronix"
-			(at 164.084 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "MX30LF1G28AD-XKI"
-			(at 164.084 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "L9"
-			(uuid "e44271c7-2474-4db2-822c-7c8d4b3c7900")
-		)
-		(pin "M9"
-			(uuid "46851be2-f434-4cb0-af34-aabe28800672")
-		)
-		(pin "B1"
-			(uuid "676b1381-d359-46c8-8098-ba31d614ceb6")
-		)
-		(pin "D4"
-			(uuid "c28204f2-62c4-405b-b1df-504c512fc8ed")
-		)
-		(pin "F5"
-			(uuid "8022ce3a-d08d-4a3a-91ac-a9f85f99f7e4")
-		)
-		(pin "D6"
-			(uuid "ad95699e-7a47-4326-9cf4-75e05c6bd5d3")
-		)
-		(pin "C7"
-			(uuid "3c1f0182-e267-4d9a-9e1b-d1bf2b404171")
-		)
-		(pin "M1"
-			(uuid "c5cd7fef-64ab-4a80-9edf-802b745663a1")
-		)
-		(pin "B9"
-			(uuid "eff73ca7-7810-4a0b-87b8-3d1b6447909e")
-		)
-		(pin "F8"
-			(uuid "7c9e8e22-5c70-4966-b9f9-3ad958ecd2e8")
-		)
-		(pin "A9"
-			(uuid "86171076-d5b6-4e3d-ba37-9a3bdba7bb57")
-		)
-		(pin "F4"
-			(uuid "a3d5feca-b0ed-4613-bfb1-3c35cf0b234d")
-		)
-		(pin "G7"
-			(uuid "a4287e9d-de54-47e4-b176-4445d35e19c5")
-		)
-		(pin "H6"
-			(uuid "f5ad03cf-1fff-4e49-92ff-0f67fc70b0b1")
-		)
-		(pin "L2"
-			(uuid "82a46eeb-e474-46ea-bbd2-1be787ecbeeb")
-		)
-		(pin "B10"
-			(uuid "2749f7ce-703e-4b3e-a314-96536dea2d05")
-		)
-		(pin "G8"
-			(uuid "ad069895-e173-45b0-831e-fc008866e981")
-		)
-		(pin "G6"
-			(uuid "b2fd1e90-a4a7-4221-90dd-7483a5cf47cf")
-		)
-		(pin "A2"
-			(uuid "0e1ec96a-db66-4852-b2ef-92336bc80c79")
-		)
-		(pin "K4"
-			(uuid "b65c14ff-a8a9-457a-8621-ea09dabae75f")
-		)
-		(pin "E3"
-			(uuid "c330c062-96d8-4444-a3d4-0a0a66bb6126")
-		)
-		(pin "H5"
-			(uuid "4d6a57fd-8b56-428b-90b7-ff56491f691c")
-		)
-		(pin "J5"
-			(uuid "73a25351-7fa6-49a3-aaa9-b903caeaec6c")
-		)
-		(pin "M2"
-			(uuid "4b3314c1-19c3-49c3-a7cc-ef7bec134197")
-		)
-		(pin "J7"
-			(uuid "e07405d3-6b8b-452b-bfd4-406c99c61e20")
-		)
-		(pin "K7"
-			(uuid "51de1d74-bc5d-4847-b582-ebe13ae9655a")
-		)
-		(pin "K6"
-			(uuid "2edaf51e-b01a-4352-94c7-b7ee19eb35bf")
-		)
-		(pin "L10"
-			(uuid "f8ff6f00-4b97-45e1-a3e7-91b4dccf6824")
-		)
-		(pin "J4"
-			(uuid "0aa9202a-7b0a-4e37-aa1b-5f4d746cf293")
-		)
-		(pin "C8"
-			(uuid "f68743de-ea99-4822-805d-00903c4277d9")
-		)
-		(pin "D8"
-			(uuid "50ffdd21-8721-4535-8627-3b96ce1f038d")
-		)
-		(pin "E7"
-			(uuid "44da27e8-0f67-405d-b8fd-f6e7039a7ad0")
-		)
-		(pin "H4"
-			(uuid "c35c5ae0-ca49-443b-9278-4b964cc32d2d")
-		)
-		(pin "H7"
-			(uuid "8abdbc49-cc17-46fe-8037-b1ec64eac1db")
-		)
-		(pin "F3"
-			(uuid "d9cdd426-b910-4245-9b41-eca3bfa13ad5")
-		)
-		(pin "A10"
-			(uuid "427ca7a2-91b3-442a-bbfa-1a746d2585c4")
-		)
-		(pin "K3"
-			(uuid "08e1885a-66e8-43ac-a6ee-ebb1c9fad38d")
-		)
-		(pin "G5"
-			(uuid "5ca9bc2f-1f3a-4ad0-b9a6-b792745982d1")
-		)
-		(pin "C6"
-			(uuid "9e3c50a8-4b7f-464c-bd3c-7db1d83ee8a8")
-		)
-		(pin "L1"
-			(uuid "9ff61f7e-d726-4883-be53-b9b05448e61a")
-		)
-		(pin "D3"
-			(uuid "3a708393-a718-4514-87a3-6c07641ef28b")
-		)
-		(pin "G4"
-			(uuid "b2e234b4-02be-4632-bdb8-05b7cdfa470b")
-		)
-		(pin "J6"
-			(uuid "5ec2de6a-1465-4e6e-a80e-b874d67cb20d")
-		)
-		(pin "E6"
-			(uuid "6b6c28d2-bb46-4528-8ec8-ccd763a9d74c")
-		)
-		(pin "H8"
-			(uuid "ec2617f4-2ec3-43a4-b7b3-d10cb5a553e1")
-		)
-		(pin "M10"
-			(uuid "df8c5ce7-e7bb-4562-8992-3d941efffde4")
-		)
-		(pin "C4"
-			(uuid "c37be509-4a0a-443b-983c-6ba7412b9d62")
-		)
-		(pin "G3"
-			(uuid "69a51c3b-e1d1-4cc8-9af6-d34cecbb15f8")
-		)
-		(pin "A1"
-			(uuid "ba4d23fa-6ba8-4c04-b4e9-9de93b7f40c1")
-		)
-		(pin "H3"
-			(uuid "51a97d06-5a6f-47ec-b17c-86aa5b92013f")
-		)
-		(pin "E4"
-			(uuid "903d5fb9-2f23-463e-a2c3-09319e1b9e91")
-		)
-		(pin "C5"
-			(uuid "d827b3c8-7047-4ec7-ba2e-0bda25a932bf")
-		)
-		(pin "J8"
-			(uuid "7dd32286-646e-4717-9782-100203742934")
-		)
-		(pin "E8"
-			(uuid "3e624c78-29f1-4a8f-a6e0-8b1976807b83")
-		)
-		(pin "E5"
-			(uuid "9ae72bf4-3fc4-4aa7-82f8-cb76df7f091a")
-		)
-		(pin "F6"
-			(uuid "1542c767-a794-4665-b86e-4255f1c92c7d")
-		)
-		(pin "K8"
-			(uuid "9b58f872-8dfa-43cf-94d9-ae0cc5817b45")
-		)
-		(pin "J3"
-			(uuid "b1fe0fef-ec15-436d-b8df-49dd7fad3fa1")
-		)
-		(pin "F7"
-			(uuid "2075e149-3b08-4901-bd79-7d0d760522e8")
-		)
-		(pin "D5"
-			(uuid "58074439-1b98-4975-a1f3-36713abeb557")
-		)
-		(pin "K5"
-			(uuid "e1a60115-80cd-4a99-85c8-e133a046f57f")
-		)
-		(pin "C3"
-			(uuid "e9e31ba3-f92a-4258-ba5c-a4131f4e1053")
-		)
-		(pin "D7"
-			(uuid "18ca846e-36ca-4c83-baf4-06d03e002373")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/cca8759f-a09f-4da9-a30f-49dd2171d187"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 62.23 0)
 		(unit 1)
@@ -3247,7 +3039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 234.6452 66.04 0)
 			(effects
 				(font
@@ -3256,7 +3048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -3266,6 +3058,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -3356,6 +3184,286 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_mem:MX30LF1G28AD-XKI")
+		(at 146.05 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ff5142-7b6e-45e8-9a49-42a50584473e")
+		(property "Reference" "U10"
+			(at 146.05 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX30LF1G28AD-XKI"
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:VFBGA63_9X11_MAC-M"
+			(at 168.402 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8863/MX30LF2G28AD,%203V,%202Gb,%20v1.3.pdf"
+			(at 167.894 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FLASH - NAND 1GBIT PARALLEL 63VFBGA 128M x 8"
+			(at 169.926 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/macronix/MX30LF1G28AD-XKI/13420750"
+			(at 169.672 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Macronix"
+			(at 167.132 -19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "MX30LF1G28AD-XKI"
+			(at 167.132 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "H8"
+			(uuid "ac45fb5a-a786-4fab-9a4e-dd5d122fa0fd")
+		)
+		(pin "H3"
+			(uuid "e18ffdf7-1ac2-4168-abaf-c9d3dc4ead95")
+		)
+		(pin "K7"
+			(uuid "ae7a9d53-4344-4fab-86e7-735a47b24ec1")
+		)
+		(pin "G6"
+			(uuid "15d01fcb-4d79-4658-8435-2a32b395b349")
+		)
+		(pin "D4"
+			(uuid "2b9370ca-4604-4a78-a70d-280c1a4f452b")
+		)
+		(pin "K5"
+			(uuid "f9aeb47b-12be-4274-a1ac-1bc831077052")
+		)
+		(pin "M9"
+			(uuid "f95d0637-3aa0-4a66-9211-805cdd46adb6")
+		)
+		(pin "J6"
+			(uuid "969f88d5-639e-44b7-b847-0aa693c6c63c")
+		)
+		(pin "A9"
+			(uuid "2c21e71e-1efc-460f-a3dc-385b2083d3ce")
+		)
+		(pin "E7"
+			(uuid "a9848d22-17f4-4e86-800f-b8afbf106370")
+		)
+		(pin "E5"
+			(uuid "dcc2419c-f49d-4db4-892d-c1a08dfffd74")
+		)
+		(pin "M10"
+			(uuid "3afc316a-79f9-4ba4-b35a-3927754cfad5")
+		)
+		(pin "H7"
+			(uuid "7eb51e2f-5364-4ea0-8005-43c190df2e37")
+		)
+		(pin "A1"
+			(uuid "6fdea12d-09ef-422a-92c5-22ec7da44846")
+		)
+		(pin "D8"
+			(uuid "b3cb6830-4a10-4245-9eda-9b5fc3f05c6b")
+		)
+		(pin "G7"
+			(uuid "25798077-a1f7-4091-a57a-6ee6218a5cca")
+		)
+		(pin "H5"
+			(uuid "99660c0c-a6fb-4b5a-b79e-6e5b742f6bfb")
+		)
+		(pin "D5"
+			(uuid "1ec8ca58-4fce-4e9e-8779-53082d3711cd")
+		)
+		(pin "A10"
+			(uuid "77fc5036-4ded-418b-a9cf-00b6672ee54a")
+		)
+		(pin "F4"
+			(uuid "a5274184-0ef1-4ac0-9935-455e7b7e61cc")
+		)
+		(pin "G8"
+			(uuid "d3a8c787-8c0d-4bf0-8396-9c4fadc4e65e")
+		)
+		(pin "L1"
+			(uuid "0030859c-d408-4006-9299-82eb92273c78")
+		)
+		(pin "E6"
+			(uuid "e7323376-e970-411e-bb78-8f7cbb0ceef1")
+		)
+		(pin "D6"
+			(uuid "d3e8f355-43c9-47f8-b7f8-816378c1dbde")
+		)
+		(pin "A2"
+			(uuid "d80d68b1-967e-4137-bb54-081a50ceaeec")
+		)
+		(pin "G4"
+			(uuid "3a182469-fb27-49b2-a077-bf9abd354075")
+		)
+		(pin "M1"
+			(uuid "45d54941-5ea9-440a-9613-5fc7a1272b50")
+		)
+		(pin "K4"
+			(uuid "4d57535f-2ae4-42c2-8fdb-ab1ffceb3878")
+		)
+		(pin "J3"
+			(uuid "63190cf5-07fa-4df7-841e-ca8034c3dc69")
+		)
+		(pin "K3"
+			(uuid "db3b190c-ca8d-43e9-be8f-f795a49538f7")
+		)
+		(pin "G5"
+			(uuid "458e75a6-445a-43dd-bbbf-76e189d7b3c2")
+		)
+		(pin "E3"
+			(uuid "a5c55f2c-6e68-48c1-93f7-36ab843cc1a5")
+		)
+		(pin "F3"
+			(uuid "e7283169-f418-45b5-8400-eeb4fe3c9e8e")
+		)
+		(pin "C3"
+			(uuid "30a60e02-75fb-47b2-bae5-e70abfb4e313")
+		)
+		(pin "E8"
+			(uuid "ce684382-7c31-4e18-8bb8-952bf6a5a020")
+		)
+		(pin "J5"
+			(uuid "5671243e-4e41-4ccc-8d69-16c6ff516ac5")
+		)
+		(pin "F7"
+			(uuid "15a5020d-be21-4b9a-a1dd-471c065dac3e")
+		)
+		(pin "F5"
+			(uuid "79056f32-94bf-4120-89e3-89c54f0aacbf")
+		)
+		(pin "F8"
+			(uuid "c091a478-86d3-4c61-b347-e2f810709bd7")
+		)
+		(pin "K6"
+			(uuid "33dfa409-da32-40b5-a443-6cffa8b7bbb7")
+		)
+		(pin "G3"
+			(uuid "47e18918-3274-4899-a674-3eb7dc731c9d")
+		)
+		(pin "F6"
+			(uuid "e1019148-e31d-4d2f-bcaf-a3876d764aa4")
+		)
+		(pin "B10"
+			(uuid "5215c418-5a16-457f-9f71-e962cebe76cb")
+		)
+		(pin "L2"
+			(uuid "c05d01ec-5db1-46d5-bde6-7ebafad1fb6c")
+		)
+		(pin "B1"
+			(uuid "4dc52a23-2e1d-4459-81ba-707995bb6af4")
+		)
+		(pin "M2"
+			(uuid "e09b9b0c-642c-446f-b5b6-368576fa77c1")
+		)
+		(pin "C4"
+			(uuid "b180de27-c271-42f1-869d-68bcecc3960b")
+		)
+		(pin "J7"
+			(uuid "5c4d3987-5c9a-4bd3-8c6c-c8a41a4df934")
+		)
+		(pin "J4"
+			(uuid "bab99a0f-1f09-4538-96f5-1d2dd99e309a")
+		)
+		(pin "D7"
+			(uuid "89a2bf46-f3a9-4335-9db3-d5c09e7869ab")
+		)
+		(pin "H4"
+			(uuid "3dccba7e-37fb-42ac-949e-2f3e0499d798")
+		)
+		(pin "C5"
+			(uuid "aa7697c3-58db-4357-81bc-28540caebf51")
+		)
+		(pin "L9"
+			(uuid "8384735e-0b90-49e9-9c33-3dae1e549b55")
+		)
+		(pin "H6"
+			(uuid "28ece5b9-9f5b-4f98-95f3-7cc9c7624fa0")
+		)
+		(pin "C7"
+			(uuid "79aa5b6a-e003-4a81-9010-191bb7947dc1")
+		)
+		(pin "C8"
+			(uuid "e53b9030-8077-4f3b-9112-3cb624f5b821")
+		)
+		(pin "K8"
+			(uuid "e9c6cc77-feda-4c82-ae2a-c8b55a5a4385")
+		)
+		(pin "J8"
+			(uuid "4cb0b5bb-1ad9-483a-b7cc-e2b195fd4d05")
+		)
+		(pin "D3"
+			(uuid "fd7d8c19-382e-4f07-9637-db7156fa2b8d")
+		)
+		(pin "L10"
+			(uuid "073f9edc-892d-4256-b2e0-643e494ab4c5")
+		)
+		(pin "C6"
+			(uuid "fc289240-014c-47f0-9d5c-3e29c5ab243c")
+		)
+		(pin "E4"
+			(uuid "fcb33ee4-6fb1-4da0-a671-f43e2ee7287e")
+		)
+		(pin "B9"
+			(uuid "77dc7773-9e54-456d-9d07-d7956cb4f2fb")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/cca8759f-a09f-4da9-a30f-49dd2171d187"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 62.23 0)
 		(unit 1)
@@ -3383,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 219.4052 66.04 0)
 			(effects
 				(font
@@ -3392,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -3402,6 +3510,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 218.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -3650,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 265.1252 66.04 0)
 			(effects
 				(font
@@ -3659,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 264.16 62.23 0)
 			(effects
 				(font
@@ -3669,6 +3813,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 264.16 62.23 0)
 			(effects
 				(font
@@ -3720,7 +3900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 249.8852 66.04 0)
 			(effects
 				(font
@@ -3729,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -3739,6 +3919,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 248.92 62.23 0)
 			(effects
 				(font

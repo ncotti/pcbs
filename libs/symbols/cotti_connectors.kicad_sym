@@ -630,7 +630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "project_footprints:CUI_MSD-4-A"
+		(property "Footprint" "cotti_footprints:CUI_MSD-4-A"
 			(at -1.016 40.386 0)
 			(effects
 				(font
@@ -859,7 +859,9 @@
 					)
 				)
 			)
-			(pin power_in line
+		)
+		(symbol "MSD-4-A_1_0"
+			(pin passive line
 				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "COVER_GND"
@@ -877,7 +879,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -15.24 -20.32 0)
 				(length 5.08)
 				(name "COVER_GND__1"
@@ -895,7 +897,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -15.24 -22.86 0)
 				(length 5.08)
 				(name "COVER_GND__2"
@@ -913,7 +915,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -15.24 -25.4 0)
 				(length 5.08)
 				(name "COVER_GND__3"

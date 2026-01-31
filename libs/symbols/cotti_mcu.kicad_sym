@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 1.524 0)
+			(at 0.762 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "NUC980DK63YC"
+			(at 0.762 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)

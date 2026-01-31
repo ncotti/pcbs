@@ -1573,7 +1573,7 @@
 					)
 				)
 			)
-			(property "Footprint" "project_footprints:RJ45_MTJ-88ARX1-LH_ADM"
+			(property "Footprint" "cotti_footprints:RJ45_MTJ-88ARX1-LH_ADM"
 				(at 2.032 12.446 0)
 				(effects
 					(font
@@ -4905,7 +4905,7 @@
 		)
 		(uuid "02356a01-4960-400a-aabc-977ebbf53686")
 	)
-	(label "phy_txp"
+	(label "PHY_TXP"
 		(at 109.22 129.54 180)
 		(effects
 			(font
@@ -4915,7 +4915,7 @@
 		)
 		(uuid "109f44fc-e30f-4528-90f0-5c1aa9d4d6c3")
 	)
-	(label "txp"
+	(label "TXP"
 		(at 124.46 36.83 180)
 		(effects
 			(font
@@ -4925,7 +4925,7 @@
 		)
 		(uuid "18d8b9c6-ea0b-4231-bd33-442cc0e5e774")
 	)
-	(label "phy_rxp"
+	(label "PHY_RXP"
 		(at 30.48 52.07 0)
 		(effects
 			(font
@@ -4935,7 +4935,7 @@
 		)
 		(uuid "2d583927-c0b6-44a3-b4b5-71aaa90e419c")
 	)
-	(label "phy_rxp"
+	(label "PHY_RXP"
 		(at 109.22 134.62 180)
 		(effects
 			(font
@@ -4945,7 +4945,7 @@
 		)
 		(uuid "3288c2c9-8087-418a-a2ff-a9caf283b1d4")
 	)
-	(label "txp"
+	(label "TXP"
 		(at 162.56 36.83 0)
 		(effects
 			(font
@@ -4965,7 +4965,7 @@
 		)
 		(uuid "3c2f0594-5bcd-41c6-9b74-ef8a9a825ae9")
 	)
-	(label "rxn"
+	(label "RXN"
 		(at 162.56 49.53 0)
 		(effects
 			(font
@@ -4985,7 +4985,7 @@
 		)
 		(uuid "46493384-642e-4e4b-9a97-31f3a7092b02")
 	)
-	(label "rxp"
+	(label "RXP"
 		(at 162.56 41.91 0)
 		(effects
 			(font
@@ -4995,7 +4995,7 @@
 		)
 		(uuid "67b0e31c-8391-4789-bf3e-a3b07de230d3")
 	)
-	(label "phy_rxn"
+	(label "PHY_RXN"
 		(at 109.22 137.16 180)
 		(effects
 			(font
@@ -5005,7 +5005,7 @@
 		)
 		(uuid "745f73fc-e1b8-4546-b470-ec4534d4aa60")
 	)
-	(label "txn"
+	(label "TXN"
 		(at 124.46 41.91 180)
 		(effects
 			(font
@@ -5055,7 +5055,7 @@
 		)
 		(uuid "975c0094-f28c-442f-8a35-fb51df9f8d50")
 	)
-	(label "phy_txn"
+	(label "PHY_TXN"
 		(at 41.91 41.91 0)
 		(effects
 			(font
@@ -5065,7 +5065,7 @@
 		)
 		(uuid "9de46f99-bfb0-4d1a-ba9c-c4133d9d808b")
 	)
-	(label "phy_txp"
+	(label "PHY_TXP"
 		(at 53.34 36.83 0)
 		(effects
 			(font
@@ -5075,7 +5075,7 @@
 		)
 		(uuid "ab527219-a729-44ad-8caa-8ed22e735d88")
 	)
-	(label "rxp"
+	(label "RXP"
 		(at 124.46 52.07 180)
 		(effects
 			(font
@@ -5095,7 +5095,7 @@
 		)
 		(uuid "c0a1c2ee-5167-4545-9bc5-21aec42d5852")
 	)
-	(label "phy_rxn"
+	(label "PHY_RXN"
 		(at 19.05 57.15 0)
 		(effects
 			(font
@@ -5105,7 +5105,7 @@
 		)
 		(uuid "de9595fc-05fc-4c8d-8d8c-ac999aef3bdc")
 	)
-	(label "rxn"
+	(label "RXN"
 		(at 124.46 57.15 180)
 		(effects
 			(font
@@ -5115,7 +5115,7 @@
 		)
 		(uuid "e0038393-9e4a-4560-876a-835b6ea35575")
 	)
-	(label "phy_txn"
+	(label "PHY_TXN"
 		(at 109.22 132.08 180)
 		(effects
 			(font
@@ -5125,7 +5125,7 @@
 		)
 		(uuid "f3abcfd1-1c5e-4c35-9403-bd69f6341ce2")
 	)
-	(label "txn"
+	(label "TXN"
 		(at 162.56 39.37 0)
 		(effects
 			(font
@@ -5256,6 +5256,254 @@
 		)
 		(uuid "d05f9ab8-b84b-4a29-9759-ca51e0645eda")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 22.86 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "004967fd-7469-4ddb-8197-500f49ba853b")
+		(property "Netclass" "ETH"
+			(at 23.5585 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -167.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "143d512f-0dba-4591-a8f2-bf8f2066c3af")
+		(property "Netclass" "ETH"
+			(at 45.1485 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -146.05 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bc8989c-d3f3-48be-9d22-2797b9547baa")
+		(property "Netclass" "ETH"
+			(at 118.8085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40300005-1397-460d-a493-caa1de7541e2")
+		(property "Netclass" "ETH"
+			(at 118.8085 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49ba3634-4813-44c6-8f48-bd41879fb146")
+		(property "Netclass" "ETH"
+			(at 118.8085 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 33.02 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a46905e5-cac0-4aef-bf2f-5e92af5cbbac")
+		(property "Netclass" "ETH"
+			(at 33.7185 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -157.48 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2aaa028-e201-4175-9378-afa23a7b40c9")
+		(property "Netclass" "ETH"
+			(at 118.8085 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 55.88 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7c83404-c52a-4854-beb8-0bd50537d0f6")
+		(property "Netclass" "ETH"
+			(at 56.5785 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -134.62 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 254 114.3 0)
@@ -5284,7 +5532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 254.9652 118.11 0)
 			(effects
 				(font
@@ -5293,7 +5541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -5303,6 +5551,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B105KBFNNNE"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -5353,7 +5637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.596 61.214 90)
 			(effects
 				(font
@@ -5362,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -5372,6 +5656,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-10270RL/17016523"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-10270RL"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -5535,6 +5855,15 @@
 		)
 		(property "Mfr. P/N" "LAN8720A-CP"
 			(at 74.422 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 205.486 61.214 90)
 			(effects
 				(font
@@ -5861,7 +6190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -5871,6 +6200,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310KL/13694107"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1310KL"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -5976,7 +6341,7 @@
 				)
 			)
 		)
-		(property "Value" "12.1k 1%"
+		(property "Value" "12.1k"
 			(at 44.958 146.05 90)
 			(effects
 				(font
@@ -5984,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 38.354 146.304 90)
 			(effects
 				(font
@@ -5993,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 38.1 147.32 0)
 			(effects
 				(font
@@ -6004,6 +6369,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-0712K1L/5896547"
+			(at 38.1 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 38.1 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "AC0805FR-0712K1L"
+			(at 38.1 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 38.1 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 100.33 75.2348 0)
 			(effects
 				(font
@@ -6259,7 +6660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_Middle_and_High_Voltage.pdf"
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -6270,6 +6671,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/1206B102M202CT/15791323"
+			(at 96.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Walsin Technology Corporation"
+			(at 96.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "1206B102M202CT"
+			(at 96.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 28.956 30.734 90)
 			(effects
 				(font
@@ -6328,7 +6765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -6338,6 +6775,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1349R9L/17023200"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1349R9L"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -6388,7 +6861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.136 40.386 90)
 			(effects
 				(font
@@ -6397,7 +6870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 199.39 39.37 0)
 			(effects
 				(font
@@ -6408,6 +6881,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-10270RL/17016523"
+			(at 199.39 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 199.39 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-10270RL"
+			(at 199.39 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,6 +7086,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25164b61-44d6-4464-9e2a-9bb9b5f001d4")
 		)
@@ -6729,7 +7247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.3552 67.31 0)
 			(effects
 				(font
@@ -6738,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 72.39 63.5 0)
 			(effects
 				(font
@@ -6748,6 +7266,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 72.39 63.5 0)
 			(effects
 				(font
@@ -6788,7 +7342,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 160.02 53.594 90)
 			(effects
 				(font
@@ -6796,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.464 53.594 90)
 			(effects
 				(font
@@ -6805,7 +7359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 156.21 54.61 0)
 			(effects
 				(font
@@ -6816,6 +7370,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1375RL/14286356"
+			(at 156.21 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 156.21 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1375RL"
+			(at 156.21 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 158.75 45.974 90)
 			(effects
 				(font
@@ -7060,7 +7650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 155.194 45.974 90)
 			(effects
 				(font
@@ -7069,7 +7659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -7080,6 +7670,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1375RL/14286356"
+			(at 154.94 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 154.94 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1375RL"
+			(at 154.94 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.0052 67.31 0)
 			(effects
 				(font
@@ -7138,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -7148,6 +7774,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -7199,7 +7861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 206.756 33.274 90)
 			(effects
 				(font
@@ -7208,7 +7870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 205.74 33.02 0)
 			(effects
 				(font
@@ -7218,6 +7880,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310KL/13694107"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1310KL"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 205.74 33.02 0)
 			(effects
 				(font
@@ -7597,7 +8295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.7652 119.38 0)
 			(effects
 				(font
@@ -7606,7 +8304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -7616,6 +8314,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R225K25NT/19910718"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Cal-Chip Electronics, Inc."
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "GMC21X7R225K25NT"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -7733,7 +8467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 61.976 30.734 90)
 			(effects
 				(font
@@ -7742,7 +8476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -7752,6 +8486,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1349R9L/17023200"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1349R9L"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -7803,7 +8573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 268.9352 118.11 0)
 			(effects
 				(font
@@ -7812,7 +8582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 267.97 114.3 0)
 			(effects
 				(font
@@ -7822,6 +8592,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 267.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0805B471K500CT/9355077"
+			(at 267.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Walsin Technology Corporation"
+			(at 267.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "0805B471K500CT"
+			(at 267.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 267.97 114.3 0)
 			(effects
 				(font
@@ -7873,7 +8679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 140.6652 67.31 0)
 			(effects
 				(font
@@ -7882,7 +8688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_Middle_and_High_Voltage.pdf"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -7892,6 +8698,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/1206B102M202CT/15791323"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Walsin Technology Corporation"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "1206B102M202CT"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -8073,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 256.2352 38.1 0)
 			(effects
 				(font
@@ -8082,7 +8924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0805JRNPO9BN330"
 			(at 255.27 34.29 0)
 			(effects
 				(font
@@ -8092,6 +8934,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/CC0805JRNPO9BN330/302839"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CC0805JRNPO9BN330"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 255.27 34.29 0)
 			(effects
 				(font
@@ -8209,7 +9087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.816 30.734 90)
 			(effects
 				(font
@@ -8218,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -8228,6 +9106,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1349R9L/17023200"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1349R9L"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -8268,7 +9182,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 137.16 38.354 90)
 			(effects
 				(font
@@ -8276,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.604 38.354 90)
 			(effects
 				(font
@@ -8285,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -8296,6 +9210,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 133.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1375RL/14286356"
+			(at 133.35 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 133.35 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1375RL"
+			(at 133.35 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +9293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.774 65.024 90)
 			(effects
 				(font
@@ -8352,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -8363,6 +9313,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805ZG0R00/1711817"
+			(at 96.52 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Stackpole Electronics Inc"
+			(at 96.52 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RMCF0805ZG0R00"
+			(at 96.52 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,6 +9451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 246.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec345202-b797-4830-8a7e-c32301bf9533")
 		)
@@ -8508,7 +9503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.276 164.084 90)
 			(effects
 				(font
@@ -8517,7 +9512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 48.26 163.83 0)
 			(effects
 				(font
@@ -8527,6 +9522,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310KL/13694107"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1310KL"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 48.26 163.83 0)
 			(effects
 				(font
@@ -8578,7 +9609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.4652 119.38 0)
 			(effects
 				(font
@@ -8587,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -8597,6 +9628,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -8779,7 +9846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 238.4552 116.84 0)
 			(effects
 				(font
@@ -8788,7 +9855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 237.49 113.03 0)
 			(effects
 				(font
@@ -8798,6 +9865,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 237.49 113.03 0)
 			(effects
 				(font
@@ -8904,7 +10007,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 137.16 53.594 90)
 			(effects
 				(font
@@ -8912,7 +10015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.604 53.594 90)
 			(effects
 				(font
@@ -8921,7 +10024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 133.35 54.61 0)
 			(effects
 				(font
@@ -8932,6 +10035,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1375RL/14286356"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1375RL"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.2152 116.84 0)
 			(effects
 				(font
@@ -9056,7 +10195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 222.25 113.03 0)
 			(effects
 				(font
@@ -9066,6 +10205,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 222.25 113.03 0)
 			(effects
 				(font
@@ -9115,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -9133,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2A 90mOhm"
+		(property "Description" "Inductor with ferrite core"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -9161,6 +10336,15 @@
 			)
 		)
 		(property "Mfr. P/N" "WLBD2012HCU601TH"
+			(at 167.64 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 167.64 109.22 90)
 			(effects
 				(font
@@ -9212,7 +10396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 238.4552 38.1 0)
 			(effects
 				(font
@@ -9221,7 +10405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0805JRNPO9BN330"
 			(at 237.49 34.29 0)
 			(effects
 				(font
@@ -9231,6 +10415,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/CC0805JRNPO9BN330/302839"
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CC0805JRNPO9BN330"
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 237.49 34.29 0)
 			(effects
 				(font
@@ -9387,6 +10607,131 @@
 		)
 	)
 	(symbol
+		(lib_id "cotti_ethernet:RJ45_unshielded_leds")
+		(at 173.99 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d859d370-fe4f-45fc-b795-2aa52bf0590f")
+		(property "Reference" "J4"
+			(at 179.705 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MTJ-88ARX1-LH"
+			(at 179.705 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cotti_footprints:RJ45_MTJ-88ARX1-LH_ADM"
+			(at 176.022 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203899/mtj-88arx1-lp-data-sheet.pdf"
+			(at 173.482 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded"
+			(at 176.022 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/MTJ-88ARX1-LH/9832414"
+			(at 173.736 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Adam Tech"
+			(at 174.244 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "MTJ-88ARX1-LH"
+			(at 174.244 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9f14504c-9bf2-425d-9801-81264d6a61c0")
+		)
+		(pin "7"
+			(uuid "7929b774-dac3-474b-9da0-cc21f70c22ff")
+		)
+		(pin "3"
+			(uuid "6d4a4fb8-271a-4221-8eaf-599a48bfbc3a")
+		)
+		(pin "12"
+			(uuid "f7e47182-150f-49e0-a9f7-048f2d41ba81")
+		)
+		(pin "4"
+			(uuid "3d9d9369-8afd-4ff7-93b2-38923ed99b82")
+		)
+		(pin "11"
+			(uuid "a800d6e2-504c-4c52-8005-7a422254aeb5")
+		)
+		(pin "2"
+			(uuid "8a7e9761-ba08-42ce-b4fa-6dc270c4e995")
+		)
+		(pin "1"
+			(uuid "ffadc0c4-d762-43c1-aa3a-829f5c9fb2d7")
+		)
+		(pin "8"
+			(uuid "46510f2e-31f0-4bf0-b299-7cb27272c856")
+		)
+		(pin "5"
+			(uuid "8caedd1e-a708-406a-9196-95da52e786ca")
+		)
+		(pin "9"
+			(uuid "34f180df-fcc4-48a9-bdc6-e9344352d8cf")
+		)
+		(pin "10"
+			(uuid "cf7a8e1c-4c28-4311-b625-a5cea3b71050")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/88303994-aa36-4148-acfa-05708d415abb"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 113.03 110.49 0)
 		(unit 1)
@@ -9480,7 +10825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.386 30.734 90)
 			(effects
 				(font
@@ -9489,7 +10834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 39.37 30.48 0)
 			(effects
 				(font
@@ -9499,6 +10844,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-1349R9L/17023200"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-1349R9L"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 39.37 30.48 0)
 			(effects
 				(font
@@ -9682,7 +11063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.2052 119.38 0)
 			(effects
 				(font
@@ -9691,7 +11072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -9701,6 +11082,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Samsung Electro-Mechanics"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CL21B104KACNNNC"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -9817,7 +11234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.1752 119.38 0)
 			(effects
 				(font
@@ -9826,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -9836,6 +11253,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R225K25NT/19910718"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Cal-Chip Electronics, Inc."
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "GMC21X7R225K25NT"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -9854,131 +11307,6 @@
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/88303994-aa36-4148-acfa-05708d415abb"
 					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cotti_ethernet:RJ45_unshielded_leds")
-		(at 173.99 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3bdf2f2-6114-4304-ac9a-7692940d594c")
-		(property "Reference" "J11"
-			(at 179.705 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MTJ-88ARX1-LH"
-			(at 179.705 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:RJ45_MTJ-88ARX1-LH_ADM"
-			(at 176.022 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203899/mtj-88arx1-lp-data-sheet.pdf"
-			(at 173.482 17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded"
-			(at 176.022 13.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/adam-tech/MTJ-88ARX1-LH/9832414"
-			(at 173.736 9.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Adam Tech"
-			(at 174.244 5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "MTJ-88ARX1-LH"
-			(at 174.244 2.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "0b18de6f-f298-4f60-9d8d-e016e8d968ad")
-		)
-		(pin "7"
-			(uuid "024914c9-650b-42a5-8c03-893741ee4576")
-		)
-		(pin "3"
-			(uuid "f7ad4a9b-8a82-408a-a7d4-7c9fc3513217")
-		)
-		(pin "2"
-			(uuid "2e254269-2c67-445c-b677-8eadc1685b30")
-		)
-		(pin "1"
-			(uuid "3cb34232-24b9-43e0-9c1b-dd50d22a9577")
-		)
-		(pin "4"
-			(uuid "641dcf53-99d6-472d-8925-d21ebc783e2d")
-		)
-		(pin "5"
-			(uuid "fc1d5baa-67b6-4de7-b4c7-42c9b4130128")
-		)
-		(pin "11"
-			(uuid "e07020bf-48fb-4764-b65f-9cc581197618")
-		)
-		(pin "8"
-			(uuid "1e2a9c72-128d-42f0-b652-98791509d255")
-		)
-		(pin "10"
-			(uuid "84067b2d-a805-46c7-ab20-759a5be2ad98")
-		)
-		(pin "9"
-			(uuid "3e45adf5-3708-4ad9-ae20-420ab21126bc")
-		)
-		(pin "6"
-			(uuid "b34e56b2-234f-4533-b7b4-423826f0f3a9")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/88303994-aa36-4148-acfa-05708d415abb"
-					(reference "J11")
 					(unit 1)
 				)
 			)

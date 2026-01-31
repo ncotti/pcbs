@@ -317,7 +317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cotti_usb:TVS_5V"
+		(symbol "cotti_usb:IC_TVS_5V"
 			(pin_names
 				(offset 0)
 			)
@@ -414,7 +414,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS_5V_0_0"
+			(symbol "IC_TVS_5V_0_0"
 				(rectangle
 					(start -5.715 6.477)
 					(end 5.715 -6.604)
@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(symbol "TVS_5V_0_1"
+			(symbol "IC_TVS_5V_0_1"
 				(polyline
 					(pts
 						(xy -7.747 2.54) (xy -3.175 2.54)
@@ -850,7 +850,7 @@
 					)
 				)
 			)
-			(symbol "TVS_5V_1_1"
+			(symbol "IC_TVS_5V_1_1"
 				(pin passive line
 					(at -12.7 2.54 0)
 					(length 5.08)
@@ -2027,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6981c823-0a88-4d11-a8af-53a23d44dc2f")
-	)
-	(wire
-		(pts
 			(xy 88.9 97.79) (xy 86.36 97.79)
 		)
 		(stroke
@@ -2064,16 +2054,6 @@
 			(type default)
 		)
 		(uuid "82605636-233f-4ab1-83cb-55da49e2cb42")
-	)
-	(wire
-		(pts
-			(xy 195.58 78.74) (xy 205.74 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86975ea2-45c3-4959-b4c6-3d0080e7296c")
 	)
 	(wire
 		(pts
@@ -2297,6 +2277,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd46817-86d9-4817-8830-0235c25376f8")
+	)
+	(wire
+		(pts
 			(xy 101.6 96.52) (xy 101.6 95.25)
 		)
 		(stroke
@@ -2345,6 +2335,16 @@
 		)
 		(uuid "f4a695e4-598d-4200-8732-c6d3ad7ae6ac")
 	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddff2dd-283f-4769-aa0d-0a187715e5a4")
+	)
 	(label "cc2"
 		(at 115.57 76.2 0)
 		(effects
@@ -2354,16 +2354,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d64227b-467b-4e1c-a73b-cb77632c08ed")
-	)
-	(label "cc1"
-		(at 165.1 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cf208c3-ab64-4345-bda5-45aa3a3724e3")
 	)
 	(label "cc1"
 		(at 127 73.66 0)
@@ -2384,6 +2374,16 @@
 			(justify right bottom)
 		)
 		(uuid "f3cc2055-1bb0-4720-bb35-00ea64fe6028")
+	)
+	(label "cc1"
+		(at 200.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6fd9e1d-686d-4d36-9810-7492328c7c07")
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
@@ -2409,14 +2409,14 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 205.74 78.74 0)
+		(at 160.02 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9b607712-471e-489d-af6a-c69457e77f28")
+		(uuid "b7467511-b93f-44ce-a060-305037194ef9")
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
@@ -2439,6 +2439,202 @@
 			(justify left)
 		)
 		(uuid "e36eeb05-2ad0-4e9b-bbd0-73180eed0d6b")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3499345f-974e-4cbb-816b-2e7cd758d4c0")
+		(property "Netclass" "USB"
+			(at 112.4585 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 113.03 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b90c9f-f5dc-4597-8174-a8a9594341b4")
+		(property "Netclass" "POWER"
+			(at 113.7285 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -48.26 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a642b118-4310-4027-93c4-e770eb7a776c")
+		(property "Netclass" "USB"
+			(at 112.4585 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0523c677-0111-46bf-8e12-6b6b8b9a0aef")
+		(property "Reference" "C66"
+			(at 93.98 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF 2kV"
+			(at 93.98 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 97.79 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_Middle_and_High_Voltage.pdf"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/walsin-technology-corporation/1206B102M202CT/15791323"
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Walsin Technology Corporation"
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "1206B102M202CT"
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81aa2afa-b418-4938-a7a9-74768a1c688e")
+		)
+		(pin "1"
+			(uuid "cf641365-3741-4e5e-a337-6a55ccbf2eff")
+		)
+		(instances
+			(project "nuvoton_nuc980"
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2468,7 +2664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 116.586 81.534 90)
 			(effects
 				(font
@@ -2477,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -2487,6 +2683,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-135K1L/14008188"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-135K1L"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -2529,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.1K"
+		(property "Value" "12.1k"
 			(at 237.49 55.8799 0)
 			(effects
 				(font
@@ -2538,7 +2770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 235.966 54.864 90)
 			(effects
 				(font
@@ -2547,7 +2779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 234.95 54.61 0)
 			(effects
 				(font
@@ -2557,6 +2789,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-0712K1L/5896547"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "AC0805FR-0712K1L"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 234.95 54.61 0)
 			(effects
 				(font
@@ -2653,6 +2921,15 @@
 		)
 		(property "Mfr. P/N" "UJ20-C-H-G-SMT-5-P16-TR"
 			(at 85.852 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,115 +3325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cotti_usb:TVS_5V")
-		(at 182.88 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b3bed99-8afb-4492-997c-1498fd1554e5")
-		(property "Reference" "U10"
-			(at 185.9981 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TESD5V0V4UCX6 RFG"
-			(at 185.9981 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 181.356 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/TESD5V0V4UCX6_B2003.pdf"
-			(at 181.864 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "15V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"
-			(at 187.96 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TESD5V0V4UCX6-RFG/7623393"
-			(at 186.69 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Taiwan Semiconductor Corporation"
-			(at 183.388 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. P/N" "TESD5V0V4UCX6 RFG"
-			(at 182.88 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e02e06bd-4903-40ae-b8aa-659187f35f3a")
-		)
-		(pin "2"
-			(uuid "611368d1-594c-45c5-a022-20305db741f2")
-		)
-		(pin "4"
-			(uuid "f7664145-9b42-4c1c-8b6e-85a1116db734")
-		)
-		(pin "5"
-			(uuid "39355cce-cd02-43f2-b607-cf96505dba17")
-		)
-		(pin "6"
-			(uuid "a73ae5db-136d-447e-9ee5-c49e34ff55d7")
-		)
-		(pin "1"
-			(uuid "b727bb14-db5d-4ca3-804c-6eb54b706995")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 127 81.28 0)
 		(unit 1)
@@ -3184,7 +3352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 128.016 81.534 90)
 			(effects
 				(font
@@ -3193,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -3203,6 +3371,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-135K1L/14008188"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "YAGEO"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "RC0805FR-135K1L"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -3221,73 +3425,6 @@
 			(project "nuvoton_nuc980"
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b7e9e41-3a47-4922-94c6-b1cee55e0283")
-		(property "Reference" "C66"
-			(at 93.726 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 93.726 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 100.6348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bfbe7e1-ff7d-4300-a0e0-0f123ba9a7cb")
-		)
-		(pin "2"
-			(uuid "a958fa4d-74b9-4db9-b941-e38c204f1e19")
-		)
-		(instances
-			(project ""
-				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
-					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -3421,6 +3558,115 @@
 			(project ""
 				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cotti_usb:IC_TVS_5V")
+		(at 182.88 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27a7a7e-5333-4882-a2e5-9b381cf80b3f")
+		(property "Reference" "U1"
+			(at 185.9981 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TESD5V0V4UCX6 RFG"
+			(at 185.9981 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 181.356 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/TESD5V0V4UCX6_B2003.pdf"
+			(at 181.864 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"
+			(at 187.96 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TESD5V0V4UCX6-RFG/7623393"
+			(at 186.69 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Taiwan Semiconductor Corporation"
+			(at 183.388 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "TESD5V0V4UCX6 RFG"
+			(at 182.88 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6a192d22-a222-45a3-b395-dd39c1e269f7")
+		)
+		(pin "3"
+			(uuid "8d96fa39-469e-46db-8bff-76a0f1f8b0b6")
+		)
+		(pin "4"
+			(uuid "0b1483ad-03c4-460f-a5cd-6885bbd0bb66")
+		)
+		(pin "1"
+			(uuid "2da25d43-2d96-443b-a135-c54ea0a835ee")
+		)
+		(pin "6"
+			(uuid "796e53c5-4e12-47e4-aaf2-ef69663d9858")
+		)
+		(pin "2"
+			(uuid "d0982b5f-9316-4a2c-8db4-c86320fc1f46")
+		)
+		(instances
+			(project ""
+				(path "/109442c7-6d61-4448-a955-a6cd87e17c77/fd687155-536a-49ae-b1a5-a1fbc23322ab"
+					(reference "U1")
 					(unit 1)
 				)
 			)

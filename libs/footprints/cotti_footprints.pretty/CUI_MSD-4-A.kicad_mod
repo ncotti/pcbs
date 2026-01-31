@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "CONN MICROSD CARD R/A SMD")
 	(property "Reference" "REF**"
 		(at -4.325 -11.135 0)
 		(layer "F.SilkS")
@@ -37,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "CONN MICROSD CARD R/A SMD"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -62,7 +63,7 @@
 	)
 	(fp_line
 		(start -7.375 4.27)
-		(end -7.375 7.25)
+		(end -7.375 6.604)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -71,8 +72,8 @@
 		(uuid "e06a73b2-fe2a-4baf-bdfb-7d166504cfe9")
 	)
 	(fp_line
-		(start -7.375 7.25)
-		(end 7.375 7.25)
+		(start -7.375 6.604)
+		(end 7.375 6.604)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -102,7 +103,7 @@
 	)
 	(fp_line
 		(start 7.375 4.27)
-		(end 7.375 7.25)
+		(end 7.375 6.604)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -316,6 +317,29 @@
 		(layer "F.Fab")
 		(uuid "9c316911-1794-4af8-808f-7d86be326087")
 	)
+	(fp_line
+		(start -7.384 7.239)
+		(end 7.366 7.239)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "c519cb92-c962-416e-92e8-b98e5e836f04")
+	)
+	(fp_text user "PCB edge"
+		(at -4.572 8.636 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "652eceb4-7819-4363-b36d-cdf4ed9347f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -4.95 3.25)
 		(size 1 1)
@@ -422,7 +446,7 @@
 		(uuid "f2b758b9-69db-4b44-b1a4-48a984731045")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3d_models/MSD-4-A.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/MSD-4-A.step"
 		(offset
 			(xyz -7.5 -7.5 0)
 		)

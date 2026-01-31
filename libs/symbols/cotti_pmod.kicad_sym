@@ -2227,7 +2227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pmod:Pmod_1x06_socket"
+		(property "Footprint" "cotti_footprints:Pmod_1x06_socket"
 			(at 0.508 4.064 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pmod:Pmod_1x06_pin"
+		(property "Footprint" "cotti_footprints:Pmod_1x06_pin"
 			(at 0 19.304 0)
 			(effects
 				(font
@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pmod:Pmod_1x06_socket"
+		(property "Footprint" "cotti_footprints:Pmod_1x06_socket"
 			(at 0.508 6.35 0)
 			(effects
 				(font
