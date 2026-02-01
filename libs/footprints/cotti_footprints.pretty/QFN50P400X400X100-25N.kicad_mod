@@ -459,4 +459,15 @@
 		(uuid "ecc0a7cf-caa9-41ee-8980-db7744154b6d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/LAN8720A-CP.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
